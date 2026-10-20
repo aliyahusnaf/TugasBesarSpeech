@@ -1,0 +1,47 @@
+File,Speaker,Gender,Age,Language/Dialect,Origin,Native,Speech_Type,Language_Experience,Topic,Duration,Device,Environment,Quality
+S01_T01_001.wav,S01,P,19,Palembang,Palembang,Ya,spontaneous,19,Perkenalan,24.57,Android,Indoor,Good
+S01_T02_001.wav,S01,P,19,Palembang,Palembang,Ya,spontaneous,19,Hobi,194.59,Android,Indoor,Good
+S01_T03_001.wav,S01,P,19,Palembang,Palembang,Ya,spontaneous,19,Pilihan studi,190.73,Android,Indoor,Good
+S01_T04_001.wav,S01,P,19,Palembang,Palembang,Ya,spontaneous,19,Makanan favorit,269.60,Android,Indoor,Good
+S01_T05_001.wav,S01,P,19,Palembang,Palembang,Ya,spontaneous,19,Penutup,2.90,Android,Indoor,Good
+S02_T01_001.wav,S02,P,19,Palembang,Palembang,Ya,spontaneous,19,Perkenalan,15.76,iOS,Indoor,Good
+S02_T02_001.wav,S02,P,19,Palembang,Palembang,Ya,spontaneous,19,Hobi,113.52,iOS,Indoor,Good
+S02_T03_001.wav,S02,P,19,Palembang,Palembang,Ya,spontaneous,19,Pilihan studi,139.35,iOS,Indoor,Good
+S02_T04_001.wav,S02,P,19,Palembang,Palembang,Ya,spontaneous,19,Makanan favorit,376.44,iOS,Indoor,Good
+S02_T05_001.wav,S02,P,19,Palembang,Palembang,Ya,spontaneous,19,Penutup,5.25,iOS,Indoor,Good
+S03_T01_001.wav,S03,L,20,Palembang,Palembang,Ya,spontaneous,20,Perkenalan,20.60,iOS,Indoor,Good
+S03_T02_001.wav,S03,L,20,Palembang,Palembang,Ya,spontaneous,20,Hobi,23.40,iOS,Indoor,Good
+S03_T03_001.wav,S03,L,20,Palembang,Palembang,Ya,spontaneous,20,Pilihan studi,73.51,iOS,Indoor,Good
+S03_T04_001.wav,S03,L,20,Palembang,Palembang,Ya,spontaneous,20,Makanan favorit,478.60,iOS,Indoor,Good
+S03_T05_001.wav,S03,L,20,Palembang,Palembang,Ya,spontaneous,20,Penutup,4.45,iOS,Indoor,Good
+S04_T01_001.wav,S04,P,20,Palembang,Palembang,Ya,spontaneous,20,Perkenalan,8.11,iOS,Indoor,Good
+S04_T02_001.wav,S04,P,20,Palembang,Palembang,Ya,spontaneous,20,Hobi,15.75,iOS,Indoor,Good
+S04_T03_001.wav,S04,P,20,Palembang,Palembang,Ya,spontaneous,20,Pilihan studi,82.39,iOS,Indoor,Good
+S04_T04_001.wav,S04,P,20,Palembang,Palembang,Ya,spontaneous,20,Makanan favorit,513.56,iOS,Indoor,Good
+S04_T05_001.wav,S04,P,20,Palembang,Palembang,Ya,spontaneous,20,Penutup,0.88,iOS,Indoor,Good
+S05_T01_001.wav,S05,P,19,Palembang,Palembang,Ya,spontaneous,19,Perkenalan,12.92,iOS,Indoor,Good
+S05_T04_001.wav,S05,P,19,Palembang,Palembang,Ya,spontaneous,19,Makanan favorit,583.20,iOS,Indoor,Good
+S05_T05_001.wav,S05,P,19,Palembang,Palembang,Ya,spontaneous,19,Penutup,23.69,iOS,Indoor,Good
+S06_T01_001.wav,S06,P,20,Palembang,Tangerang Selatan,Tidak,spontaneous,20,Perkenalan,18.54,Android,Indoor,Good
+S06_T02_001.wav,S06,P,20,Palembang,Tangerang Selatan,Tidak,spontaneous,20,Hobi,575.88,Android,Indoor,Good
+S06_T05_001.wav,S06,P,20,Palembang,Tangerang Selatan,Tidak,spontaneous,20,Penutup,10.96,Android,Indoor,Good
+S07-T01.wav,S07,,,,,,,,Perkenalan,31.00,,Indoor,Good
+S07-T02.wav,S07,,,,,,,,Hobi,196.00,,Indoor,Good
+S07-T03.wav,S07,,,,,,,,Pilihan studi,232.00,,Indoor,Good
+S07-T04.wav,S07,,,,,,,,Makanan favorit,305.00,,Indoor,Good
+S07-T05.wav,S07,,,,,,,,Penutup,26.49,,Indoor,Good
+S08-T01.wav,S08,,,,,,,,Perkenalan,26.00,,Indoor,Good
+S08-T03.wav,S08,,,,,,,,Pilihan studi,545.00,,Indoor,Good
+S08-T05.wav,S08,,,,,,,,Penutup,29.73,,Indoor,Good
+S09-T01.wav,S09,,,,,,,,Perkenalan,29.00,,Indoor,Good
+S09-T02.wav,S09,,,,,,,,Hobi,583.02,,Indoor,Good
+S10-T01.wav,S10,,,,,,,,Perkenalan,29.00,,Indoor,Good
+S10-T02.wav,S10,,,,,,,,Hobi,190.00,,Indoor,Good
+S10-T03.wav,S10,,,,,,,,Pilihan studi,282.00,,Indoor,Good
+S10-T04.wav,S10,,,,,,,,Makanan favorit,85.00,,Indoor,Good
+S10-T05.wav,S10,,,,,,,,Penutup,26.59,,Indoor,Good
+S11-T01.wav,S11,,,,,,,,Perkenalan,37.00,,Indoor,Good
+S11-T02.wav,S11,,,,,,,,Hobi,70.00,,Indoor,Good
+S11-T03.wav,S11,,,,,,,,Pilihan studi,565.00,,Indoor,Good
+S11-T04.wav,S11,,,,,,,,Makanan favorit,49.00,,Indoor,Good
+S11-T05.wav,S11,,,,,,,,Penutup,13.46,,Indoor,Good
