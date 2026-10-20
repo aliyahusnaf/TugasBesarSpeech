@@ -1,0 +1,240 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 12.920
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "utterance"
+        xmin = 0
+        xmax = 12.920
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.000
+            xmax = 0.560
+            text = ""
+        intervals [2]:
+            xmin = 0.560
+            xmax = 1.120
+            text = "halo"
+        intervals [3]:
+            xmin = 1.120
+            xmax = 1.620
+            text = ""
+        intervals [4]:
+            xmin = 1.620
+            xmax = 7.600
+            text = "nama lengkap aku [nama] tapi aku biasanya dipanggil [nama] dua huruf bae [nama]"
+        intervals [5]:
+            xmin = 7.600
+            xmax = 8.480
+            text = ""
+        intervals [6]:
+            xmin = 8.480
+            xmax = 12.680
+            text = "umur aku sekarang sembilan belas tahun bentar lagi lah nak umur dua puluh sih"
+        intervals [7]:
+            xmin = 12.680
+            xmax = 12.920
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "speaker"
+        xmin = 0
+        xmax = 12.920
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.000
+            xmax = 0.560
+            text = ""
+        intervals [2]:
+            xmin = 0.560
+            xmax = 1.120
+            text = "S05"
+        intervals [3]:
+            xmin = 1.120
+            xmax = 1.620
+            text = ""
+        intervals [4]:
+            xmin = 1.620
+            xmax = 7.600
+            text = "S05"
+        intervals [5]:
+            xmin = 7.600
+            xmax = 8.480
+            text = ""
+        intervals [6]:
+            xmin = 8.480
+            xmax = 12.680
+            text = "S05"
+        intervals [7]:
+            xmin = 12.680
+            xmax = 12.920
+            text = ""
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0
+        xmax = 12.920
+        intervals: size = 37
+        intervals [1]:
+            xmin = 0.000
+            xmax = 0.560
+            text = ""
+        intervals [2]:
+            xmin = 0.560
+            xmax = 1.120
+            text = "halo"
+        intervals [3]:
+            xmin = 1.120
+            xmax = 1.620
+            text = ""
+        intervals [4]:
+            xmin = 1.620
+            xmax = 1.900
+            text = "nama"
+        intervals [5]:
+            xmin = 1.900
+            xmax = 2.280
+            text = "lengkap"
+        intervals [6]:
+            xmin = 2.280
+            xmax = 2.600
+            text = "aku"
+        intervals [7]:
+            xmin = 2.600
+            xmax = 2.620
+            text = ""
+        intervals [8]:
+            xmin = 2.620
+            xmax = 3.520
+            text = "[nama]"
+        intervals [9]:
+            xmin = 3.520
+            xmax = 3.580
+            text = ""
+        intervals [10]:
+            xmin = 3.580
+            xmax = 3.920
+            text = "tapi"
+        intervals [11]:
+            xmin = 3.920
+            xmax = 4.140
+            text = "aku"
+        intervals [12]:
+            xmin = 4.140
+            xmax = 4.500
+            text = "biasanya"
+        intervals [13]:
+            xmin = 4.500
+            xmax = 5.240
+            text = "dipanggil"
+        intervals [14]:
+            xmin = 5.240
+            xmax = 5.800
+            text = "[nama]"
+        intervals [15]:
+            xmin = 5.800
+            xmax = 6.020
+            text = "dua"
+        intervals [16]:
+            xmin = 6.020
+            xmax = 6.260
+            text = "huruf"
+        intervals [17]:
+            xmin = 6.260
+            xmax = 6.300
+            text = ""
+        intervals [18]:
+            xmin = 6.300
+            xmax = 7.100
+            text = "bae"
+        intervals [19]:
+            xmin = 7.100
+            xmax = 7.600
+            text = "[nama]"
+        intervals [20]:
+            xmin = 7.600
+            xmax = 8.480
+            text = ""
+        intervals [21]:
+            xmin = 8.480
+            xmax = 8.760
+            text = "umur"
+        intervals [22]:
+            xmin = 8.760
+            xmax = 9.020
+            text = "aku"
+        intervals [23]:
+            xmin = 9.020
+            xmax = 9.520
+            text = "sekarang"
+        intervals [24]:
+            xmin = 9.520
+            xmax = 9.820
+            text = "sembilan"
+        intervals [25]:
+            xmin = 9.820
+            xmax = 9.960
+            text = "belas"
+        intervals [26]:
+            xmin = 9.960
+            xmax = 9.980
+            text = ""
+        intervals [27]:
+            xmin = 9.980
+            xmax = 10.500
+            text = "tahun"
+        intervals [28]:
+            xmin = 10.500
+            xmax = 10.740
+            text = "bentar"
+        intervals [29]:
+            xmin = 10.740
+            xmax = 11.100
+            text = "lagi"
+        intervals [30]:
+            xmin = 11.100
+            xmax = 11.380
+            text = "lah"
+        intervals [31]:
+            xmin = 11.380
+            xmax = 11.520
+            text = "nak"
+        intervals [32]:
+            xmin = 11.520
+            xmax = 11.620
+            text = ""
+        intervals [33]:
+            xmin = 11.620
+            xmax = 11.940
+            text = "umur"
+        intervals [34]:
+            xmin = 11.940
+            xmax = 12.080
+            text = "dua"
+        intervals [35]:
+            xmin = 12.080
+            xmax = 12.400
+            text = "puluh"
+        intervals [36]:
+            xmin = 12.400
+            xmax = 12.680
+            text = "sih"
+        intervals [37]:
+            xmin = 12.680
+            xmax = 12.920
+            text = ""
+    item [4]:
+        class = "IntervalTier"
+        name = "event"
+        xmin = 0
+        xmax = 12.920
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000
+            xmax = 12.920
+            text = ""

@@ -1,6 +1,6 @@
 File,Speaker,Gender,Age,Language/Dialect,Origin,Native,Speech_Type,Language_Experience,Topic,Duration,Device,Environment,Quality
 S01_T01_001.wav,S01,P,19,Palembang,Palembang,Ya,spontaneous,19,Perkenalan,24.57,Android,Indoor,Good
-S01_T02_001.wav,S01,P,19,Palembang,Palembang,Ya,spontaneous,19,Hobi,194.59,Android,Indoor,Good
+S01_T02_001.wav,S01,P,19,Palembang,Palembang,Ya,spontaneous,19,Hobi,194.59,Android,Indoor,Acceptable
 S01_T03_001.wav,S01,P,19,Palembang,Palembang,Ya,spontaneous,19,Pilihan studi,190.73,Android,Indoor,Good
 S01_T04_001.wav,S01,P,19,Palembang,Palembang,Ya,spontaneous,19,Makanan favorit,269.60,Android,Indoor,Good
 S01_T05_001.wav,S01,P,19,Palembang,Palembang,Ya,spontaneous,19,Penutup,2.90,Android,Indoor,Good
@@ -14,27 +14,27 @@ S03_T02_001.wav,S03,L,20,Palembang,Palembang,Ya,spontaneous,20,Hobi,23.40,iOS,In
 S03_T03_001.wav,S03,L,20,Palembang,Palembang,Ya,spontaneous,20,Pilihan studi,73.51,iOS,Indoor,Good
 S03_T04_001.wav,S03,L,20,Palembang,Palembang,Ya,spontaneous,20,Makanan favorit,478.60,iOS,Indoor,Good
 S03_T05_001.wav,S03,L,20,Palembang,Palembang,Ya,spontaneous,20,Penutup,4.45,iOS,Indoor,Good
-S04_T01_001.wav,S04,P,20,Palembang,Palembang,Ya,spontaneous,20,Perkenalan,8.11,iOS,Indoor,Good
-S04_T02_001.wav,S04,P,20,Palembang,Palembang,Ya,spontaneous,20,Hobi,15.75,iOS,Indoor,Good
-S04_T03_001.wav,S04,P,20,Palembang,Palembang,Ya,spontaneous,20,Pilihan studi,82.39,iOS,Indoor,Good
-S04_T04_001.wav,S04,P,20,Palembang,Palembang,Ya,spontaneous,20,Makanan favorit,513.56,iOS,Indoor,Good
-S04_T05_001.wav,S04,P,20,Palembang,Palembang,Ya,spontaneous,20,Penutup,0.88,iOS,Indoor,Good
+S04_T01_001.wav,S04,P,20,Palembang,Palembang,Ya,spontaneous,20,Perkenalan,8.11,iOS,Vehicle,Acceptable
+S04_T02_001.wav,S04,P,20,Palembang,Palembang,Ya,spontaneous,20,Hobi,15.75,iOS,Vehicle,Acceptable
+S04_T03_001.wav,S04,P,20,Palembang,Palembang,Ya,spontaneous,20,Pilihan studi,82.39,iOS,Vehicle,Acceptable
+S04_T04_001.wav,S04,P,20,Palembang,Palembang,Ya,spontaneous,20,Makanan favorit,513.56,iOS,Vehicle,Reject
+S04_T05_001.wav,S04,P,20,Palembang,Palembang,Ya,spontaneous,20,Penutup,0.88,iOS,Vehicle,Acceptable
 S05_T01_001.wav,S05,P,19,Palembang,Palembang,Ya,spontaneous,19,Perkenalan,12.92,iOS,Indoor,Good
 S05_T04_001.wav,S05,P,19,Palembang,Palembang,Ya,spontaneous,19,Makanan favorit,583.20,iOS,Indoor,Good
-S05_T05_001.wav,S05,P,19,Palembang,Palembang,Ya,spontaneous,19,Penutup,23.69,iOS,Indoor,Good
+S05_T05_001.wav,S05,P,19,Palembang,Palembang,Ya,spontaneous,19,Penutup,23.69,iOS,Indoor,Acceptable
 S06_T01_001.wav,S06,P,20,Palembang,Tangerang Selatan,Tidak,spontaneous,20,Perkenalan,18.54,Android,Indoor,Good
 S06_T02_001.wav,S06,P,20,Palembang,Tangerang Selatan,Tidak,spontaneous,20,Hobi,575.88,Android,Indoor,Good
 S06_T05_001.wav,S06,P,20,Palembang,Tangerang Selatan,Tidak,spontaneous,20,Penutup,10.96,Android,Indoor,Good
-S07_T01_001.wav,S07,,,,,,,,Perkenalan,31.00,,Indoor,Good
-S07_T02_001.wav,S07,,,,,,,,Hobi,196.00,,Indoor,Good
-S07_T03_001.wav,S07,,,,,,,,Pilihan studi,232.00,,Indoor,Good
-S07_T04_001.wav,S07,,,,,,,,Makanan favorit,305.00,,Indoor,Good
-S07_T05_001.wav,S07,,,,,,,,Penutup,26.49,,Indoor,Good
+S07_T01_001.wav,S07,L,21,Palembang,Bekasi,Tidak,read,21,Perkenalan,31.00,iOS,Indoor,Good
+S07_T02_001.wav,S07,L,21,Palembang,Bekasi,Tidak,read,21,Hobi,196.00,iOS,Indoor,Acceptable
+S07_T03_001.wav,S07,L,21,Palembang,Bekasi,Tidak,read,21,Pilihan studi,232.00,iOS,Indoor,Good
+S07_T04_001.wav,S07,L,21,Palembang,Bekasi,Tidak,read,21,Makanan favorit,305.00,iOS,Indoor,Acceptable
+S07_T05_001.wav,S07,L,21,Palembang,Bekasi,Tidak,read,21,Penutup,26.49,iOS,Indoor,Acceptable
 S08_T01_001.wav,S08,,,,,,,,Perkenalan,26.00,,Indoor,Good
 S08_T03_001.wav,S08,,,,,,,,Pilihan studi,545.00,,Indoor,Good
 S08_T05_001.wav,S08,,,,,,,,Penutup,29.73,,Indoor,Good
-S09_T01_001.wav,S09,,,,,,,,Perkenalan,29.00,,Indoor,Good
-S09_T02_001.wav,S09,,,,,,,,Hobi,583.02,,Indoor,Good
+S09_T01_001.wav,S09,L,21,Palembang,Bekasi,Tidak,read,21,Perkenalan,29.00,iOS,Indoor,Good
+S09_T02_001.wav,S09,L,21,Palembang,Bekasi,Tidak,read,21,Hobi,583.02,iOS,Indoor,Good
 S10_T01_001.wav,S10,,,,,,,,Perkenalan,29.00,,Indoor,Good
 S10_T02_001.wav,S10,,,,,,,,Hobi,190.00,,Indoor,Good
 S10_T03_001.wav,S10,,,,,,,,Pilihan studi,282.00,,Indoor,Good

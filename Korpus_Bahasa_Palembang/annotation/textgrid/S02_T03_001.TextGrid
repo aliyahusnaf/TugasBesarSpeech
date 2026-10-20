@@ -1,0 +1,2508 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 139.354
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "utterance"
+        xmin = 0
+        xmax = 139.354
+        intervals: size = 57
+        intervals [1]:
+            xmin = 0.000
+            xmax = 1.000
+            text = ""
+        intervals [2]:
+            xmin = 1.000
+            xmax = 4.220
+            text = "sekarang ni aku ni kuliah di itb"
+        intervals [3]:
+            xmin = 4.220
+            xmax = 4.960
+            text = ""
+        intervals [4]:
+            xmin = 4.960
+            xmax = 16.020
+            text = "nah ini berkaitannya sama hobi aku jadi aku tu dulu punyo hobi aneh itu tu cak jingok-jingokin ingredients di makanan atau di skincare yang aku pake nah jadi semenjak itulah aku tu"
+        intervals [5]:
+            xmin = 16.020
+            xmax = 16.500
+            text = ""
+        intervals [6]:
+            xmin = 16.500
+            xmax = 20.160
+            text = "punya tekad gitu lo pengen masuk jurusan farmasi"
+        intervals [7]:
+            xmin = 20.160
+            xmax = 21.560
+            text = ""
+        intervals [8]:
+            xmin = 21.560
+            xmax = 26.580
+            text = "sebenernya aku tu awalnya pengen ugm ya tapi kayak aku pikir kejauhan itu di jogja kan terus makanya aku"
+        intervals [9]:
+            xmin = 26.580
+            xmax = 27.080
+            text = ""
+        intervals [10]:
+            xmin = 27.080
+            xmax = 31.900
+            text = "mikir ngapa dak itb itb tu lebih deket juga di bandung kan kayak deket sama jakarta"
+        intervals [11]:
+            xmin = 31.900
+            xmax = 32.420
+            text = ""
+        intervals [12]:
+            xmin = 32.420
+            xmax = 34.480
+            text = "terus lebih deket juga ke palembang asal aku kan"
+        intervals [13]:
+            xmin = 34.480
+            xmax = 35.260
+            text = ""
+        intervals [14]:
+            xmin = 35.260
+            xmax = 35.500
+            text = "terus"
+        intervals [15]:
+            xmin = 35.500
+            xmax = 37.910
+            text = ""
+        intervals [16]:
+            xmin = 37.910
+            xmax = 44.570
+            text = "jadi makanyo aku pilih jurusan farmasi tu karna aku pengen buat skincare kayak itu kayak itu racik-racik itu seru kan"
+        intervals [17]:
+            xmin = 44.570
+            xmax = 45.070
+            text = ""
+        intervals [18]:
+            xmin = 45.070
+            xmax = 52.150
+            text = "tapi setelah aku masuk ke semester limo ini ternyata farmasi tu berat nian kayak seminggu tu sekarang aku ni ada tiga pratikum"
+        intervals [19]:
+            xmin = 52.150
+            xmax = 52.590
+            text = ""
+        intervals [20]:
+            xmin = 52.590
+            xmax = 60.770
+            text = "aku ada harus kerjoi sebum pratikum terus kerjoi juprak jurnal pratikum terus kerjoi laporan pratikum setelahnya dan itu tu kayak non stop ending"
+        intervals [21]:
+            xmin = 60.770
+            xmax = 61.990
+            text = ""
+        intervals [22]:
+            xmin = 61.990
+            xmax = 66.230
+            text = "kerjoi itu tu sampe capek-capek gitu nah terus ada juga namanyo reagent calculation itu kayak"
+        intervals [23]:
+            xmin = 66.230
+            xmax = 66.810
+            text = ""
+        intervals [24]:
+            xmin = 66.810
+            xmax = 70.950
+            text = "kau harus perhitungan bahan-bahan yang kau butuhke pas kau ngelab gitu nah"
+        intervals [25]:
+            xmin = 70.950
+            xmax = 71.990
+            text = ""
+        intervals [26]:
+            xmin = 71.990
+            xmax = 73.610
+            text = "ini kayak nyobrat jugo farmasi itu ee"
+        intervals [27]:
+            xmin = 73.610
+            xmax = 75.800
+            text = ""
+        intervals [28]:
+            xmin = 75.800
+            xmax = 78.260
+            text = "kala aku dak di jurusan farmasi aku sebenernya pengen"
+        intervals [29]:
+            xmin = 78.260
+            xmax = 79.640
+            text = ""
+        intervals [30]:
+            xmin = 79.640
+            xmax = 82.300
+            text = "kulineri atau pastry karena menurut aku"
+        intervals [31]:
+            xmin = 82.300
+            xmax = 83.080
+            text = ""
+        intervals [32]:
+            xmin = 83.080
+            xmax = 84.800
+            text = "masak tu refreshing kok"
+        intervals [33]:
+            xmin = 84.800
+            xmax = 85.760
+            text = ""
+        intervals [34]:
+            xmin = 85.760
+            xmax = 88.180
+            text = "terus buat pastry baking tu aku jugo seneng"
+        intervals [35]:
+            xmin = 88.180
+            xmax = 89.460
+            text = ""
+        intervals [36]:
+            xmin = 89.460
+            xmax = 91.620
+            text = "lebih tenang seneng aja"
+        intervals [37]:
+            xmin = 91.620
+            xmax = 92.220
+            text = ""
+        intervals [38]:
+            xmin = 92.220
+            xmax = 97.540
+            text = "hasilnya pas jadi makan terus kalu udah itu aku juga pengen"
+        intervals [39]:
+            xmin = 97.540
+            xmax = 98.640
+            text = ""
+        intervals [40]:
+            xmin = 98.640
+            xmax = 99.880
+            text = "oh ini jurusan"
+        intervals [41]:
+            xmin = 99.880
+            xmax = 100.480
+            text = ""
+        intervals [42]:
+            xmin = 100.480
+            xmax = 103.720
+            text = "bahasa iyo mungkin bahasa apo ya"
+        intervals [43]:
+            xmin = 103.720
+            xmax = 104.980
+            text = ""
+        intervals [44]:
+            xmin = 104.980
+            xmax = 108.280
+            text = "dulu tu aku sempet belajar bahasa perancis pas sma"
+        intervals [45]:
+            xmin = 108.280
+            xmax = 109.360
+            text = ""
+        intervals [46]:
+            xmin = 109.360
+            xmax = 112.980
+            text = "ee lumayan sih aku suka tapi kayak pronuncationnya lumayan susah"
+        intervals [47]:
+            xmin = 112.980
+            xmax = 113.660
+            text = ""
+        intervals [48]:
+            xmin = 113.660
+            xmax = 117.420
+            text = "tapi kayaknya bahasa mandarin aku juga tertarik deh soalnya kan sekarang mandarin tu perlu nian ya"
+        intervals [49]:
+            xmin = 117.420
+            xmax = 118.280
+            text = ""
+        intervals [50]:
+            xmin = 118.280
+            xmax = 125.960
+            text = "cak wong di luar tu bisnis-bisnis pake mandarin galo oh iya ini jurusan ketiga aku juga pengen bisnis karno kayak aku pikir bakal kepake kayaknya itu lo"
+        intervals [51]:
+            xmin = 125.960
+            xmax = 126.840
+            text = ""
+        intervals [52]:
+            xmin = 126.840
+            xmax = 128.780
+            text = "kalo kau nak buka bisnis atau cak mano cak itu kan"
+        intervals [53]:
+            xmin = 128.780
+            xmax = 130.320
+            text = ""
+        intervals [54]:
+            xmin = 130.320
+            xmax = 134.160
+            text = "karno kayak sekarang kayaknyo banyak deh wong yang be jurusan itu"
+        intervals [55]:
+            xmin = 134.160
+            xmax = 135.750
+            text = ""
+        intervals [56]:
+            xmin = 135.750
+            xmax = 137.350
+            text = "terus bakal aku pake kaitul"
+        intervals [57]:
+            xmin = 137.350
+            xmax = 139.354
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "speaker"
+        xmin = 0
+        xmax = 139.354
+        intervals: size = 57
+        intervals [1]:
+            xmin = 0.000
+            xmax = 1.000
+            text = ""
+        intervals [2]:
+            xmin = 1.000
+            xmax = 4.220
+            text = "S02"
+        intervals [3]:
+            xmin = 4.220
+            xmax = 4.960
+            text = ""
+        intervals [4]:
+            xmin = 4.960
+            xmax = 16.020
+            text = "S02"
+        intervals [5]:
+            xmin = 16.020
+            xmax = 16.500
+            text = ""
+        intervals [6]:
+            xmin = 16.500
+            xmax = 20.160
+            text = "S02"
+        intervals [7]:
+            xmin = 20.160
+            xmax = 21.560
+            text = ""
+        intervals [8]:
+            xmin = 21.560
+            xmax = 26.580
+            text = "S02"
+        intervals [9]:
+            xmin = 26.580
+            xmax = 27.080
+            text = ""
+        intervals [10]:
+            xmin = 27.080
+            xmax = 31.900
+            text = "S02"
+        intervals [11]:
+            xmin = 31.900
+            xmax = 32.420
+            text = ""
+        intervals [12]:
+            xmin = 32.420
+            xmax = 34.480
+            text = "S02"
+        intervals [13]:
+            xmin = 34.480
+            xmax = 35.260
+            text = ""
+        intervals [14]:
+            xmin = 35.260
+            xmax = 35.500
+            text = "S02"
+        intervals [15]:
+            xmin = 35.500
+            xmax = 37.910
+            text = ""
+        intervals [16]:
+            xmin = 37.910
+            xmax = 44.570
+            text = "S02"
+        intervals [17]:
+            xmin = 44.570
+            xmax = 45.070
+            text = ""
+        intervals [18]:
+            xmin = 45.070
+            xmax = 52.150
+            text = "S02"
+        intervals [19]:
+            xmin = 52.150
+            xmax = 52.590
+            text = ""
+        intervals [20]:
+            xmin = 52.590
+            xmax = 60.770
+            text = "S02"
+        intervals [21]:
+            xmin = 60.770
+            xmax = 61.990
+            text = ""
+        intervals [22]:
+            xmin = 61.990
+            xmax = 66.230
+            text = "S02"
+        intervals [23]:
+            xmin = 66.230
+            xmax = 66.810
+            text = ""
+        intervals [24]:
+            xmin = 66.810
+            xmax = 70.950
+            text = "S02"
+        intervals [25]:
+            xmin = 70.950
+            xmax = 71.990
+            text = ""
+        intervals [26]:
+            xmin = 71.990
+            xmax = 73.610
+            text = "S02"
+        intervals [27]:
+            xmin = 73.610
+            xmax = 75.800
+            text = ""
+        intervals [28]:
+            xmin = 75.800
+            xmax = 78.260
+            text = "S02"
+        intervals [29]:
+            xmin = 78.260
+            xmax = 79.640
+            text = ""
+        intervals [30]:
+            xmin = 79.640
+            xmax = 82.300
+            text = "S02"
+        intervals [31]:
+            xmin = 82.300
+            xmax = 83.080
+            text = ""
+        intervals [32]:
+            xmin = 83.080
+            xmax = 84.800
+            text = "S02"
+        intervals [33]:
+            xmin = 84.800
+            xmax = 85.760
+            text = ""
+        intervals [34]:
+            xmin = 85.760
+            xmax = 88.180
+            text = "S02"
+        intervals [35]:
+            xmin = 88.180
+            xmax = 89.460
+            text = ""
+        intervals [36]:
+            xmin = 89.460
+            xmax = 91.620
+            text = "S02"
+        intervals [37]:
+            xmin = 91.620
+            xmax = 92.220
+            text = ""
+        intervals [38]:
+            xmin = 92.220
+            xmax = 97.540
+            text = "S02"
+        intervals [39]:
+            xmin = 97.540
+            xmax = 98.640
+            text = ""
+        intervals [40]:
+            xmin = 98.640
+            xmax = 99.880
+            text = "S02"
+        intervals [41]:
+            xmin = 99.880
+            xmax = 100.480
+            text = ""
+        intervals [42]:
+            xmin = 100.480
+            xmax = 103.720
+            text = "S02"
+        intervals [43]:
+            xmin = 103.720
+            xmax = 104.980
+            text = ""
+        intervals [44]:
+            xmin = 104.980
+            xmax = 108.280
+            text = "S02"
+        intervals [45]:
+            xmin = 108.280
+            xmax = 109.360
+            text = ""
+        intervals [46]:
+            xmin = 109.360
+            xmax = 112.980
+            text = "S02"
+        intervals [47]:
+            xmin = 112.980
+            xmax = 113.660
+            text = ""
+        intervals [48]:
+            xmin = 113.660
+            xmax = 117.420
+            text = "S02"
+        intervals [49]:
+            xmin = 117.420
+            xmax = 118.280
+            text = ""
+        intervals [50]:
+            xmin = 118.280
+            xmax = 125.960
+            text = "S02"
+        intervals [51]:
+            xmin = 125.960
+            xmax = 126.840
+            text = ""
+        intervals [52]:
+            xmin = 126.840
+            xmax = 128.780
+            text = "S02"
+        intervals [53]:
+            xmin = 128.780
+            xmax = 130.320
+            text = ""
+        intervals [54]:
+            xmin = 130.320
+            xmax = 134.160
+            text = "S02"
+        intervals [55]:
+            xmin = 134.160
+            xmax = 135.750
+            text = ""
+        intervals [56]:
+            xmin = 135.750
+            xmax = 137.350
+            text = "S02"
+        intervals [57]:
+            xmin = 137.350
+            xmax = 139.354
+            text = ""
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0
+        xmax = 139.354
+        intervals: size = 504
+        intervals [1]:
+            xmin = 0.000
+            xmax = 1.000
+            text = ""
+        intervals [2]:
+            xmin = 1.000
+            xmax = 1.480
+            text = "sekarang"
+        intervals [3]:
+            xmin = 1.480
+            xmax = 1.620
+            text = "ni"
+        intervals [4]:
+            xmin = 1.620
+            xmax = 1.640
+            text = ""
+        intervals [5]:
+            xmin = 1.640
+            xmax = 1.840
+            text = "aku"
+        intervals [6]:
+            xmin = 1.840
+            xmax = 1.920
+            text = "ni"
+        intervals [7]:
+            xmin = 1.920
+            xmax = 2.200
+            text = ""
+        intervals [8]:
+            xmin = 2.200
+            xmax = 2.980
+            text = "kuliah"
+        intervals [9]:
+            xmin = 2.980
+            xmax = 3.180
+            text = ""
+        intervals [10]:
+            xmin = 3.180
+            xmax = 3.540
+            text = "di"
+        intervals [11]:
+            xmin = 3.540
+            xmax = 4.220
+            text = "itb"
+        intervals [12]:
+            xmin = 4.220
+            xmax = 4.960
+            text = ""
+        intervals [13]:
+            xmin = 4.960
+            xmax = 5.080
+            text = "nah"
+        intervals [14]:
+            xmin = 5.080
+            xmax = 5.360
+            text = "ini"
+        intervals [15]:
+            xmin = 5.360
+            xmax = 5.860
+            text = "berkaitannya"
+        intervals [16]:
+            xmin = 5.860
+            xmax = 6.000
+            text = "sama"
+        intervals [17]:
+            xmin = 6.000
+            xmax = 6.020
+            text = ""
+        intervals [18]:
+            xmin = 6.020
+            xmax = 6.220
+            text = "hobi"
+        intervals [19]:
+            xmin = 6.220
+            xmax = 6.360
+            text = "aku"
+        intervals [20]:
+            xmin = 6.360
+            xmax = 6.520
+            text = "jadi"
+        intervals [21]:
+            xmin = 6.520
+            xmax = 6.640
+            text = "aku"
+        intervals [22]:
+            xmin = 6.640
+            xmax = 6.660
+            text = ""
+        intervals [23]:
+            xmin = 6.660
+            xmax = 6.800
+            text = "tu"
+        intervals [24]:
+            xmin = 6.800
+            xmax = 7.000
+            text = "dulu"
+        intervals [25]:
+            xmin = 7.000
+            xmax = 7.320
+            text = "punyo"
+        intervals [26]:
+            xmin = 7.320
+            xmax = 7.340
+            text = ""
+        intervals [27]:
+            xmin = 7.340
+            xmax = 7.700
+            text = "hobi"
+        intervals [28]:
+            xmin = 7.700
+            xmax = 8.040
+            text = "aneh"
+        intervals [29]:
+            xmin = 8.040
+            xmax = 8.360
+            text = ""
+        intervals [30]:
+            xmin = 8.360
+            xmax = 8.540
+            text = "itu"
+        intervals [31]:
+            xmin = 8.540
+            xmax = 8.660
+            text = "tu"
+        intervals [32]:
+            xmin = 8.660
+            xmax = 8.720
+            text = ""
+        intervals [33]:
+            xmin = 8.720
+            xmax = 8.980
+            text = "cak"
+        intervals [34]:
+            xmin = 8.980
+            xmax = 9.260
+            text = ""
+        intervals [35]:
+            xmin = 9.260
+            xmax = 10.080
+            text = "jingok-jingokin"
+        intervals [36]:
+            xmin = 10.080
+            xmax = 10.900
+            text = "ingredients"
+        intervals [37]:
+            xmin = 10.900
+            xmax = 10.960
+            text = ""
+        intervals [38]:
+            xmin = 10.960
+            xmax = 11.260
+            text = "di"
+        intervals [39]:
+            xmin = 11.260
+            xmax = 12.040
+            text = "makanan"
+        intervals [40]:
+            xmin = 12.040
+            xmax = 12.420
+            text = ""
+        intervals [41]:
+            xmin = 12.420
+            xmax = 12.620
+            text = "atau"
+        intervals [42]:
+            xmin = 12.620
+            xmax = 12.720
+            text = "di"
+        intervals [43]:
+            xmin = 12.720
+            xmax = 13.160
+            text = "skincare"
+        intervals [44]:
+            xmin = 13.160
+            xmax = 13.240
+            text = "yang"
+        intervals [45]:
+            xmin = 13.240
+            xmax = 13.340
+            text = "aku"
+        intervals [46]:
+            xmin = 13.340
+            xmax = 13.360
+            text = ""
+        intervals [47]:
+            xmin = 13.360
+            xmax = 13.820
+            text = "pake"
+        intervals [48]:
+            xmin = 13.820
+            xmax = 13.960
+            text = ""
+        intervals [49]:
+            xmin = 13.960
+            xmax = 14.200
+            text = "nah"
+        intervals [50]:
+            xmin = 14.200
+            xmax = 14.380
+            text = "jadi"
+        intervals [51]:
+            xmin = 14.380
+            xmax = 14.720
+            text = "semenjak"
+        intervals [52]:
+            xmin = 14.720
+            xmax = 15.100
+            text = "itulah"
+        intervals [53]:
+            xmin = 15.100
+            xmax = 15.520
+            text = ""
+        intervals [54]:
+            xmin = 15.520
+            xmax = 15.740
+            text = "aku"
+        intervals [55]:
+            xmin = 15.740
+            xmax = 15.760
+            text = ""
+        intervals [56]:
+            xmin = 15.760
+            xmax = 16.020
+            text = "tu"
+        intervals [57]:
+            xmin = 16.020
+            xmax = 16.500
+            text = ""
+        intervals [58]:
+            xmin = 16.500
+            xmax = 17.480
+            text = "punya"
+        intervals [59]:
+            xmin = 17.480
+            xmax = 17.860
+            text = ""
+        intervals [60]:
+            xmin = 17.860
+            xmax = 18.180
+            text = "tekad"
+        intervals [61]:
+            xmin = 18.180
+            xmax = 18.220
+            text = ""
+        intervals [62]:
+            xmin = 18.220
+            xmax = 18.400
+            text = "gitu"
+        intervals [63]:
+            xmin = 18.400
+            xmax = 18.480
+            text = "lo"
+        intervals [64]:
+            xmin = 18.480
+            xmax = 18.500
+            text = ""
+        intervals [65]:
+            xmin = 18.500
+            xmax = 18.740
+            text = "pengen"
+        intervals [66]:
+            xmin = 18.740
+            xmax = 19.060
+            text = "masuk"
+        intervals [67]:
+            xmin = 19.060
+            xmax = 19.380
+            text = "jurusan"
+        intervals [68]:
+            xmin = 19.380
+            xmax = 20.160
+            text = "farmasi"
+        intervals [69]:
+            xmin = 20.160
+            xmax = 21.560
+            text = ""
+        intervals [70]:
+            xmin = 21.560
+            xmax = 21.840
+            text = "sebenernya"
+        intervals [71]:
+            xmin = 21.840
+            xmax = 21.860
+            text = ""
+        intervals [72]:
+            xmin = 21.860
+            xmax = 21.960
+            text = "aku"
+        intervals [73]:
+            xmin = 21.960
+            xmax = 22.040
+            text = "tu"
+        intervals [74]:
+            xmin = 22.040
+            xmax = 22.240
+            text = "awalnya"
+        intervals [75]:
+            xmin = 22.240
+            xmax = 22.280
+            text = ""
+        intervals [76]:
+            xmin = 22.280
+            xmax = 22.540
+            text = "pengen"
+        intervals [77]:
+            xmin = 22.540
+            xmax = 23.080
+            text = "ugm"
+        intervals [78]:
+            xmin = 23.080
+            xmax = 23.100
+            text = ""
+        intervals [79]:
+            xmin = 23.100
+            xmax = 23.580
+            text = "ya"
+        intervals [80]:
+            xmin = 23.580
+            xmax = 23.940
+            text = "tapi"
+        intervals [81]:
+            xmin = 23.940
+            xmax = 24.100
+            text = "kayak"
+        intervals [82]:
+            xmin = 24.100
+            xmax = 24.240
+            text = "aku"
+        intervals [83]:
+            xmin = 24.240
+            xmax = 24.260
+            text = ""
+        intervals [84]:
+            xmin = 24.260
+            xmax = 24.440
+            text = "pikir"
+        intervals [85]:
+            xmin = 24.440
+            xmax = 24.480
+            text = ""
+        intervals [86]:
+            xmin = 24.480
+            xmax = 24.940
+            text = "kejauhan"
+        intervals [87]:
+            xmin = 24.940
+            xmax = 24.980
+            text = ""
+        intervals [88]:
+            xmin = 24.980
+            xmax = 25.120
+            text = "itu"
+        intervals [89]:
+            xmin = 25.120
+            xmax = 25.200
+            text = "di"
+        intervals [90]:
+            xmin = 25.200
+            xmax = 25.640
+            text = "jogja"
+        intervals [91]:
+            xmin = 25.640
+            xmax = 25.800
+            text = "kan"
+        intervals [92]:
+            xmin = 25.800
+            xmax = 25.920
+            text = "terus"
+        intervals [93]:
+            xmin = 25.920
+            xmax = 26.280
+            text = "makanya"
+        intervals [94]:
+            xmin = 26.280
+            xmax = 26.580
+            text = "aku"
+        intervals [95]:
+            xmin = 26.580
+            xmax = 27.080
+            text = ""
+        intervals [96]:
+            xmin = 27.080
+            xmax = 27.440
+            text = "mikir"
+        intervals [97]:
+            xmin = 27.440
+            xmax = 27.640
+            text = ""
+        intervals [98]:
+            xmin = 27.640
+            xmax = 27.860
+            text = "ngapa"
+        intervals [99]:
+            xmin = 27.860
+            xmax = 27.940
+            text = "dak"
+        intervals [100]:
+            xmin = 27.940
+            xmax = 28.560
+            text = "itb"
+        intervals [101]:
+            xmin = 28.560
+            xmax = 28.780
+            text = "itb"
+        intervals [102]:
+            xmin = 28.780
+            xmax = 28.800
+            text = ""
+        intervals [103]:
+            xmin = 28.800
+            xmax = 28.960
+            text = "tu"
+        intervals [104]:
+            xmin = 28.960
+            xmax = 29.120
+            text = "lebih"
+        intervals [105]:
+            xmin = 29.120
+            xmax = 29.340
+            text = "deket"
+        intervals [106]:
+            xmin = 29.340
+            xmax = 29.380
+            text = ""
+        intervals [107]:
+            xmin = 29.380
+            xmax = 29.580
+            text = "juga"
+        intervals [108]:
+            xmin = 29.580
+            xmax = 29.680
+            text = "di"
+        intervals [109]:
+            xmin = 29.680
+            xmax = 30.240
+            text = "bandung"
+        intervals [110]:
+            xmin = 30.240
+            xmax = 30.280
+            text = ""
+        intervals [111]:
+            xmin = 30.280
+            xmax = 30.600
+            text = "kan"
+        intervals [112]:
+            xmin = 30.600
+            xmax = 30.640
+            text = ""
+        intervals [113]:
+            xmin = 30.640
+            xmax = 30.760
+            text = "kayak"
+        intervals [114]:
+            xmin = 30.760
+            xmax = 30.940
+            text = "deket"
+        intervals [115]:
+            xmin = 30.940
+            xmax = 30.960
+            text = ""
+        intervals [116]:
+            xmin = 30.960
+            xmax = 31.140
+            text = "sama"
+        intervals [117]:
+            xmin = 31.140
+            xmax = 31.160
+            text = ""
+        intervals [118]:
+            xmin = 31.160
+            xmax = 31.900
+            text = "jakarta"
+        intervals [119]:
+            xmin = 31.900
+            xmax = 32.420
+            text = ""
+        intervals [120]:
+            xmin = 32.420
+            xmax = 32.600
+            text = "terus"
+        intervals [121]:
+            xmin = 32.600
+            xmax = 32.740
+            text = "lebih"
+        intervals [122]:
+            xmin = 32.740
+            xmax = 32.760
+            text = ""
+        intervals [123]:
+            xmin = 32.760
+            xmax = 32.940
+            text = "deket"
+        intervals [124]:
+            xmin = 32.940
+            xmax = 32.960
+            text = ""
+        intervals [125]:
+            xmin = 32.960
+            xmax = 33.140
+            text = "juga"
+        intervals [126]:
+            xmin = 33.140
+            xmax = 33.180
+            text = ""
+        intervals [127]:
+            xmin = 33.180
+            xmax = 33.260
+            text = "ke"
+        intervals [128]:
+            xmin = 33.260
+            xmax = 33.780
+            text = "palembang"
+        intervals [129]:
+            xmin = 33.780
+            xmax = 34.020
+            text = "asal"
+        intervals [130]:
+            xmin = 34.020
+            xmax = 34.220
+            text = "aku"
+        intervals [131]:
+            xmin = 34.220
+            xmax = 34.260
+            text = ""
+        intervals [132]:
+            xmin = 34.260
+            xmax = 34.480
+            text = "kan"
+        intervals [133]:
+            xmin = 34.480
+            xmax = 35.260
+            text = ""
+        intervals [134]:
+            xmin = 35.260
+            xmax = 35.500
+            text = "terus"
+        intervals [135]:
+            xmin = 35.500
+            xmax = 37.910
+            text = ""
+        intervals [136]:
+            xmin = 37.910
+            xmax = 38.050
+            text = "jadi"
+        intervals [137]:
+            xmin = 38.050
+            xmax = 38.310
+            text = "makanyo"
+        intervals [138]:
+            xmin = 38.310
+            xmax = 38.430
+            text = "aku"
+        intervals [139]:
+            xmin = 38.430
+            xmax = 38.470
+            text = ""
+        intervals [140]:
+            xmin = 38.470
+            xmax = 38.670
+            text = "pilih"
+        intervals [141]:
+            xmin = 38.670
+            xmax = 38.690
+            text = ""
+        intervals [142]:
+            xmin = 38.690
+            xmax = 39.270
+            text = "jurusan"
+        intervals [143]:
+            xmin = 39.270
+            xmax = 39.290
+            text = ""
+        intervals [144]:
+            xmin = 39.290
+            xmax = 39.710
+            text = "farmasi"
+        intervals [145]:
+            xmin = 39.710
+            xmax = 39.750
+            text = ""
+        intervals [146]:
+            xmin = 39.750
+            xmax = 40.030
+            text = "tu"
+        intervals [147]:
+            xmin = 40.030
+            xmax = 40.050
+            text = ""
+        intervals [148]:
+            xmin = 40.050
+            xmax = 40.310
+            text = "karna"
+        intervals [149]:
+            xmin = 40.310
+            xmax = 40.330
+            text = ""
+        intervals [150]:
+            xmin = 40.330
+            xmax = 40.430
+            text = "aku"
+        intervals [151]:
+            xmin = 40.430
+            xmax = 40.470
+            text = ""
+        intervals [152]:
+            xmin = 40.470
+            xmax = 40.750
+            text = "pengen"
+        intervals [153]:
+            xmin = 40.750
+            xmax = 40.810
+            text = ""
+        intervals [154]:
+            xmin = 40.810
+            xmax = 41.030
+            text = "buat"
+        intervals [155]:
+            xmin = 41.030
+            xmax = 41.050
+            text = ""
+        intervals [156]:
+            xmin = 41.050
+            xmax = 41.770
+            text = "skincare"
+        intervals [157]:
+            xmin = 41.770
+            xmax = 41.790
+            text = ""
+        intervals [158]:
+            xmin = 41.790
+            xmax = 41.890
+            text = "kayak"
+        intervals [159]:
+            xmin = 41.890
+            xmax = 42.030
+            text = "itu"
+        intervals [160]:
+            xmin = 42.030
+            xmax = 42.070
+            text = ""
+        intervals [161]:
+            xmin = 42.070
+            xmax = 42.170
+            text = "kayak"
+        intervals [162]:
+            xmin = 42.170
+            xmax = 42.550
+            text = "itu"
+        intervals [163]:
+            xmin = 42.550
+            xmax = 43.030
+            text = ""
+        intervals [164]:
+            xmin = 43.030
+            xmax = 43.510
+            text = "racik-racik"
+        intervals [165]:
+            xmin = 43.510
+            xmax = 43.530
+            text = ""
+        intervals [166]:
+            xmin = 43.530
+            xmax = 43.770
+            text = "itu"
+        intervals [167]:
+            xmin = 43.770
+            xmax = 44.030
+            text = ""
+        intervals [168]:
+            xmin = 44.030
+            xmax = 44.310
+            text = "seru"
+        intervals [169]:
+            xmin = 44.310
+            xmax = 44.330
+            text = ""
+        intervals [170]:
+            xmin = 44.330
+            xmax = 44.570
+            text = "kan"
+        intervals [171]:
+            xmin = 44.570
+            xmax = 45.070
+            text = ""
+        intervals [172]:
+            xmin = 45.070
+            xmax = 45.690
+            text = "tapi"
+        intervals [173]:
+            xmin = 45.690
+            xmax = 45.710
+            text = ""
+        intervals [174]:
+            xmin = 45.710
+            xmax = 45.990
+            text = "setelah"
+        intervals [175]:
+            xmin = 45.990
+            xmax = 46.130
+            text = "aku"
+        intervals [176]:
+            xmin = 46.130
+            xmax = 46.150
+            text = ""
+        intervals [177]:
+            xmin = 46.150
+            xmax = 46.490
+            text = "masuk"
+        intervals [178]:
+            xmin = 46.490
+            xmax = 46.510
+            text = ""
+        intervals [179]:
+            xmin = 46.510
+            xmax = 46.590
+            text = "ke"
+        intervals [180]:
+            xmin = 46.590
+            xmax = 46.630
+            text = ""
+        intervals [181]:
+            xmin = 46.630
+            xmax = 47.310
+            text = "semester"
+        intervals [182]:
+            xmin = 47.310
+            xmax = 47.330
+            text = ""
+        intervals [183]:
+            xmin = 47.330
+            xmax = 47.590
+            text = "limo"
+        intervals [184]:
+            xmin = 47.590
+            xmax = 47.610
+            text = ""
+        intervals [185]:
+            xmin = 47.610
+            xmax = 47.870
+            text = "ini"
+        intervals [186]:
+            xmin = 47.870
+            xmax = 48.130
+            text = "ternyata"
+        intervals [187]:
+            xmin = 48.130
+            xmax = 48.150
+            text = ""
+        intervals [188]:
+            xmin = 48.150
+            xmax = 48.550
+            text = "farmasi"
+        intervals [189]:
+            xmin = 48.550
+            xmax = 48.570
+            text = ""
+        intervals [190]:
+            xmin = 48.570
+            xmax = 48.670
+            text = "tu"
+        intervals [191]:
+            xmin = 48.670
+            xmax = 48.690
+            text = ""
+        intervals [192]:
+            xmin = 48.690
+            xmax = 48.890
+            text = "berat"
+        intervals [193]:
+            xmin = 48.890
+            xmax = 48.930
+            text = ""
+        intervals [194]:
+            xmin = 48.930
+            xmax = 49.370
+            text = "nian"
+        intervals [195]:
+            xmin = 49.370
+            xmax = 49.810
+            text = ""
+        intervals [196]:
+            xmin = 49.810
+            xmax = 49.930
+            text = "kayak"
+        intervals [197]:
+            xmin = 49.930
+            xmax = 49.950
+            text = ""
+        intervals [198]:
+            xmin = 49.950
+            xmax = 50.350
+            text = "seminggu"
+        intervals [199]:
+            xmin = 50.350
+            xmax = 50.370
+            text = ""
+        intervals [200]:
+            xmin = 50.370
+            xmax = 50.590
+            text = "tu"
+        intervals [201]:
+            xmin = 50.590
+            xmax = 50.610
+            text = ""
+        intervals [202]:
+            xmin = 50.610
+            xmax = 50.850
+            text = "sekarang"
+        intervals [203]:
+            xmin = 50.850
+            xmax = 50.950
+            text = "aku"
+        intervals [204]:
+            xmin = 50.950
+            xmax = 50.970
+            text = ""
+        intervals [205]:
+            xmin = 50.970
+            xmax = 51.050
+            text = "ni"
+        intervals [206]:
+            xmin = 51.050
+            xmax = 51.170
+            text = "ada"
+        intervals [207]:
+            xmin = 51.170
+            xmax = 51.210
+            text = ""
+        intervals [208]:
+            xmin = 51.210
+            xmax = 51.390
+            text = "tiga"
+        intervals [209]:
+            xmin = 51.390
+            xmax = 51.410
+            text = ""
+        intervals [210]:
+            xmin = 51.410
+            xmax = 52.150
+            text = "pratikum"
+        intervals [211]:
+            xmin = 52.150
+            xmax = 52.590
+            text = ""
+        intervals [212]:
+            xmin = 52.590
+            xmax = 52.790
+            text = "aku"
+        intervals [213]:
+            xmin = 52.790
+            xmax = 53.050
+            text = "ada"
+        intervals [214]:
+            xmin = 53.050
+            xmax = 53.130
+            text = ""
+        intervals [215]:
+            xmin = 53.130
+            xmax = 53.370
+            text = "harus"
+        intervals [216]:
+            xmin = 53.370
+            xmax = 53.390
+            text = ""
+        intervals [217]:
+            xmin = 53.390
+            xmax = 53.710
+            text = "kerjoi"
+        intervals [218]:
+            xmin = 53.710
+            xmax = 53.730
+            text = ""
+        intervals [219]:
+            xmin = 53.730
+            xmax = 53.890
+            text = "sebum"
+        intervals [220]:
+            xmin = 53.890
+            xmax = 54.150
+            text = "pratikum"
+        intervals [221]:
+            xmin = 54.150
+            xmax = 54.290
+            text = "terus"
+        intervals [222]:
+            xmin = 54.290
+            xmax = 54.310
+            text = ""
+        intervals [223]:
+            xmin = 54.310
+            xmax = 54.610
+            text = "kerjoi"
+        intervals [224]:
+            xmin = 54.610
+            xmax = 55.070
+            text = "juprak"
+        intervals [225]:
+            xmin = 55.070
+            xmax = 55.110
+            text = ""
+        intervals [226]:
+            xmin = 55.110
+            xmax = 55.310
+            text = "jurnal"
+        intervals [227]:
+            xmin = 55.310
+            xmax = 55.910
+            text = "pratikum"
+        intervals [228]:
+            xmin = 55.910
+            xmax = 56.310
+            text = ""
+        intervals [229]:
+            xmin = 56.310
+            xmax = 56.570
+            text = "terus"
+        intervals [230]:
+            xmin = 56.570
+            xmax = 56.870
+            text = ""
+        intervals [231]:
+            xmin = 56.870
+            xmax = 57.170
+            text = "kerjoi"
+        intervals [232]:
+            xmin = 57.170
+            xmax = 57.190
+            text = ""
+        intervals [233]:
+            xmin = 57.190
+            xmax = 57.490
+            text = "laporan"
+        intervals [234]:
+            xmin = 57.490
+            xmax = 57.510
+            text = ""
+        intervals [235]:
+            xmin = 57.510
+            xmax = 58.030
+            text = "pratikum"
+        intervals [236]:
+            xmin = 58.030
+            xmax = 58.050
+            text = ""
+        intervals [237]:
+            xmin = 58.050
+            xmax = 58.570
+            text = "setelahnya"
+        intervals [238]:
+            xmin = 58.570
+            xmax = 58.730
+            text = "dan"
+        intervals [239]:
+            xmin = 58.730
+            xmax = 58.890
+            text = "itu"
+        intervals [240]:
+            xmin = 58.890
+            xmax = 58.930
+            text = ""
+        intervals [241]:
+            xmin = 58.930
+            xmax = 59.010
+            text = "tu"
+        intervals [242]:
+            xmin = 59.010
+            xmax = 59.050
+            text = ""
+        intervals [243]:
+            xmin = 59.050
+            xmax = 59.210
+            text = "kayak"
+        intervals [244]:
+            xmin = 59.210
+            xmax = 59.650
+            text = ""
+        intervals [245]:
+            xmin = 59.650
+            xmax = 59.850
+            text = "non"
+        intervals [246]:
+            xmin = 59.850
+            xmax = 59.870
+            text = ""
+        intervals [247]:
+            xmin = 59.870
+            xmax = 60.090
+            text = "stop"
+        intervals [248]:
+            xmin = 60.090
+            xmax = 60.110
+            text = ""
+        intervals [249]:
+            xmin = 60.110
+            xmax = 60.770
+            text = "ending"
+        intervals [250]:
+            xmin = 60.770
+            xmax = 61.990
+            text = ""
+        intervals [251]:
+            xmin = 61.990
+            xmax = 62.350
+            text = "kerjoi"
+        intervals [252]:
+            xmin = 62.350
+            xmax = 62.450
+            text = "itu"
+        intervals [253]:
+            xmin = 62.450
+            xmax = 62.530
+            text = "tu"
+        intervals [254]:
+            xmin = 62.530
+            xmax = 62.810
+            text = "sampe"
+        intervals [255]:
+            xmin = 62.810
+            xmax = 62.870
+            text = ""
+        intervals [256]:
+            xmin = 62.870
+            xmax = 63.470
+            text = "capek-capek"
+        intervals [257]:
+            xmin = 63.470
+            xmax = 63.710
+            text = "gitu"
+        intervals [258]:
+            xmin = 63.710
+            xmax = 63.730
+            text = ""
+        intervals [259]:
+            xmin = 63.730
+            xmax = 63.870
+            text = "nah"
+        intervals [260]:
+            xmin = 63.870
+            xmax = 64.170
+            text = ""
+        intervals [261]:
+            xmin = 64.170
+            xmax = 64.330
+            text = "terus"
+        intervals [262]:
+            xmin = 64.330
+            xmax = 64.490
+            text = "ada"
+        intervals [263]:
+            xmin = 64.490
+            xmax = 64.650
+            text = "juga"
+        intervals [264]:
+            xmin = 64.650
+            xmax = 64.890
+            text = "namanyo"
+        intervals [265]:
+            xmin = 64.890
+            xmax = 65.170
+            text = "reagent"
+        intervals [266]:
+            xmin = 65.170
+            xmax = 65.830
+            text = "calculation"
+        intervals [267]:
+            xmin = 65.830
+            xmax = 65.970
+            text = "itu"
+        intervals [268]:
+            xmin = 65.970
+            xmax = 65.990
+            text = ""
+        intervals [269]:
+            xmin = 65.990
+            xmax = 66.230
+            text = "kayak"
+        intervals [270]:
+            xmin = 66.230
+            xmax = 66.810
+            text = ""
+        intervals [271]:
+            xmin = 66.810
+            xmax = 66.950
+            text = "kau"
+        intervals [272]:
+            xmin = 66.950
+            xmax = 67.430
+            text = "harus"
+        intervals [273]:
+            xmin = 67.430
+            xmax = 67.650
+            text = ""
+        intervals [274]:
+            xmin = 67.650
+            xmax = 68.530
+            text = "perhitungan"
+        intervals [275]:
+            xmin = 68.530
+            xmax = 68.970
+            text = "bahan-bahan"
+        intervals [276]:
+            xmin = 68.970
+            xmax = 69.070
+            text = "yang"
+        intervals [277]:
+            xmin = 69.070
+            xmax = 69.150
+            text = "kau"
+        intervals [278]:
+            xmin = 69.150
+            xmax = 69.650
+            text = "butuhke"
+        intervals [279]:
+            xmin = 69.650
+            xmax = 69.670
+            text = ""
+        intervals [280]:
+            xmin = 69.670
+            xmax = 69.930
+            text = "pas"
+        intervals [281]:
+            xmin = 69.930
+            xmax = 70.010
+            text = ""
+        intervals [282]:
+            xmin = 70.010
+            xmax = 70.130
+            text = "kau"
+        intervals [283]:
+            xmin = 70.130
+            xmax = 70.510
+            text = "ngelab"
+        intervals [284]:
+            xmin = 70.510
+            xmax = 70.570
+            text = ""
+        intervals [285]:
+            xmin = 70.570
+            xmax = 70.710
+            text = "gitu"
+        intervals [286]:
+            xmin = 70.710
+            xmax = 70.750
+            text = ""
+        intervals [287]:
+            xmin = 70.750
+            xmax = 70.950
+            text = "nah"
+        intervals [288]:
+            xmin = 70.950
+            xmax = 71.990
+            text = ""
+        intervals [289]:
+            xmin = 71.990
+            xmax = 72.090
+            text = "ini"
+        intervals [290]:
+            xmin = 72.090
+            xmax = 72.130
+            text = ""
+        intervals [291]:
+            xmin = 72.130
+            xmax = 72.310
+            text = "kayak"
+        intervals [292]:
+            xmin = 72.310
+            xmax = 72.670
+            text = "nyobrat"
+        intervals [293]:
+            xmin = 72.670
+            xmax = 72.710
+            text = ""
+        intervals [294]:
+            xmin = 72.710
+            xmax = 72.910
+            text = "jugo"
+        intervals [295]:
+            xmin = 72.910
+            xmax = 73.330
+            text = "farmasi"
+        intervals [296]:
+            xmin = 73.330
+            xmax = 73.510
+            text = "itu"
+        intervals [297]:
+            xmin = 73.510
+            xmax = 73.610
+            text = "ee"
+        intervals [298]:
+            xmin = 73.610
+            xmax = 75.800
+            text = ""
+        intervals [299]:
+            xmin = 75.800
+            xmax = 75.960
+            text = "kala"
+        intervals [300]:
+            xmin = 75.960
+            xmax = 76.080
+            text = "aku"
+        intervals [301]:
+            xmin = 76.080
+            xmax = 76.180
+            text = "dak"
+        intervals [302]:
+            xmin = 76.180
+            xmax = 76.280
+            text = "di"
+        intervals [303]:
+            xmin = 76.280
+            xmax = 76.580
+            text = "jurusan"
+        intervals [304]:
+            xmin = 76.580
+            xmax = 77.080
+            text = "farmasi"
+        intervals [305]:
+            xmin = 77.080
+            xmax = 77.240
+            text = "aku"
+        intervals [306]:
+            xmin = 77.240
+            xmax = 77.560
+            text = "sebenernya"
+        intervals [307]:
+            xmin = 77.560
+            xmax = 77.600
+            text = ""
+        intervals [308]:
+            xmin = 77.600
+            xmax = 78.260
+            text = "pengen"
+        intervals [309]:
+            xmin = 78.260
+            xmax = 79.640
+            text = ""
+        intervals [310]:
+            xmin = 79.640
+            xmax = 80.120
+            text = "kulineri"
+        intervals [311]:
+            xmin = 80.120
+            xmax = 80.220
+            text = "atau"
+        intervals [312]:
+            xmin = 80.220
+            xmax = 80.260
+            text = ""
+        intervals [313]:
+            xmin = 80.260
+            xmax = 80.840
+            text = "pastry"
+        intervals [314]:
+            xmin = 80.840
+            xmax = 81.040
+            text = ""
+        intervals [315]:
+            xmin = 81.040
+            xmax = 81.360
+            text = "karena"
+        intervals [316]:
+            xmin = 81.360
+            xmax = 81.680
+            text = ""
+        intervals [317]:
+            xmin = 81.680
+            xmax = 81.920
+            text = "menurut"
+        intervals [318]:
+            xmin = 81.920
+            xmax = 81.940
+            text = ""
+        intervals [319]:
+            xmin = 81.940
+            xmax = 82.300
+            text = "aku"
+        intervals [320]:
+            xmin = 82.300
+            xmax = 83.080
+            text = ""
+        intervals [321]:
+            xmin = 83.080
+            xmax = 83.460
+            text = "masak"
+        intervals [322]:
+            xmin = 83.460
+            xmax = 83.520
+            text = ""
+        intervals [323]:
+            xmin = 83.520
+            xmax = 83.780
+            text = "tu"
+        intervals [324]:
+            xmin = 83.780
+            xmax = 84.460
+            text = "refreshing"
+        intervals [325]:
+            xmin = 84.460
+            xmax = 84.800
+            text = "kok"
+        intervals [326]:
+            xmin = 84.800
+            xmax = 85.760
+            text = ""
+        intervals [327]:
+            xmin = 85.760
+            xmax = 85.980
+            text = "terus"
+        intervals [328]:
+            xmin = 85.980
+            xmax = 86.060
+            text = ""
+        intervals [329]:
+            xmin = 86.060
+            xmax = 86.340
+            text = "buat"
+        intervals [330]:
+            xmin = 86.340
+            xmax = 86.380
+            text = ""
+        intervals [331]:
+            xmin = 86.380
+            xmax = 86.840
+            text = "pastry"
+        intervals [332]:
+            xmin = 86.840
+            xmax = 87.220
+            text = "baking"
+        intervals [333]:
+            xmin = 87.220
+            xmax = 87.340
+            text = "tu"
+        intervals [334]:
+            xmin = 87.340
+            xmax = 87.480
+            text = "aku"
+        intervals [335]:
+            xmin = 87.480
+            xmax = 87.660
+            text = "jugo"
+        intervals [336]:
+            xmin = 87.660
+            xmax = 88.180
+            text = "seneng"
+        intervals [337]:
+            xmin = 88.180
+            xmax = 89.460
+            text = ""
+        intervals [338]:
+            xmin = 89.460
+            xmax = 89.740
+            text = "lebih"
+        intervals [339]:
+            xmin = 89.740
+            xmax = 89.780
+            text = ""
+        intervals [340]:
+            xmin = 89.780
+            xmax = 90.400
+            text = "tenang"
+        intervals [341]:
+            xmin = 90.400
+            xmax = 90.780
+            text = ""
+        intervals [342]:
+            xmin = 90.780
+            xmax = 91.120
+            text = "seneng"
+        intervals [343]:
+            xmin = 91.120
+            xmax = 91.620
+            text = "aja"
+        intervals [344]:
+            xmin = 91.620
+            xmax = 92.220
+            text = ""
+        intervals [345]:
+            xmin = 92.220
+            xmax = 92.960
+            text = "hasilnya"
+        intervals [346]:
+            xmin = 92.960
+            xmax = 93.280
+            text = ""
+        intervals [347]:
+            xmin = 93.280
+            xmax = 93.360
+            text = "pas"
+        intervals [348]:
+            xmin = 93.360
+            xmax = 93.540
+            text = "jadi"
+        intervals [349]:
+            xmin = 93.540
+            xmax = 94.140
+            text = "makan"
+        intervals [350]:
+            xmin = 94.140
+            xmax = 94.260
+            text = ""
+        intervals [351]:
+            xmin = 94.260
+            xmax = 95.440
+            text = "terus"
+        intervals [352]:
+            xmin = 95.440
+            xmax = 95.480
+            text = ""
+        intervals [353]:
+            xmin = 95.480
+            xmax = 95.680
+            text = "kalu"
+        intervals [354]:
+            xmin = 95.680
+            xmax = 95.960
+            text = "udah"
+        intervals [355]:
+            xmin = 95.960
+            xmax = 96.180
+            text = "itu"
+        intervals [356]:
+            xmin = 96.180
+            xmax = 96.360
+            text = "aku"
+        intervals [357]:
+            xmin = 96.360
+            xmax = 96.640
+            text = "juga"
+        intervals [358]:
+            xmin = 96.640
+            xmax = 96.720
+            text = ""
+        intervals [359]:
+            xmin = 96.720
+            xmax = 97.540
+            text = "pengen"
+        intervals [360]:
+            xmin = 97.540
+            xmax = 98.640
+            text = ""
+        intervals [361]:
+            xmin = 98.640
+            xmax = 98.760
+            text = "oh"
+        intervals [362]:
+            xmin = 98.760
+            xmax = 99.000
+            text = "ini"
+        intervals [363]:
+            xmin = 99.000
+            xmax = 99.880
+            text = "jurusan"
+        intervals [364]:
+            xmin = 99.880
+            xmax = 100.480
+            text = ""
+        intervals [365]:
+            xmin = 100.480
+            xmax = 101.340
+            text = "bahasa"
+        intervals [366]:
+            xmin = 101.340
+            xmax = 101.720
+            text = ""
+        intervals [367]:
+            xmin = 101.720
+            xmax = 101.960
+            text = "iyo"
+        intervals [368]:
+            xmin = 101.960
+            xmax = 102.380
+            text = ""
+        intervals [369]:
+            xmin = 102.380
+            xmax = 102.780
+            text = "mungkin"
+        intervals [370]:
+            xmin = 102.780
+            xmax = 103.400
+            text = "bahasa"
+        intervals [371]:
+            xmin = 103.400
+            xmax = 103.640
+            text = "apo"
+        intervals [372]:
+            xmin = 103.640
+            xmax = 103.720
+            text = "ya"
+        intervals [373]:
+            xmin = 103.720
+            xmax = 104.980
+            text = ""
+        intervals [374]:
+            xmin = 104.980
+            xmax = 105.140
+            text = "dulu"
+        intervals [375]:
+            xmin = 105.140
+            xmax = 105.160
+            text = ""
+        intervals [376]:
+            xmin = 105.160
+            xmax = 105.240
+            text = "tu"
+        intervals [377]:
+            xmin = 105.240
+            xmax = 105.380
+            text = "aku"
+        intervals [378]:
+            xmin = 105.380
+            xmax = 105.540
+            text = ""
+        intervals [379]:
+            xmin = 105.540
+            xmax = 105.800
+            text = "sempet"
+        intervals [380]:
+            xmin = 105.800
+            xmax = 105.840
+            text = ""
+        intervals [381]:
+            xmin = 105.840
+            xmax = 106.100
+            text = "belajar"
+        intervals [382]:
+            xmin = 106.100
+            xmax = 106.360
+            text = "bahasa"
+        intervals [383]:
+            xmin = 106.360
+            xmax = 106.400
+            text = ""
+        intervals [384]:
+            xmin = 106.400
+            xmax = 107.140
+            text = "perancis"
+        intervals [385]:
+            xmin = 107.140
+            xmax = 107.440
+            text = ""
+        intervals [386]:
+            xmin = 107.440
+            xmax = 107.600
+            text = "pas"
+        intervals [387]:
+            xmin = 107.600
+            xmax = 107.620
+            text = ""
+        intervals [388]:
+            xmin = 107.620
+            xmax = 108.280
+            text = "sma"
+        intervals [389]:
+            xmin = 108.280
+            xmax = 109.360
+            text = ""
+        intervals [390]:
+            xmin = 109.360
+            xmax = 109.660
+            text = "ee"
+        intervals [391]:
+            xmin = 109.660
+            xmax = 110.060
+            text = "lumayan"
+        intervals [392]:
+            xmin = 110.060
+            xmax = 110.160
+            text = "sih"
+        intervals [393]:
+            xmin = 110.160
+            xmax = 110.340
+            text = "aku"
+        intervals [394]:
+            xmin = 110.340
+            xmax = 110.760
+            text = "suka"
+        intervals [395]:
+            xmin = 110.760
+            xmax = 110.780
+            text = ""
+        intervals [396]:
+            xmin = 110.780
+            xmax = 111.000
+            text = "tapi"
+        intervals [397]:
+            xmin = 111.000
+            xmax = 111.040
+            text = ""
+        intervals [398]:
+            xmin = 111.040
+            xmax = 111.260
+            text = "kayak"
+        intervals [399]:
+            xmin = 111.260
+            xmax = 111.280
+            text = ""
+        intervals [400]:
+            xmin = 111.280
+            xmax = 112.160
+            text = "pronuncationnya"
+        intervals [401]:
+            xmin = 112.160
+            xmax = 112.400
+            text = "lumayan"
+        intervals [402]:
+            xmin = 112.400
+            xmax = 112.420
+            text = ""
+        intervals [403]:
+            xmin = 112.420
+            xmax = 112.980
+            text = "susah"
+        intervals [404]:
+            xmin = 112.980
+            xmax = 113.660
+            text = ""
+        intervals [405]:
+            xmin = 113.660
+            xmax = 113.860
+            text = "tapi"
+        intervals [406]:
+            xmin = 113.860
+            xmax = 114.140
+            text = "kayaknya"
+        intervals [407]:
+            xmin = 114.140
+            xmax = 114.400
+            text = "bahasa"
+        intervals [408]:
+            xmin = 114.400
+            xmax = 114.740
+            text = "mandarin"
+        intervals [409]:
+            xmin = 114.740
+            xmax = 114.880
+            text = "aku"
+        intervals [410]:
+            xmin = 114.880
+            xmax = 115.020
+            text = "juga"
+        intervals [411]:
+            xmin = 115.020
+            xmax = 115.040
+            text = ""
+        intervals [412]:
+            xmin = 115.040
+            xmax = 115.400
+            text = "tertarik"
+        intervals [413]:
+            xmin = 115.400
+            xmax = 115.480
+            text = "deh"
+        intervals [414]:
+            xmin = 115.480
+            xmax = 115.620
+            text = "soalnya"
+        intervals [415]:
+            xmin = 115.620
+            xmax = 115.660
+            text = ""
+        intervals [416]:
+            xmin = 115.660
+            xmax = 115.800
+            text = "kan"
+        intervals [417]:
+            xmin = 115.800
+            xmax = 116.100
+            text = "sekarang"
+        intervals [418]:
+            xmin = 116.100
+            xmax = 116.220
+            text = ""
+        intervals [419]:
+            xmin = 116.220
+            xmax = 116.540
+            text = "mandarin"
+        intervals [420]:
+            xmin = 116.540
+            xmax = 116.600
+            text = "tu"
+        intervals [421]:
+            xmin = 116.600
+            xmax = 116.640
+            text = ""
+        intervals [422]:
+            xmin = 116.640
+            xmax = 117.000
+            text = "perlu"
+        intervals [423]:
+            xmin = 117.000
+            xmax = 117.300
+            text = "nian"
+        intervals [424]:
+            xmin = 117.300
+            xmax = 117.420
+            text = "ya"
+        intervals [425]:
+            xmin = 117.420
+            xmax = 118.280
+            text = ""
+        intervals [426]:
+            xmin = 118.280
+            xmax = 118.560
+            text = "cak"
+        intervals [427]:
+            xmin = 118.560
+            xmax = 119.040
+            text = "wong"
+        intervals [428]:
+            xmin = 119.040
+            xmax = 119.120
+            text = ""
+        intervals [429]:
+            xmin = 119.120
+            xmax = 119.240
+            text = "di"
+        intervals [430]:
+            xmin = 119.240
+            xmax = 119.440
+            text = "luar"
+        intervals [431]:
+            xmin = 119.440
+            xmax = 119.480
+            text = ""
+        intervals [432]:
+            xmin = 119.480
+            xmax = 119.620
+            text = "tu"
+        intervals [433]:
+            xmin = 119.620
+            xmax = 120.140
+            text = "bisnis-bisnis"
+        intervals [434]:
+            xmin = 120.140
+            xmax = 120.160
+            text = ""
+        intervals [435]:
+            xmin = 120.160
+            xmax = 120.340
+            text = "pake"
+        intervals [436]:
+            xmin = 120.340
+            xmax = 120.780
+            text = "mandarin"
+        intervals [437]:
+            xmin = 120.780
+            xmax = 120.960
+            text = "galo"
+        intervals [438]:
+            xmin = 120.960
+            xmax = 121.000
+            text = "oh"
+        intervals [439]:
+            xmin = 121.000
+            xmax = 121.320
+            text = ""
+        intervals [440]:
+            xmin = 121.320
+            xmax = 121.540
+            text = "iya"
+        intervals [441]:
+            xmin = 121.540
+            xmax = 121.720
+            text = "ini"
+        intervals [442]:
+            xmin = 121.720
+            xmax = 122.100
+            text = "jurusan"
+        intervals [443]:
+            xmin = 122.100
+            xmax = 122.500
+            text = "ketiga"
+        intervals [444]:
+            xmin = 122.500
+            xmax = 122.740
+            text = "aku"
+        intervals [445]:
+            xmin = 122.740
+            xmax = 122.780
+            text = ""
+        intervals [446]:
+            xmin = 122.780
+            xmax = 122.960
+            text = "juga"
+        intervals [447]:
+            xmin = 122.960
+            xmax = 122.980
+            text = ""
+        intervals [448]:
+            xmin = 122.980
+            xmax = 123.300
+            text = "pengen"
+        intervals [449]:
+            xmin = 123.300
+            xmax = 123.860
+            text = "bisnis"
+        intervals [450]:
+            xmin = 123.860
+            xmax = 123.920
+            text = ""
+        intervals [451]:
+            xmin = 123.920
+            xmax = 124.140
+            text = "karno"
+        intervals [452]:
+            xmin = 124.140
+            xmax = 124.180
+            text = ""
+        intervals [453]:
+            xmin = 124.180
+            xmax = 124.280
+            text = "kayak"
+        intervals [454]:
+            xmin = 124.280
+            xmax = 124.420
+            text = "aku"
+        intervals [455]:
+            xmin = 124.420
+            xmax = 124.440
+            text = ""
+        intervals [456]:
+            xmin = 124.440
+            xmax = 124.660
+            text = "pikir"
+        intervals [457]:
+            xmin = 124.660
+            xmax = 124.860
+            text = "bakal"
+        intervals [458]:
+            xmin = 124.860
+            xmax = 125.200
+            text = "kepake"
+        intervals [459]:
+            xmin = 125.200
+            xmax = 125.260
+            text = ""
+        intervals [460]:
+            xmin = 125.260
+            xmax = 125.520
+            text = "kayaknya"
+        intervals [461]:
+            xmin = 125.520
+            xmax = 125.780
+            text = "itu"
+        intervals [462]:
+            xmin = 125.780
+            xmax = 125.960
+            text = "lo"
+        intervals [463]:
+            xmin = 125.960
+            xmax = 126.840
+            text = ""
+        intervals [464]:
+            xmin = 126.840
+            xmax = 127.020
+            text = "kalo"
+        intervals [465]:
+            xmin = 127.020
+            xmax = 127.040
+            text = ""
+        intervals [466]:
+            xmin = 127.040
+            xmax = 127.140
+            text = "kau"
+        intervals [467]:
+            xmin = 127.140
+            xmax = 127.260
+            text = "nak"
+        intervals [468]:
+            xmin = 127.260
+            xmax = 127.480
+            text = "buka"
+        intervals [469]:
+            xmin = 127.480
+            xmax = 127.800
+            text = "bisnis"
+        intervals [470]:
+            xmin = 127.800
+            xmax = 127.960
+            text = "atau"
+        intervals [471]:
+            xmin = 127.960
+            xmax = 128.100
+            text = "cak"
+        intervals [472]:
+            xmin = 128.100
+            xmax = 128.320
+            text = "mano"
+        intervals [473]:
+            xmin = 128.320
+            xmax = 128.440
+            text = "cak"
+        intervals [474]:
+            xmin = 128.440
+            xmax = 128.560
+            text = "itu"
+        intervals [475]:
+            xmin = 128.560
+            xmax = 128.580
+            text = ""
+        intervals [476]:
+            xmin = 128.580
+            xmax = 128.780
+            text = "kan"
+        intervals [477]:
+            xmin = 128.780
+            xmax = 130.320
+            text = ""
+        intervals [478]:
+            xmin = 130.320
+            xmax = 130.540
+            text = "karno"
+        intervals [479]:
+            xmin = 130.540
+            xmax = 130.580
+            text = ""
+        intervals [480]:
+            xmin = 130.580
+            xmax = 130.720
+            text = "kayak"
+        intervals [481]:
+            xmin = 130.720
+            xmax = 130.780
+            text = ""
+        intervals [482]:
+            xmin = 130.780
+            xmax = 131.360
+            text = "sekarang"
+        intervals [483]:
+            xmin = 131.360
+            xmax = 131.720
+            text = ""
+        intervals [484]:
+            xmin = 131.720
+            xmax = 132.200
+            text = "kayaknyo"
+        intervals [485]:
+            xmin = 132.200
+            xmax = 132.420
+            text = ""
+        intervals [486]:
+            xmin = 132.420
+            xmax = 132.700
+            text = "banyak"
+        intervals [487]:
+            xmin = 132.700
+            xmax = 132.860
+            text = "deh"
+        intervals [488]:
+            xmin = 132.860
+            xmax = 133.020
+            text = "wong"
+        intervals [489]:
+            xmin = 133.020
+            xmax = 133.040
+            text = ""
+        intervals [490]:
+            xmin = 133.040
+            xmax = 133.320
+            text = "yang"
+        intervals [491]:
+            xmin = 133.320
+            xmax = 133.460
+            text = "be"
+        intervals [492]:
+            xmin = 133.460
+            xmax = 133.480
+            text = ""
+        intervals [493]:
+            xmin = 133.480
+            xmax = 133.920
+            text = "jurusan"
+        intervals [494]:
+            xmin = 133.920
+            xmax = 134.160
+            text = "itu"
+        intervals [495]:
+            xmin = 134.160
+            xmax = 135.750
+            text = ""
+        intervals [496]:
+            xmin = 135.750
+            xmax = 136.110
+            text = "terus"
+        intervals [497]:
+            xmin = 136.110
+            xmax = 136.150
+            text = ""
+        intervals [498]:
+            xmin = 136.150
+            xmax = 136.390
+            text = "bakal"
+        intervals [499]:
+            xmin = 136.390
+            xmax = 136.530
+            text = "aku"
+        intervals [500]:
+            xmin = 136.530
+            xmax = 136.550
+            text = ""
+        intervals [501]:
+            xmin = 136.550
+            xmax = 136.850
+            text = "pake"
+        intervals [502]:
+            xmin = 136.850
+            xmax = 136.890
+            text = ""
+        intervals [503]:
+            xmin = 136.890
+            xmax = 137.350
+            text = "kaitul"
+        intervals [504]:
+            xmin = 137.350
+            xmax = 139.354
+            text = ""
+    item [4]:
+        class = "IntervalTier"
+        name = "event"
+        xmin = 0
+        xmax = 139.354
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000
+            xmax = 139.354
+            text = ""

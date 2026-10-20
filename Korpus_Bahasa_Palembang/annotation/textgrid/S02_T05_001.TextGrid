@@ -1,0 +1,160 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 5.246
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "utterance"
+        xmin = 0
+        xmax = 5.246
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.000
+            xmax = 0.820
+            text = ""
+        intervals [2]:
+            xmin = 0.820
+            xmax = 1.020
+            text = "dah"
+        intervals [3]:
+            xmin = 1.020
+            xmax = 2.220
+            text = ""
+        intervals [4]:
+            xmin = 2.220
+            xmax = 4.780
+            text = "sejauh ini itu yang ingin aku ceritai thank you makasih bye bye"
+        intervals [5]:
+            xmin = 4.780
+            xmax = 5.246
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "speaker"
+        xmin = 0
+        xmax = 5.246
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.000
+            xmax = 0.820
+            text = ""
+        intervals [2]:
+            xmin = 0.820
+            xmax = 1.020
+            text = "S02"
+        intervals [3]:
+            xmin = 1.020
+            xmax = 2.220
+            text = ""
+        intervals [4]:
+            xmin = 2.220
+            xmax = 4.780
+            text = "S02"
+        intervals [5]:
+            xmin = 4.780
+            xmax = 5.246
+            text = ""
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0
+        xmax = 5.246
+        intervals: size = 21
+        intervals [1]:
+            xmin = 0.000
+            xmax = 0.820
+            text = ""
+        intervals [2]:
+            xmin = 0.820
+            xmax = 1.020
+            text = "dah"
+        intervals [3]:
+            xmin = 1.020
+            xmax = 2.220
+            text = ""
+        intervals [4]:
+            xmin = 2.220
+            xmax = 2.500
+            text = "sejauh"
+        intervals [5]:
+            xmin = 2.500
+            xmax = 2.660
+            text = "ini"
+        intervals [6]:
+            xmin = 2.660
+            xmax = 2.800
+            text = "itu"
+        intervals [7]:
+            xmin = 2.800
+            xmax = 2.900
+            text = "yang"
+        intervals [8]:
+            xmin = 2.900
+            xmax = 3.020
+            text = "ingin"
+        intervals [9]:
+            xmin = 3.020
+            xmax = 3.100
+            text = "aku"
+        intervals [10]:
+            xmin = 3.100
+            xmax = 3.140
+            text = ""
+        intervals [11]:
+            xmin = 3.140
+            xmax = 3.460
+            text = "ceritai"
+        intervals [12]:
+            xmin = 3.460
+            xmax = 3.540
+            text = ""
+        intervals [13]:
+            xmin = 3.540
+            xmax = 3.780
+            text = "thank"
+        intervals [14]:
+            xmin = 3.780
+            xmax = 3.840
+            text = ""
+        intervals [15]:
+            xmin = 3.840
+            xmax = 3.980
+            text = "you"
+        intervals [16]:
+            xmin = 3.980
+            xmax = 4.000
+            text = ""
+        intervals [17]:
+            xmin = 4.000
+            xmax = 4.420
+            text = "makasih"
+        intervals [18]:
+            xmin = 4.420
+            xmax = 4.500
+            text = "bye"
+        intervals [19]:
+            xmin = 4.500
+            xmax = 4.520
+            text = ""
+        intervals [20]:
+            xmin = 4.520
+            xmax = 4.780
+            text = "bye"
+        intervals [21]:
+            xmin = 4.780
+            xmax = 5.246
+            text = ""
+    item [4]:
+        class = "IntervalTier"
+        name = "event"
+        xmin = 0
+        xmax = 5.246
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000
+            xmax = 5.246
+            text = ""

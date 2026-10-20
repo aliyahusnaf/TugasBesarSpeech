@@ -1,0 +1,150 @@
+{
+ "S01_T01_001": [],
+ "S01_T02_001": [
+  {
+   "start": 72.0,
+   "end": 74.0,
+   "label": "cough",
+   "cls": "Throat clearing",
+   "score": 0.311
+  }
+ ],
+ "S01_T03_001": [
+  {
+   "start": 80.0,
+   "end": 82.0,
+   "label": "cough",
+   "cls": "Throat clearing",
+   "score": 0.317
+  },
+  {
+   "start": 133.0,
+   "end": 136.0,
+   "label": "cough",
+   "cls": "Throat clearing",
+   "score": 0.665
+  }
+ ],
+ "S01_T04_001": [],
+ "S01_T05_001": [],
+ "S02_T01_001": [],
+ "S02_T02_001": [],
+ "S02_T03_001": [],
+ "S02_T04_001": [],
+ "S02_T05_001": [],
+ "S03_T01_001": [],
+ "S03_T02_001": [],
+ "S03_T03_001": [],
+ "S03_T04_001": [
+  {
+   "start": 25.0,
+   "end": 27.0,
+   "label": "noise",
+   "cls": "Music",
+   "score": 0.286
+  },
+  {
+   "start": 388.0,
+   "end": 390.0,
+   "label": "noise",
+   "cls": "Music",
+   "score": 0.395
+  }
+ ],
+ "S03_T05_001": [],
+ "S04_T01_001": [],
+ "S04_T02_001": [],
+ "S04_T03_001": [],
+ "S04_T04_001": [
+  {
+   "start": 80.0,
+   "end": 82.0,
+   "label": "noise",
+   "cls": "Music",
+   "score": 0.288
+  },
+  {
+   "start": 120.0,
+   "end": 122.0,
+   "label": "noise",
+   "cls": "Music",
+   "score": 0.501
+  },
+  {
+   "start": 124.0,
+   "end": 126.0,
+   "label": "noise",
+   "cls": "Door",
+   "score": 0.282
+  },
+  {
+   "start": 150.0,
+   "end": 152.0,
+   "label": "noise",
+   "cls": "Music",
+   "score": 0.257
+  },
+  {
+   "start": 368.0,
+   "end": 370.0,
+   "label": "noise",
+   "cls": "Slam",
+   "score": 0.291
+  },
+  {
+   "start": 378.0,
+   "end": 380.0,
+   "label": "noise",
+   "cls": "Music",
+   "score": 0.324
+  },
+  {
+   "start": 384.0,
+   "end": 386.0,
+   "label": "noise",
+   "cls": "Music",
+   "score": 0.291
+  },
+  {
+   "start": 481.0,
+   "end": 484.0,
+   "label": "noise",
+   "cls": "Music",
+   "score": 0.378
+  }
+ ],
+ "S04_T05_001": [],
+ "S05_T01_001": [],
+ "S05_T04_001": [
+  {
+   "start": 15.0,
+   "end": 18.0,
+   "label": "noise",
+   "cls": "Music",
+   "score": 0.297
+  },
+  {
+   "start": 151.0,
+   "end": 153.0,
+   "label": "cough",
+   "cls": "Throat clearing",
+   "score": 0.316
+  }
+ ],
+ "S05_T05_001": [],
+ "S07_T01_001": [
+  {
+   "start": 1.0,
+   "end": 3.0,
+   "label": "noise",
+   "cls": "Music",
+   "score": 0.287
+  }
+ ],
+ "S07_T02_001": [],
+ "S07_T03_001": [],
+ "S07_T04_001": [],
+ "S07_T05_001": [],
+ "S09_T01_001": [],
+ "S09_T02_001": []
+}

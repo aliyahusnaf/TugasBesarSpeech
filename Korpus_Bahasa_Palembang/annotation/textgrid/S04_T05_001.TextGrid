@@ -1,0 +1,88 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.884
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "utterance"
+        xmin = 0
+        xmax = 0.884
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000
+            xmax = 0.100
+            text = ""
+        intervals [2]:
+            xmin = 0.100
+            xmax = 0.860
+            text = "oke thank you guys"
+        intervals [3]:
+            xmin = 0.860
+            xmax = 0.884
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "speaker"
+        xmin = 0
+        xmax = 0.884
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000
+            xmax = 0.100
+            text = ""
+        intervals [2]:
+            xmin = 0.100
+            xmax = 0.860
+            text = "S04"
+        intervals [3]:
+            xmin = 0.860
+            xmax = 0.884
+            text = ""
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0
+        xmax = 0.884
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.000
+            xmax = 0.100
+            text = ""
+        intervals [2]:
+            xmin = 0.100
+            xmax = 0.220
+            text = "oke"
+        intervals [3]:
+            xmin = 0.220
+            xmax = 0.240
+            text = ""
+        intervals [4]:
+            xmin = 0.240
+            xmax = 0.400
+            text = "thank"
+        intervals [5]:
+            xmin = 0.400
+            xmax = 0.500
+            text = "you"
+        intervals [6]:
+            xmin = 0.500
+            xmax = 0.860
+            text = "guys"
+        intervals [7]:
+            xmin = 0.860
+            xmax = 0.884
+            text = ""
+    item [4]:
+        class = "IntervalTier"
+        name = "event"
+        xmin = 0
+        xmax = 0.884
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000
+            xmax = 0.884
+            text = ""

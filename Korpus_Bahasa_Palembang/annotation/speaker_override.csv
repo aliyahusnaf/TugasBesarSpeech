@@ -1,0 +1,24 @@
+Utterance_ID,Speaker,Similarity_to_S04,Note
+S04_T04_0002,S04,0.878,suara mirip S04
+S04_T04_0010,OTHER,0.687,suara teman
+S04_T04_0012,OTHER,0.517,suara teman
+S04_T04_0015,OTHER,0.585,suara teman
+S04_T04_0016,OTHER,0.569,suara teman
+S04_T04_0017,OTHER,0.603,suara teman
+S04_T04_0018,S04,0.913,S04 bertanya
+S04_T04_0021,OTHER,0.697,suara teman
+S04_T04_0022,S04,0.940,S04 bertanya
+S04_T04_0023,OTHER,,jawaban teman (konteks)
+S04_T04_0024,S04,,tanggapan S04 (konteks)
+S04_T04_0026,OTHER,0.612,suara teman
+S04_T04_0027,S04,0.923,S04 menanggapi
+S04_T04_0032,OTHER,0.530,suara teman
+S04_T04_0059,OTHER,0.582,suara teman
+S04_T04_0060,OTHER,0.488,suara teman
+S04_T04_0062,S04,0.888,S04 menanggapi
+S04_T04_0071,S04,0.812,suara mirip S04
+S04_T04_0011,S04,,pertanyaan S04 (konteks; terlalu pendek untuk embedding)
+S04_T04_0013,S04,,pertanyaan S04 (konteks; terlalu pendek untuk embedding)
+S04_T04_0014,OTHER,,jawaban teman (konteks)
+S04_T04_0019,OTHER,0.563,suara teman
+S04_T04_0020,S04,0.529,pertanyaan S04 (konteks; segmen < 1 detik)
