@@ -132,6 +132,24 @@
   }
  ],
  "S05_T05_001": [],
+ "S06_T01_001": [],
+ "S06_T02_001": [
+  {
+   "start": 32.0,
+   "end": 34.0,
+   "label": "cough",
+   "cls": "Throat clearing",
+   "score": 0.34
+  },
+  {
+   "start": 128.0,
+   "end": 131.0,
+   "label": "cough",
+   "cls": "Throat clearing",
+   "score": 0.925
+  }
+ ],
+ "S06_T05_001": [],
  "S07_T01_001": [
   {
    "start": 1.0,

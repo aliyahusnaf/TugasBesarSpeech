@@ -1,0 +1,35 @@
+File,Utterance_ID,Start,End,Issue,Detail,Status
+S06_T02_001.wav,S06_T02_0001,1.470,2.230,low_alignment_score,ee; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,S06_T02_0003,15.130,16.070,low_alignment_score,jujur; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,,20.000,32.000,pronunciation_ambiguity,Check budok-budok vs budak-budak; both ASR drafts support an o-like pronunciation.,Needs listening review
+S06_T02_001.wav,S06_T02_0005,27.130,28.010,low_alignment_score,dalam; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,,32.000,34.000,event_candidate,Throat clearing; model score=0.34; verify event and boundaries,Needs listening review
+S06_T02_001.wav,,38.380,54.320,phrase_ambiguity,Close CTC alternatives (gap=2.8): alesan yang dak seriusnyo,Needs listening review
+S06_T02_001.wav,S06_T02_0016,79.130,79.910,low_alignment_score,kaos; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,,83.000,101.710,phrase_ambiguity,Close CTC alternatives (gap=2.6): pas aku cari tau / pilih,Needs listening review
+S06_T02_001.wav,S06_T02_0026,124.095,124.995,low_alignment_score,jujur; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,,128.000,131.000,event_candidate,Throat clearing; model score=0.925; verify event and boundaries,Needs listening review
+S06_T02_001.wav,S06_T02_0034,170.145,171.005,low_alignment_score,atau; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,S06_T02_0038,183.205,184.245,low_alignment_score,atau; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,S06_T02_0043,222.325,223.285,low_alignment_score,isu; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,S06_T02_0052,287.020,288.040,low_alignment_score,daerah; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,S06_T02_0052,288.520,289.300,low_alignment_score,ini; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,,298.800,315.200,phrase_ambiguity,Close CTC alternatives (gap=1.3): alasan / karena ada / sempet,Needs listening review
+S06_T02_001.wav,S06_T02_0056,302.180,303.600,low_alignment_score,milih ini; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,,316.180,328.940,phrase_ambiguity,Close CTC alternatives (gap=4.8): penyesalan,Needs listening review
+S06_T02_001.wav,,329.530,348.660,phrase_ambiguity,Close CTC alternatives (gap=4.6): ngeliati,Needs listening review
+S06_T02_001.wav,,349.360,364.200,phrase_ambiguity,Close CTC alternatives (gap=0.1): dak lihai nian / peot-peot,Needs listening review
+S06_T02_001.wav,S06_T02_0070,392.350,393.290,low_alignment_score,itu; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,,398.870,416.890,phrase_ambiguity,Close CTC alternatives (gap=4.1): seluki / keedar / takot kalu lah,Needs listening review
+S06_T02_001.wav,,405.000,414.000,pronunciation_ambiguity,Check keder: ASR spelled keedar; transcript uses lexical spelling keder.,Needs listening review
+S06_T02_001.wav,S06_T02_0075,422.290,423.130,low_alignment_score,dak; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,,439.730,454.210,phrase_ambiguity,Close CTC alternatives (gap=0.1): sempet,Needs listening review
+S06_T02_001.wav,,455.000,465.000,pronunciation_ambiguity,Check diprakteke: ASR/CTC favored diprateke; transcript uses intended lexical spelling diprakteke.,Needs listening review
+S06_T02_001.wav,S06_T02_0085,492.190,493.030,low_alignment_score,atau; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,S06_T02_0087,496.510,497.570,low_alignment_score,deadline; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,S06_T02_0089,512.370,513.310,low_alignment_score,project; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,,542.100,556.300,phrase_ambiguity,Close CTC alternatives (gap=0.4): ngejar / ketawa-tawa,Needs listening review
+S06_T02_001.wav,S06_T02_0095,546.315,547.435,low_alignment_score,deadline; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,S06_T02_0096,549.655,550.515,low_alignment_score,berat; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,S06_T02_0098,564.055,565.215,low_alignment_score,alhamdulillah; MMS score <0.20; verify transcript/timing,Needs listening review
+S06_T02_001.wav,S06_T02_0098,573.155,574.095,low_alignment_score,akhirnyo; MMS score <0.20; verify transcript/timing,Needs listening review

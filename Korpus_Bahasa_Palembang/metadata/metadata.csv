@@ -22,9 +22,9 @@ S04_T05_001.wav,S04,P,20,Palembang,Palembang,Ya,spontaneous,20,Penutup,0.88,iOS,
 S05_T01_001.wav,S05,P,19,Palembang,Palembang,Ya,spontaneous,19,Perkenalan,12.92,iOS,Indoor,Good
 S05_T04_001.wav,S05,P,19,Palembang,Palembang,Ya,spontaneous,19,Makanan favorit,583.20,iOS,Indoor,Good
 S05_T05_001.wav,S05,P,19,Palembang,Palembang,Ya,spontaneous,19,Penutup,23.69,iOS,Indoor,Acceptable
-S06_T01_001.wav,S06,P,20,Palembang,Tangerang Selatan,Tidak,spontaneous,20,Perkenalan,18.54,Android,Indoor,Good
-S06_T02_001.wav,S06,P,20,Palembang,Tangerang Selatan,Tidak,spontaneous,20,Hobi,575.88,Android,Indoor,Good
-S06_T05_001.wav,S06,P,20,Palembang,Tangerang Selatan,Tidak,spontaneous,20,Penutup,10.96,Android,Indoor,Good
+S06_T01_001.wav,S06,P,20,Palembang,Tangerang Selatan,Tidak,read,20,Perkenalan,18.54,Android,Indoor,Good
+S06_T02_001.wav,S06,P,20,Palembang,Tangerang Selatan,Tidak,read,20,Pilihan studi,575.88,Android,Indoor,Good
+S06_T05_001.wav,S06,P,20,Palembang,Tangerang Selatan,Tidak,read,20,Penutup,10.96,Android,Indoor,Good
 S07_T01_001.wav,S07,L,21,Palembang,Bekasi,Tidak,read,21,Perkenalan,31.00,iOS,Indoor,Good
 S07_T02_001.wav,S07,L,21,Palembang,Bekasi,Tidak,read,21,Hobi,196.00,iOS,Indoor,Acceptable
 S07_T03_001.wav,S07,L,21,Palembang,Bekasi,Tidak,read,21,Pilihan studi,232.00,iOS,Indoor,Good

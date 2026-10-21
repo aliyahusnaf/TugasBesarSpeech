@@ -1,0 +1,3 @@
+# unit_id	start	end	speaker	text	topic
+# ASR-assisted transcript review: Whisper large-v3 + supplied script + MMS acoustic checks; see documentation/qc/S06_review.csv for listening flags.
+S06_T01_001_u001	0.410	18.170	S06	halo galo-galo apa kabar galo semoga sehat selalu yo namo aku [nama] tapi kawan-kawan biaso manggil aku [nama] bae aku sekarang ni lah semester tujuh di jurusan teknik informatika institut teknologi bandung	Perkenalan
