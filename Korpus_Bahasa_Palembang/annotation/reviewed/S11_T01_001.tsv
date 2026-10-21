@@ -1,0 +1,9 @@
+# unit_id	start	end	speaker	text	topic
+# ASR-assisted transcript checked against user script; MMS acoustic alignment follows. See documentation/qc/S11_review.csv for listening flags.
+S11_T01_001_u001	0.000	5.520	S11	halo semuanyo perkenalke namo aku [nama] biaso dipanggil [nama]	Perkenalan
+S11_T01_001_u002	6.140	12.240	S11	aku sekarang lah semester tujuh di jurusan teknik informatika institut teknologi bandung atau yang lebih dikenal dengan itb	Perkenalan
+S11_T01_001_u003	12.440	19.160	S11	aku berasal dari bandung dan sekarang lagi menjalani kehidupan sebagai mahasiswa yang sebentar lagi bakal menghadapi dunia kerjo	Perkenalan
+S11_T01_001_u004	19.440	23.260	S11	dak teraso nian lah lebih dari tigo tahun aku kuliah di sini	Perkenalan
+S11_T01_001_u005	23.460	28.860	S11	rasonyo baru kemaren aku jadi mahasiswa baru yang masih bingung samo kehidupan kampus	Perkenalan
+S11_T01_001_u006	28.860	31.300	S11	sekarang tau-tau lah semester tujuh bae	Perkenalan
+S11_T01_001_u007	31.300	36.120	S11	lah mulai sibuk mikirke tugas akhir samo rencana setelah lulus	Perkenalan
