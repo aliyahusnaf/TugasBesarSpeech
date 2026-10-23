@@ -75,7 +75,7 @@ item []:
         intervals [16]:
             xmin = 40.900
             xmax = 45.640
-            text = "pacak [noise] tetep tinggal di rumah makan masakan rumah dan deket samo keluarga"
+            text = "pacak tetep tinggal di rumah makan masakan rumah dan deket samo keluarga"
         intervals [17]:
             xmin = 45.640
             xmax = 46.480
@@ -707,7 +707,7 @@ item []:
         intervals [174]:
             xmin = 377.795
             xmax = 383.595
-            text = "nah sekarang aku nak cerito sedikit soal [noise] pengalaman aku selama kuliah di teknik informatika"
+            text = "nah sekarang aku nak cerito sedikit soal pengalaman aku selama kuliah di teknik informatika"
         intervals [175]:
             xmin = 383.595
             xmax = 384.435
@@ -731,7 +731,7 @@ item []:
         intervals [180]:
             xmin = 399.075
             xmax = 403.995
-            text = "banyak nian matematikonyo banyak logikanyo [noise] dan tugasnyo pulo dateng dak berenti-berenti"
+            text = "banyak nian matematikonyo banyak logikanyo dan tugasnyo pulo dateng dak berenti-berenti"
         intervals [181]:
             xmin = 403.995
             xmax = 404.675
@@ -979,7 +979,7 @@ item []:
         intervals [242]:
             xmin = 537.675
             xmax = 542.035
-            text = "aku galak pacak bantu adek-adek tingkat yang nak ngelewati jalan yang samo [noise]"
+            text = "aku galak pacak bantu adek-adek tingkat yang nak ngelewati jalan yang samo"
         intervals [243]:
             xmin = 542.035
             xmax = 542.555
@@ -987,7 +987,7 @@ item []:
         intervals [244]:
             xmin = 542.555
             xmax = 544.395
-            text = "[noise] cak mano dulu kakak aku bantu aku"
+            text = "cak mano dulu kakak aku bantu aku"
         intervals [245]:
             xmin = 544.395
             xmax = 545.000
@@ -8861,40 +8861,8 @@ item []:
         name = "event"
         xmin = 0
         xmax = 545.000
-        intervals: size = 9
+        intervals: size = 1
         intervals [1]:
             xmin = 0.000
-            xmax = 41.000
-            text = ""
-        intervals [2]:
-            xmin = 41.000
-            xmax = 43.000
-            text = "noise"
-        intervals [3]:
-            xmin = 43.000
-            xmax = 381.000
-            text = ""
-        intervals [4]:
-            xmin = 381.000
-            xmax = 384.000
-            text = "noise"
-        intervals [5]:
-            xmin = 384.000
-            xmax = 401.000
-            text = ""
-        intervals [6]:
-            xmin = 401.000
-            xmax = 403.000
-            text = "noise"
-        intervals [7]:
-            xmin = 403.000
-            xmax = 542.000
-            text = ""
-        intervals [8]:
-            xmin = 542.000
-            xmax = 544.000
-            text = "noise"
-        intervals [9]:
-            xmin = 544.000
             xmax = 545.000
             text = ""

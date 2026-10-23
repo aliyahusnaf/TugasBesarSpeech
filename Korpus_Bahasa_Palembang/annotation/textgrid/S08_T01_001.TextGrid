@@ -43,7 +43,7 @@ item []:
         intervals [8]:
             xmin = 15.435
             xmax = 19.455
-            text = "dak teraso nian lah [noise] hampir empat tahun aku kuliah di sini"
+            text = "dak teraso nian lah hampir empat tahun aku kuliah di sini"
         intervals [9]:
             xmin = 19.455
             xmax = 20.155
@@ -373,16 +373,8 @@ item []:
         name = "event"
         xmin = 0
         xmax = 26.000
-        intervals: size = 3
+        intervals: size = 1
         intervals [1]:
             xmin = 0.000
-            xmax = 17.000
-            text = ""
-        intervals [2]:
-            xmin = 17.000
-            xmax = 19.000
-            text = "noise"
-        intervals [3]:
-            xmin = 19.000
             xmax = 26.000
             text = ""
