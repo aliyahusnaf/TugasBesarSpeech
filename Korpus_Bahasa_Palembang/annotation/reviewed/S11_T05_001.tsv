@@ -1,5 +1,5 @@
 # unit_id	start	end	speaker	text	topic
-# ASR-assisted transcript checked against user script; MMS acoustic alignment follows. See documentation/qc/S11_review.csv for listening flags.
+# ASR-assisted transcript checked against user script; MMS acoustic alignment follows. See documentation/qc/qa_summary.json for QA status.
 S11_T05_001_u001	0.000	1.920	S11	bae sedikit cerito tentang diri aku	Penutup
 S11_T05_001_u002	2.440	6.260	S11	terimo kasih nian lah meluangkan waktu untuk mendengarkan cerito aku	Penutup
 S11_T05_001_u003	6.460	11.220	S11	semoga ado hal baik yang pacak diambil dari pengalaman ini	Penutup

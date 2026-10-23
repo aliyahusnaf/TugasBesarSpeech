@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-24",
+  "scope": "Shared QA index for all corpus speakers. Human-listening completion is recorded only where explicitly confirmed. The detailed review queue and change log were removed; retained flag counts describe the last recorded review state.",
+  "shared_files": {
+    "technical": "qc_technical.csv",
+    "segment_offsets": "segment_offsets.csv",
+    "speaker_check": "speaker_check.csv",
+    "event_candidates": "events_candidates.json",
+    "background_noise": "background_noise.json"
+  },
+  "speakers": {
+    "S01": {
+      "status": "Existing shared annotation and automated QC records; human-listening completion not audited in this update.",
+      "current_inventory": {
+        "files": 5,
+        "utterances": 166,
+        "words": 1401
+      }
+    },
+    "S02": {
+      "status": "Existing shared annotation and automated QC records; human-listening completion not audited in this update.",
+      "current_inventory": {
+        "files": 5,
+        "utterances": 141,
+        "words": 1627
+      }
+    },
+    "S03": {
+      "status": "Existing shared annotation and automated QC records; human-listening completion not audited in this update.",
+      "current_inventory": {
+        "files": 5,
+        "utterances": 137,
+        "words": 1264
+      }
+    },
+    "S04": {
+      "status": "Existing shared annotation and automated QC records; human-listening completion not audited in this update.",
+      "current_inventory": {
+        "files": 5,
+        "utterances": 115,
+        "words": 740
+      }
+    },
+    "S05": {
+      "status": "Existing shared annotation and automated QC records; human-listening completion not audited in this update.",
+      "current_inventory": {
+        "files": 3,
+        "utterances": 115,
+        "words": 1321
+      }
+    },
+    "S06": {
+      "reference_commit": "dd5582b6969cb0b57d0aba337a71ad3facfa6635",
+      "status": "User revised script applied and MMS word alignment plus WavLM speaker checks refreshed without Whisper. Script/audio agreement and flagged intervals still need human listening. No direct listening was performed by Codex.",
+      "files": {
+        "S06_T01_001.wav": {
+          "duration_sec": 18.539375,
+          "utterances": 4,
+          "words": 35
+        },
+        "S06_T02_001.wav": {
+          "duration_sec": 575.8799375,
+          "utterances": 92,
+          "words": 1158
+        },
+        "S06_T05_001.wav": {
+          "duration_sec": 10.956625,
+          "utterances": 2,
+          "words": 22
+        }
+      },
+      "methods": {
+        "asr": "Historical initial draft only; Whisper was NOT rerun for this revision.",
+        "reference": "User revised script provided 2026-10-23, normalized to corpus conventions; personal names masked as [nama]. This is a script-based revision, not a claim of verified verbatim speech.",
+        "alignment": "Existing MMS CTC forced alignment with MAX_GAP=0.5s, MAX_UTT=15s; Mac MPS CHUNK=16s; recomputed 2026-10-23.",
+        "spelling_review": "Historical initial acoustic spelling checks; latest revision follows supplied script with fresh MMS alignment, not a new Whisper or lexical scoring pass.",
+        "events": "Existing detect_events.py AST model and thresholds; batch size 2 for memory; 2-second windows, 1-second hop; candidates require listening",
+        "speaker": "Existing speaker_check.py WavLM model; mean >=2s introduction embeddings; segments <0.5s unscored"
+      },
+      "metadata_corrections": {
+        "S06_T01_001.wav": {
+          "Speech_Type": "spontaneous -> read (user-confirmed)"
+        },
+        "S06_T02_001.wav": {
+          "Speech_Type": "spontaneous -> read (user-confirmed)",
+          "Topic": "Hobi -> Pilihan studi (recording content)"
+        },
+        "S06_T05_001.wav": {
+          "Speech_Type": "spontaneous -> read (user-confirmed)"
+        }
+      },
+      "technical_qa": {
+        "format": "16000 Hz, PCM signed 16-bit, mono",
+        "clipped_samples": 0,
+        "clip_gaps_or_overlaps": false,
+        "head_tail_cut_flags": false,
+        "quality_labels_retained": "Good",
+        "snr_note": "Percentile-based estimate from existing QC script; not a calibrated SNR measurement"
+      },
+      "counts": {
+        "utterances": 98,
+        "words": 1215,
+        "script_edit_groups": 81,
+        "low_alignment_words": 59,
+        "low_alignment_groups": 46,
+        "event_candidates": 2
+      },
+      "checks": {
+        "csv_word_text_consistency": true,
+        "timestamp_bounds_and_nonoverlap": true,
+        "maximum_utterance_duration_15s": true,
+        "textgrids_parsed_and_tiers_validated": true,
+        "all_original_non_S06_records_preserved": true,
+        "source_audio_unchanged": true,
+        "reference_script_tokens_match_all_annotation_outputs": true,
+        "refreshed_speaker_scores_match_current_utterances": true
+      },
+      "speaker_similarity": {
+        "min": 0.779,
+        "unscored_short_utterances": 1
+      },
+      "previous_status": "ASR-assisted annotation with automated QA complete; flagged intervals require human listening. No direct listening was performed by Codex.",
+      "previous_counts": {
+        "utterances": 105,
+        "words": 1206,
+        "listening_flags": 34,
+        "low_alignment_words": 21,
+        "event_candidates": 2
+      },
+      "script_revision": {
+        "date": "2026-10-23",
+        "source": "User message, revised S06 text",
+        "whisper_rerun": false,
+        "word_count_before": 1206,
+        "word_count_after": 1215,
+        "personal_names": "[nama]",
+        "alignment_is_not_listening": true,
+        "change_log_note": "Detailed change log removed; revised transcription is stored in annotation/reviewed and annotation CSV/TextGrid outputs."
+      },
+      "current_inventory": {
+        "files": 3,
+        "utterances": 98,
+        "words": 1215
+      },
+      "initial_annotation_preservation_counts": {
+        "annotation/annotation.csv": 873,
+        "annotation/annotation_words.csv": 9816,
+        "metadata/metadata.csv": 43,
+        "documentation/qc/qc_technical.csv": 37,
+        "documentation/qc/segment_offsets.csv": 30,
+        "documentation/qc/speaker_check.csv": 873,
+        "documentation/qc/events_candidates.json": 30,
+        "documentation/qc/background_noise.json": 30
+      },
+      "last_recorded_review_counts": {
+        "total_rows": 161,
+        "resolved": 0,
+        "superseded": 20,
+        "pending": 141,
+        "recorded_at": "2026-10-23",
+        "note": "Historical counts before removal of the detailed queue; not a claim that remaining review was completed."
+      }
+    },
+    "S07": {
+      "status": "Existing shared annotation and automated QC records; human-listening completion not audited in this update.",
+      "current_inventory": {
+        "files": 5,
+        "utterances": 131,
+        "words": 2093
+      }
+    },
+    "S08": {
+      "status": "Existing shared annotation and automated QC records; human-listening completion not audited in this update.",
+      "current_inventory": {
+        "files": 3,
+        "utterances": 129,
+        "words": 1316
+      }
+    },
+    "S09": {
+      "status": "Existing shared annotation and automated QC records; human-listening completion not audited in this update.",
+      "current_inventory": {
+        "files": 2,
+        "utterances": 68,
+        "words": 1370
+      }
+    },
+    "S10": {
+      "status": "Existing shared annotation and automated QC records; human-listening completion not audited in this update.",
+      "current_inventory": {
+        "files": 5,
+        "utterances": 116,
+        "words": 1503
+      }
+    },
+    "S11": {
+      "reference_commit": "daab9351da0c1c4be826ac3862bbd249f5186236",
+      "status": "ASR-assisted annotation and automated QA complete; partial human listening review reported by user on 2026-10-23. Three content flags resolved; timing, speaker and remaining flags still need review. No direct listening was performed by Codex.",
+      "files": {
+        "S11_T01_001.wav": {
+          "duration_sec": 37.0,
+          "utterances": 4,
+          "words": 86
+        },
+        "S11_T02_001.wav": {
+          "duration_sec": 70.0,
+          "utterances": 11,
+          "words": 154
+        },
+        "S11_T03_001.wav": {
+          "duration_sec": 565.0,
+          "utterances": 71,
+          "words": 1284
+        },
+        "S11_T04_001.wav": {
+          "duration_sec": 49.0,
+          "utterances": 10,
+          "words": 101
+        },
+        "S11_T05_001.wav": {
+          "duration_sec": 13.464,
+          "utterances": 1,
+          "words": 29
+        }
+      },
+      "methods": {
+        "asr": "Whisper large-v3 MLX 4-bit on Mac, plus faster-whisper base CPU/int8 cross-check",
+        "reference": "User-supplied prepared script; transcript follows acoustic-model wording when it conflicts, with names masked as [nama]",
+        "alignment": "Existing build_annotation.py; MMS CTC Viterbi; MAX_GAP=0.5s, MAX_UTT=15s; MPS CHUNK=16s to avoid convolution size limits",
+        "spelling_review": "Contextual review against script plus MMS CTC phrase scoring; numbers spelled out; English phrases marked code-switch",
+        "events": "Existing AST AudioSet model and thresholds, 2-second windows/1-second hop, batch size 2; no event candidates detected",
+        "speaker": "Existing WavLM x-vector cosine check using four >=2-second introduction utterances as reference; segments <0.5s unscored"
+      },
+      "metadata_corrections": {},
+      "technical_qa": {
+        "format": "16000 Hz, PCM signed 16-bit, mono",
+        "clipped_samples": 0,
+        "segment_offsets": "All five clips match the full recording exactly and are contiguous, with no gaps or overlaps (correlation 1.0).",
+        "head_tail_edge_flags": [
+          "S11_T02_001.wav",
+          "S11_T03_001.wav",
+          "S11_T04_001.wav",
+          "S11_T05_001.wav"
+        ],
+        "edge_flag_note": "Energy heuristic only; flags identify crop-edge review points and do not prove words were cut.",
+        "quality_labels_retained": "Good",
+        "snr_note": "Percentile-based estimate from existing QC script; not calibrated SNR."
+      },
+      "counts": {
+        "utterances": 97,
+        "words": 1654,
+        "listening_flags": 92,
+        "low_alignment_words": 93,
+        "low_alignment_groups": 78,
+        "event_candidates": 0,
+        "speaker_scores_below_0_75": 1
+      },
+      "checks": {
+        "csv_word_text_consistency": true,
+        "timestamp_bounds_and_nonoverlap": true,
+        "maximum_utterance_duration_15s": true,
+        "textgrids_parsed_and_tiers_validated": true,
+        "all_preexisting_non_S11_records_preserved": true,
+        "source_audio_unchanged": true
+      },
+      "speaker_similarity": {
+        "min": 0.741,
+        "mean": 0.971,
+        "scored_utterances": 96,
+        "unscored_short_utterances": 1
+      },
+      "human_listening_review": {
+        "reviewed_at": "2026-10-23",
+        "reviewer": "user (reported in conversation)",
+        "scope": "Partial content confirmation only; no full-recording or timing review claimed.",
+        "confirmations": [
+          {
+            "file": "S11_T03_001.wav",
+            "clip_start": 514.5,
+            "clip_end": 518.3,
+            "wording": "ditimbangkan"
+          },
+          {
+            "file": "S11_T03_001.wav",
+            "clip_start": 519.0,
+            "clip_end": 525.6,
+            "wording": "aku belajar mengembangkan fitur mengintegrasikan aplikasi dengan layanan lain",
+            "note": "terus is a message connector, not spoken; no script-only testing/team collaboration added."
+          },
+          {
+            "file": "S11_T04_001.wav",
+            "clip_start": 9.8,
+            "clip_end": 12.5,
+            "wording": "chicken nanban",
+            "correction": "nanan -> nanban"
+          },
+          {
+            "file": "S11_T04_001.wav",
+            "wording": "tapi entah ngapo kalu lah nemu makanan yang cocok samo lidah rasanyo susah nak pindah ke makanan lain",
+            "note": "Existing text matches across utterances 0007-0009; speaker identity and word boundaries remain unverified."
+          }
+        ],
+        "resolved_content_flags": 3,
+        "remaining_flags_requiring_review": 89,
+        "alignment_pending": [
+          {
+            "utterance_id": "S11_T04_0002",
+            "word_index": 9,
+            "word": "nanban",
+            "start": 11.2,
+            "end": 11.68,
+            "previous_word": "nanan",
+            "previous_align_score": 0.946,
+            "note": "Existing boundaries retained provisionally; Align_Score cleared in word CSV because prior score was computed for nanan. Re-alignment or human timing validation pending."
+          }
+        ]
+      },
+      "current_inventory": {
+        "files": 5,
+        "utterances": 97,
+        "words": 1654
+      },
+      "initial_annotation_preservation_counts": {
+        "annotation/annotation.csv": 978,
+        "annotation/annotation_words.csv": 11022,
+        "documentation/qc/qc_technical.csv": 41,
+        "documentation/qc/segment_offsets.csv": 33,
+        "documentation/qc/speaker_check.csv": 978,
+        "metadata/metadata.csv": 41,
+        "documentation/qc/background_noise.json": 33,
+        "documentation/qc/events_candidates.json": 33
+      },
+      "last_recorded_review_counts": {
+        "total_rows": 92,
+        "resolved": 3,
+        "superseded": 0,
+        "pending": 89,
+        "recorded_at": "2026-10-23",
+        "note": "Historical counts before removal of the detailed queue; not a claim that remaining review was completed."
+      }
+    }
+  }
+}

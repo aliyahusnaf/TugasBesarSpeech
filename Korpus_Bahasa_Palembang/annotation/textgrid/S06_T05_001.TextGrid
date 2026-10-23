@@ -27,7 +27,7 @@ item []:
         intervals [4]:
             xmin = 4.425
             xmax = 10.365
-            text = "terima kasih galo-galo yang lah galak mendengarke ocehanku dari tadi semoga ado manfaatnya yo"
+            text = "terima kasih galo-galo yang lah galak mendingerke ocehan aku dari tadi semoga ado manfaatnyo yo"
         intervals [5]:
             xmin = 10.365
             xmax = 10.957
@@ -63,7 +63,7 @@ item []:
         name = "word"
         xmin = 0
         xmax = 10.957
-        intervals: size = 27
+        intervals: size = 28
         intervals [1]:
             xmin = 0.000
             xmax = 0.565
@@ -135,40 +135,44 @@ item []:
         intervals [18]:
             xmin = 6.465
             xmax = 7.185
-            text = "mendengarke"
+            text = "mendingerke"
         intervals [19]:
             xmin = 7.185
             xmax = 7.625
             text = ""
         intervals [20]:
             xmin = 7.625
-            xmax = 8.165
-            text = "ocehanku"
+            xmax = 8.005
+            text = "ocehan"
         intervals [21]:
+            xmin = 8.005
+            xmax = 8.165
+            text = "aku"
+        intervals [22]:
             xmin = 8.165
             xmax = 8.385
             text = "dari"
-        intervals [22]:
+        intervals [23]:
             xmin = 8.385
             xmax = 8.845
             text = "tadi"
-        intervals [23]:
+        intervals [24]:
             xmin = 8.845
             xmax = 9.305
             text = "semoga"
-        intervals [24]:
+        intervals [25]:
             xmin = 9.305
             xmax = 9.545
             text = "ado"
-        intervals [25]:
+        intervals [26]:
             xmin = 9.545
             xmax = 10.125
-            text = "manfaatnya"
-        intervals [26]:
+            text = "manfaatnyo"
+        intervals [27]:
             xmin = 10.125
             xmax = 10.365
             text = "yo"
-        intervals [27]:
+        intervals [28]:
             xmin = 10.365
             xmax = 10.957
             text = ""

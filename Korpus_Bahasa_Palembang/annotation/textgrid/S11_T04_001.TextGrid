@@ -27,7 +27,7 @@ item []:
         intervals [4]:
             xmin = 7.240
             xmax = 11.680
-            text = "makanan yang paling sering aku cari adalah chicken nanan"
+            text = "makanan yang paling sering aku cari adalah chicken nanban"
         intervals [5]:
             xmin = 11.680
             xmax = 12.340
@@ -351,7 +351,7 @@ item []:
         intervals [40]:
             xmin = 11.200
             xmax = 11.680
-            text = "nanan"
+            text = "nanban"
         intervals [41]:
             xmin = 11.680
             xmax = 12.340

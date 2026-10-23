@@ -11,7 +11,7 @@ item []:
         name = "utterance"
         xmin = 0
         xmax = 18.539
-        intervals: size = 11
+        intervals: size = 9
         intervals [1]:
             xmin = 0.000
             xmax = 0.545
@@ -42,18 +42,10 @@ item []:
             text = ""
         intervals [8]:
             xmin = 11.865
-            xmax = 13.205
-            text = "aku sekarang ni lah"
+            xmax = 18.345
+            text = "aku sekarang ni lah nak masuk semester tujuh di jurusan teknik informatika institut teknologi bandung itb"
         intervals [9]:
-            xmin = 13.205
-            xmax = 13.705
-            text = ""
-        intervals [10]:
-            xmin = 13.705
-            xmax = 18.305
-            text = "semester tujuh di jurusan teknik informatika institut teknologi bandung"
-        intervals [11]:
-            xmin = 18.305
+            xmin = 18.345
             xmax = 18.539
             text = ""
     item [2]:
@@ -61,7 +53,7 @@ item []:
         name = "speaker"
         xmin = 0
         xmax = 18.539
-        intervals: size = 11
+        intervals: size = 9
         intervals [1]:
             xmin = 0.000
             xmax = 0.545
@@ -92,18 +84,10 @@ item []:
             text = ""
         intervals [8]:
             xmin = 11.865
-            xmax = 13.205
+            xmax = 18.345
             text = "S06"
         intervals [9]:
-            xmin = 13.205
-            xmax = 13.705
-            text = ""
-        intervals [10]:
-            xmin = 13.705
-            xmax = 18.305
-            text = "S06"
-        intervals [11]:
-            xmin = 18.305
+            xmin = 18.345
             xmax = 18.539
             text = ""
     item [3]:
@@ -111,7 +95,7 @@ item []:
         name = "word"
         xmin = 0
         xmax = 18.539
-        intervals: size = 42
+        intervals: size = 44
         intervals [1]:
             xmin = 0.000
             xmax = 0.545
@@ -234,50 +218,58 @@ item []:
             text = "lah"
         intervals [31]:
             xmin = 13.205
-            xmax = 13.705
-            text = ""
+            xmax = 13.425
+            text = "nak"
         intervals [32]:
-            xmin = 13.705
+            xmin = 13.425
+            xmax = 13.785
+            text = "masuk"
+        intervals [33]:
+            xmin = 13.785
             xmax = 14.225
             text = "semester"
-        intervals [33]:
+        intervals [34]:
             xmin = 14.225
             xmax = 14.825
             text = "tujuh"
-        intervals [34]:
+        intervals [35]:
             xmin = 14.825
             xmax = 15.145
             text = "di"
-        intervals [35]:
+        intervals [36]:
             xmin = 15.145
             xmax = 15.225
             text = ""
-        intervals [36]:
+        intervals [37]:
             xmin = 15.225
             xmax = 15.665
             text = "jurusan"
-        intervals [37]:
+        intervals [38]:
             xmin = 15.665
             xmax = 16.045
             text = "teknik"
-        intervals [38]:
+        intervals [39]:
             xmin = 16.045
             xmax = 16.825
             text = "informatika"
-        intervals [39]:
+        intervals [40]:
             xmin = 16.825
             xmax = 17.245
             text = "institut"
-        intervals [40]:
+        intervals [41]:
             xmin = 17.245
             xmax = 17.825
             text = "teknologi"
-        intervals [41]:
-            xmin = 17.825
-            xmax = 18.305
-            text = "bandung"
         intervals [42]:
-            xmin = 18.305
+            xmin = 17.825
+            xmax = 18.245
+            text = "bandung"
+        intervals [43]:
+            xmin = 18.245
+            xmax = 18.345
+            text = "itb"
+        intervals [44]:
+            xmin = 18.345
             xmax = 18.539
             text = ""
     item [4]:

@@ -36,6 +36,16 @@ Korpus_Bahasa_Palembang/
 
 **annotation.csv:** File, Speaker, Start, End, Transcription, Language/Dialect, Topic, Events
 
+## Hasil QA dan Review
+
+Hasil QA seluruh penutur disimpan bersama di `documentation/qc/`:
+
+- `qc_technical.csv`, `segment_offsets.csv`, dan `speaker_check.csv`: pemeriksaan teknis, posisi potongan, dan kemiripan speaker.
+- `events_candidates.json` dan `background_noise.json`: kandidat event dan noise latar.
+- `qa_summary.json`: indeks semua penutur serta detail dan status QA yang tersedia.
+
+Revisi S06 tanggal 23 Oktober 2026 mengikuti teks terbaru pengguna, dengan forced alignment ulang tanpa menjalankan Whisper. Kesesuaian teks dengan audio tetap memerlukan listening. Nama pribadi disamarkan sebagai `[nama]`. Koreksi isi S11 yang sudah dikonfirmasi pengguna tetap dipertahankan.
+
 ## Label Kualitas
 
 | Label | Arti |

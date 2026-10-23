@@ -1,5 +1,5 @@
 # unit_id	start	end	speaker	text	topic
-# ASR-assisted transcript checked against user script; MMS acoustic alignment follows. See documentation/qc/S11_review.csv for listening flags.
+# ASR-assisted transcript checked against user script; MMS acoustic alignment follows. See documentation/qc/qa_summary.json for QA status.
 S11_T02_001_u001	0.000	5.220	S11	kalu ngomongin soal kegemaran dari dulu aku memang tertarik samo hal-hal yang berhubungan dengan teknologi	Hobi
 S11_T02_001_u002	5.860	13.420	S11	aku seneng ngotak-ngatik komputer nyobo aplikasi baru dan penasaran samo gimano sebuah website atau aplikasi pacak dibuat	Hobi
 S11_T02_001_u003	13.980	17.260	S11	apolagi kalu nemu website yang tampilannyo bagus nian	Hobi

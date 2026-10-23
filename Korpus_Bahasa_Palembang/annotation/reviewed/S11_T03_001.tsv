@@ -1,5 +1,5 @@
 # unit_id	start	end	speaker	text	topic
-# ASR-assisted transcript checked against user script; MMS acoustic alignment follows. See documentation/qc/S11_review.csv for listening flags.
+# ASR-assisted transcript checked against user script; MMS acoustic alignment follows. See documentation/qc/qa_summary.json for QA status.
 S11_T03_001_u001	0.000	5.440	S11	tapi sebelom ngomongin soal jurusan aku nak cerito sedikit soal ngapo dulu aku milih itb sebagai tempat kuliah	Pilihan studi
 S11_T03_001_u002	6.180	11.500	S11	alesan paling utamanyo tentu karno itb ni salah satu kampus yang terkenal bagus di indonesia	Pilihan studi
 S11_T03_001_u003	12.000	14.480	S11	khususnyo dalam bidang teknik dan teknologi	Pilihan studi

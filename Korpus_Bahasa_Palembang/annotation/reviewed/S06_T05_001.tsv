@@ -1,3 +1,3 @@
 # unit_id	start	end	speaker	text	topic
-# ASR-assisted transcript review: Whisper large-v3 + supplied script + MMS acoustic checks; see documentation/qc/S06_review.csv for listening flags.
-S06_T05_001_u001	0.410	10.260	S06	mungkin itu bae cerito singkat dari aku terima kasih galo-galo yang lah galak mendengarke ocehanku dari tadi semoga ado manfaatnya yo	Penutup
+# User-supplied revised script (2026-10-23); no Whisper rerun. MMS alignment; QA status in documentation/qc/qa_summary.json.
+S06_T05_001_u001	0.410	10.260	S06	mungkin itu bae cerito singkat dari aku terima kasih galo-galo yang lah galak mendingerke ocehan aku dari tadi semoga ado manfaatnyo yo	Penutup
