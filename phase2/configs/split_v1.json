@@ -1,0 +1,28 @@
+{
+  "version": "palembang_internal_v1",
+  "source_commit": "3742461a1125232e56e89789c24610da24e1daa0",
+  "source_fingerprint": "9e9ccb97955220c54764a0b92ac40dbe75d7e74b2982c25ad8e06c9e121b6498",
+  "speakers": {
+    "train": [
+      "S01",
+      "S02",
+      "S04",
+      "S07",
+      "S08",
+      "S09",
+      "S11"
+    ],
+    "validation": [
+      "S03",
+      "S06"
+    ],
+    "test": [
+      "S05",
+      "S10"
+    ]
+  },
+  "selection": "enumerate all 7/2/2; native+non-native and L+P in every split; minimize squared duration and utterance share deviations from speaker share; lexical tie-break",
+  "objective": 0.00037251981981911155,
+  "seed": null,
+  "status": "internal split fixed; Owner 5 review and external corpus integration pending"
+}

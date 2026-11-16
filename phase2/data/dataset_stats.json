@@ -1,0 +1,51 @@
+{
+  "source_audio_files": 57,
+  "metadata_files": 46,
+  "annotation_rows": 1313,
+  "accepted": 1227,
+  "excluded": 86,
+  "exclusion_reasons_nonexclusive": {
+    "unclear_transcript": 6,
+    "other_speaker": 25,
+    "quality_reject": 83
+  },
+  "splits": {
+    "train": {
+      "speakers": [
+        "S01",
+        "S02",
+        "S04",
+        "S07",
+        "S08",
+        "S09",
+        "S11"
+      ],
+      "utterances": 762,
+      "duration_sec": 3508.6600000000017
+    },
+    "validation": {
+      "speakers": [
+        "S03",
+        "S06"
+      ],
+      "utterances": 235,
+      "duration_sec": 985.9599999999998
+    },
+    "test": {
+      "speakers": [
+        "S05",
+        "S10"
+      ],
+      "utterances": 230,
+      "duration_sec": 1010.5299999999994
+    }
+  },
+  "audio_errors": [],
+  "annotation_warnings": [],
+  "exact_transcript_overlap_between_splits": {
+    "train/validation": 5,
+    "train/test": 2,
+    "validation/test": 2
+  },
+  "leakage_errors": []
+}

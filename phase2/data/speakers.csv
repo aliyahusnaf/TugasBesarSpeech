@@ -1,0 +1,12 @@
+speaker_id,split,utterances,duration_sec,native,speech_type,gender
+S01,train,166,511.27000000000015,Ya,spontaneous,P
+S02,train,140,498.38999999999993,Ya,spontaneous,P
+S03,validation,137,476.3799999999999,Ya,spontaneous,L
+S04,train,31,72.35000000000001,Ya,spontaneous,P
+S05,test,114,489.39,Ya,spontaneous,P
+S06,validation,98,509.5799999999998,Tidak,read,P
+S07,train,131,686.7399999999998,Tidak,read,L
+S08,train,129,493.12000000000006,Tidak,read,L
+S09,train,68,579.7799999999999,Tidak,read,L
+S10,test,116,521.1399999999999,Tidak,read,L
+S11,train,97,667.0099999999999,Tidak,read,L
