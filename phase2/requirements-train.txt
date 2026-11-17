@@ -4,3 +4,5 @@
 torch>=2.4
 transformers==4.57.1
 jiwer==4.0.0
+# Grafik kurva training untuk laporan (phase2/scripts/plot_training_curves.py)
+matplotlib==3.10.7
