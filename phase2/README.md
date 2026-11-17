@@ -62,7 +62,7 @@ Hasil disimpan di `phase2/results/baseline/<run_id>/`:
   snapshot/split dan commit kode. Kegagalan menyimpan traceback dan prediksi
   yang sudah selesai; status `failed` tidak boleh dilaporkan sebagai baseline lengkap.
 
-ID run tidak dapat ditimpa. `--limit` memilih N baris pertama validation untuk
+ID run tidak dapat ditimpa; gunakan ID baru untuk pengulangan. `--limit` memilih N baris pertama validation untuk
 smoke test dan dicatat; hasil subset tidak mewakili semua validation. Runner
 ini hanya membaca validation, tidak memilih model dengan test. Scorer WER/CER,
 training/fine-tuning, dan demo integrasi akhir tetap milik Orang 4/5/6.
