@@ -19,8 +19,8 @@ source phase2/.venv/bin/activate
 python -m pip install -r phase2/requirements-model.txt
 python -m phase2.scripts.check_model_input
 python -m unittest discover -s phase2/tests -v
-python -m phase2.src.infer --run-id whisper_small_smoke_001 --limit 3
-python -m phase2.src.infer --run-id whisper_small_baseline_001
+python -m phase2.src.infer --run-id local_whisper_small_smoke_001 --limit 3
+python -m phase2.src.infer --run-id local_whisper_small_baseline_001
 ```
 
 Windows: aktivasi dengan `phase2\.venv\Scripts\Activate.ps1`.
@@ -64,7 +64,7 @@ Hasil disimpan di `phase2/results/baseline/<run_id>/`:
 
 ID run tidak dapat ditimpa; gunakan ID baru untuk pengulangan. `--limit` memilih N baris pertama validation untuk
 smoke test dan dicatat; hasil subset tidak mewakili semua validation. Runner
-ini hanya membaca validation, tidak memilih model dengan test. Scorer WER/CER,
+ini hanya membuat prediksi validation, tidak memilih model dengan test. Scorer WER/CER,
 training/fine-tuning, dan demo integrasi akhir tetap milik Orang 4/5/6.
 
 `predictions.csv` tetap tersedia lokal dan diabaikan Git: smoke run menunjukkan
@@ -73,11 +73,15 @@ Jangan mempublikasikan nama yang dipulihkan model. Config/log dan contoh tanpa
 identitas dapat direview lewat PR; distribusi prediksi lengkap perlu review
 hak akses oleh Orang 1/6. File mentah lokal tidak disensor atau ditimpa.
 
+Bukti aktual: [ringkasan tujuh run](results/baseline/README.md), termasuk baseline
+235/235 ujaran dan reload ketiga konfigurasi. Bahan laporan Orang 3:
+[metode dan baseline](report/model_baseline.md).
+
 ### Variasi terkontrol untuk Orang 4 (T-02 / X-01)
 
 ```sh
-python -m phase2.src.infer --config phase2/configs/experiments/whisper_small_beam5.json --run-id whisper_small_beam5_001
-python -m phase2.src.infer --config phase2/configs/experiments/whisper_small_rms_trim.json --run-id whisper_small_rms_trim_001
+python -m phase2.src.infer --config phase2/configs/experiments/whisper_small_beam5.json --run-id local_whisper_small_beam5_001
+python -m phase2.src.infer --config phase2/configs/experiments/whisper_small_rms_trim.json --run-id local_whisper_small_rms_trim_001
 ```
 
 Beam 5 menguji apakah pencarian lebih luas memperbaiki transkripsi dibanding beam

@@ -59,3 +59,18 @@ konfigurasi. Tidak ada listening baru untuk menyimpulkan penyebab kesalahan.
 - [Whisper resmi](https://github.com/openai/whisper): arsitektur dan penggunaan model.
 - [faster-whisper v1.2.1](https://github.com/SYSTRAN/faster-whisper/tree/v1.2.1): backend inference dan parameter decoding.
 - [Checkpoint yang dipakai](https://huggingface.co/Systran/faster-whisper-small/tree/536b0662742c02347bc0e980a01041f333bce120): konversi model dan artefak tokenizer.
+
+## Hasil eksekusi baseline
+
+Run `whisper_small_baseline_001` menyelesaikan seluruh 235 ujaran validation,
+dengan ID berurutan dan referensi yang sama persis dengan manifest sumber.
+Kedua konfigurasi pembanding lolos smoke test tiga ujaran. Reload pada proses
+baru menghasilkan prediksi yang sama persis untuk ketiga konfigurasi pada
+subset smoke tersebut. API whole-file juga cocok dengan prediksi segmen
+contoh. Bukti terukur dan waktu aktual tersedia di
+[ringkasan run](../results/baseline/README.md).
+
+Sebanyak 37 dari 38 tes lulus; satu kegagalan berasal dari validator fingerprint
+LF/CRLF yang sudah ada. Seluruh 11 tes baru lulus. Bukti ini menunjukkan jalur
+inference dan reload bekerja, belum menunjukkan konfigurasi terbaik atau
+akurasi Palembang. Perbandingan korpus penuh dan WER/CER menunggu Orang 4/5.
