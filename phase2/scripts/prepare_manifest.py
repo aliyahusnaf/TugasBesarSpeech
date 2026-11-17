@@ -4,7 +4,7 @@ from itertools import combinations
 import json
 
 from .dataset import (PHASE2, ROOT, CORPUS, FIELDS, collect, source_snapshot,
-                      write_csv, write_json, read_csv, segment_pcm)
+                      write_csv, write_json, read_csv, segment_pcm, verify_source_snapshot)
 from .markdown_utils import join_paragraph_lines
 
 
@@ -115,8 +115,10 @@ def prepare():
     config_path = PHASE2 / "configs/split_v1.json"
     if config_path.exists():
         config = json.loads(config_path.read_text(encoding="utf-8"))
-        if config["source_fingerprint"] != snapshot["fingerprint"]:
-            raise ValueError("Sumber berubah. Buat versi dataset/split baru, jangan timpa split_v1")
+        saved = json.loads((PHASE2 / "data/source_snapshot.json").read_text(encoding="utf-8"))
+        if config["source_fingerprint"] != saved["fingerprint"]:
+            raise ValueError("Konfigurasi split tidak cocok dengan snapshot tersimpan")
+        verify_source_snapshot(saved, current=snapshot)
     else:
         speakers, score = choose_split(stats)
         config = {"version": "palembang_internal_v1", "source_commit": snapshot["commit"],
@@ -124,6 +126,7 @@ def prepare():
                   "selection": "enumerate all 7/2/2; native+non-native and L+P in every split; minimize squared duration and utterance share deviations from speaker share; lexical tie-break",
                   "objective": score, "seed": None,
                   "status": "internal split fixed; Owner 5 review and external corpus integration pending"}
+        saved = {**snapshot, "commit": config["source_commit"]}
     mapping = {s: split for split, ids in config["speakers"].items() for s in ids}
     for row in rows:
         row["split"] = mapping[row["speaker_id"]]
@@ -134,7 +137,7 @@ def prepare():
     if source_snapshot()["fingerprint"] != snapshot["fingerprint"]:
         raise ValueError("Sumber berubah saat proses berjalan")
     write_json(config_path, config)
-    write_json(PHASE2 / "data/source_snapshot.json", snapshot)
+    write_json(PHASE2 / "data/source_snapshot.json", saved)
     for split in config["speakers"]:
         write_csv(PHASE2 / f"data/manifests/{split}.csv", [r for r in rows if r["split"] == split], FIELDS)
     write_csv(PHASE2 / "data/manifests/excluded.csv", excluded,

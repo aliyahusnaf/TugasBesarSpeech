@@ -58,6 +58,31 @@ def source_snapshot():
             "commit": commit, "fingerprint": fingerprint, "files": files}
 
 
+def verify_source_snapshot(saved, current=None, root=None):
+    # Hash lama tetap dipakai. CSV/JSON boleh beda CRLF/LF saja, audio harus persis.
+    root = ROOT if root is None else Path(root)
+    current = source_snapshot() if current is None else current
+    frozen_hash = hashlib.sha256(json.dumps(saved["files"], sort_keys=True).encode()).hexdigest()
+    if frozen_hash != saved["fingerprint"]:
+        raise ValueError("Saved snapshot fingerprint does not match its inventory")
+    if set(saved["files"]) != set(current["files"]):
+        raise ValueError("Source inventory changed; request a new snapshot from Owner 1")
+    newline_only = []
+    for path, expected in saved["files"].items():
+        if current["files"][path] == expected:
+            continue
+        if Path(path).suffix.lower() not in {".csv", ".json"}:
+            raise ValueError(f"Source changed: {path}")
+        payload = (root / path).read_bytes()
+        lf = payload.replace(b"\r\n", b"\n")
+        variants = {hashlib.sha256(lf).hexdigest(),
+                    hashlib.sha256(lf.replace(b"\n", b"\r\n")).hexdigest()}
+        if expected not in variants:
+            raise ValueError(f"Source content changed: {path}")
+        newline_only.append(path)
+    return newline_only
+
+
 def inspect_wav(path):
     info = {"audio_path": path.relative_to(ROOT).as_posix(), "filename": path.name,
             "sha256": digest(path), "error": ""}

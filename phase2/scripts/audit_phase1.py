@@ -3,7 +3,7 @@ import json
 from collections import Counter
 import wave
 
-from .dataset import CORPUS, PHASE2, ROOT, read_csv, write_csv, write_json, source_snapshot
+from .dataset import CORPUS, PHASE2, ROOT, read_csv, write_csv, write_json, verify_source_snapshot
 
 
 def pcm(path):
@@ -89,8 +89,7 @@ def audit_relations():
             summary["duration_metadata_warnings"].append(r["File"])
     write_json(PHASE2 / "data/audit_details.json", summary)
     frozen = json.loads((PHASE2 / "data/source_snapshot.json").read_text(encoding="utf-8"))
-    if source_snapshot()["fingerprint"] != frozen["fingerprint"]:
-        raise ValueError("Sumber berubah sejak manifest dibuat")
+    verify_source_snapshot(frozen)
     print(json.dumps(summary, indent=2))
 
 

@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+import shutil
 import tempfile
 from types import SimpleNamespace
 import unittest
@@ -72,9 +73,11 @@ class PredictionRunTests(unittest.TestCase):
         fake.backend.model.compute_type = "int8_float32"
         fake.transcribe_sample.return_value = 'Dak, "apo"!'
         with tempfile.TemporaryDirectory() as tmp, patch.object(infer, "PHASE2", Path(tmp)):
-            # Keep actual source inputs while putting run outputs in a temporary directory.
-            (Path(tmp) / "configs").symlink_to(PHASE2 / "configs", target_is_directory=True)
-            (Path(tmp) / "data").symlink_to(PHASE2 / "data", target_is_directory=True)
+            # Kopi input kecil supaya tes juga jalan di Windows tanpa izin symlink.
+            shutil.copytree(PHASE2 / "configs", Path(tmp) / "configs")
+            (Path(tmp) / "data/manifests").mkdir(parents=True)
+            shutil.copy2(PHASE2 / "data/source_snapshot.json", Path(tmp) / "data/source_snapshot.json")
+            shutil.copy2(PHASE2 / "data/manifests/validation.csv", Path(tmp) / "data/manifests/validation.csv")
             with patch.object(infer.model, "WhisperASR", return_value=fake) as loader:
                 out = infer.run("smoke", limit=2)
                 rows = read_csv(out / "predictions.csv")

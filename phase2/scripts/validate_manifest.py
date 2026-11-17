@@ -1,13 +1,15 @@
 import json
 
-from .dataset import PHASE2, FIELDS, collect, read_csv, source_snapshot, write_json
+from .dataset import PHASE2, FIELDS, collect, read_csv, verify_source_snapshot, write_json
 from .prepare_manifest import validate_rows
 
 
 def validate():
     config = json.loads((PHASE2 / "configs/split_v1.json").read_text(encoding="utf-8"))
-    if source_snapshot()["fingerprint"] != config["source_fingerprint"]:
-        raise ValueError("Sumber tidak sama dengan snapshot manifest")
+    saved = json.loads((PHASE2 / "data/source_snapshot.json").read_text(encoding="utf-8"))
+    if saved["fingerprint"] != config["source_fingerprint"]:
+        raise ValueError("Konfigurasi split tidak cocok dengan snapshot tersimpan")
+    verify_source_snapshot(saved)
     rows = []
     for split in ["train", "validation", "test"]:
         part = read_csv(PHASE2 / f"data/manifests/{split}.csv")
