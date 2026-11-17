@@ -1,0 +1,5 @@
+run_id,learning_rate,freeze_encoder,effective_batch_size,epochs_run,best_epoch,best_val_wer_hf_greedy,best_val_cer_hf_greedy,best_val_loss,epoch0_val_wer_hf_greedy,train_utterances,trainable_parameters,gpu,elapsed_sec,code_commit,ct2_model_sha256
+ft_lr1e-5_001,1e-05,False,16,7,4,0.2687,0.0959,0.6142,0.481991,755,240582912,Tesla T4,913.4,9178323,768791f7a449
+ft_lr1e-5_freeze_encoder_001,1e-05,True,16,7,4,0.2861,0.1047,0.6206,0.481991,755,153580800,Tesla T4,530.34,9178323,98f5ccee3ed2
+ft_lr3e-5_001,3e-05,False,16,5,2,0.2744,0.0974,0.6267,0.481991,755,240582912,Tesla T4,648.11,9178323,d8635dd8d95f
+ft_lr5e-6_001,5e-06,False,16,7,4,0.2732,0.0948,0.6026,0.481991,755,240582912,Tesla T4,890.06,9178323,f1f6ed65647e
