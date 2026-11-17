@@ -40,13 +40,15 @@ def provenance():
             "local_fingerprint": current["fingerprint"], "line_endings_only": newline_only}
 
 
-def run(run_id, config_path=model.DEFAULT_CONFIG, limit=None):
+def run(run_id, config_path=model.DEFAULT_CONFIG, limit=None, output_root=None):
+    """`output_root` default `phase2/results/baseline`; eksperimen Orang 4 memakai
+    `phase2/results/experiments` agar baseline Orang 3 tidak tercampur."""
     if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_-]*", run_id):
         raise ValueError("run_id must contain only letters, digits, underscores or hyphens")
     if limit is not None and limit < 1:
         raise ValueError("limit must be positive")
     config = model.load_config(config_path)
-    out = PHASE2 / "results/baseline" / run_id
+    out = Path(output_root or PHASE2 / "results/baseline") / run_id
     out.mkdir(parents=True, exist_ok=False)
     started = time.perf_counter()
     metadata = {"run_id": run_id, "status": "running", "config": config,
@@ -109,8 +111,9 @@ def main():
     parser.add_argument("--config", type=Path, default=model.DEFAULT_CONFIG)
     parser.add_argument("--run-id", required=True)
     parser.add_argument("--limit", type=int, help="First N validation rows for a smoke run; logged explicitly")
+    parser.add_argument("--output-root", type=Path, help="Default phase2/results/baseline")
     args = parser.parse_args()
-    run(args.run_id, args.config, args.limit)
+    run(args.run_id, args.config, args.limit, args.output_root)
 
 
 if __name__ == "__main__":
