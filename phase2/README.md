@@ -67,6 +67,12 @@ smoke test dan dicatat; hasil subset tidak mewakili semua validation. Runner
 ini hanya membaca validation, tidak memilih model dengan test. Scorer WER/CER,
 training/fine-tuning, dan demo integrasi akhir tetap milik Orang 4/5/6.
 
+`predictions.csv` tetap tersedia lokal dan diabaikan Git: smoke run menunjukkan
+model menghasilkan nama pada ujaran yang referensinya dimasking `[nama]`.
+Jangan mempublikasikan nama yang dipulihkan model. Config/log dan contoh tanpa
+identitas dapat direview lewat PR; distribusi prediksi lengkap perlu review
+hak akses oleh Orang 1/6. File mentah lokal tidak disensor atau ditimpa.
+
 ### Variasi terkontrol untuk Orang 4 (T-02 / X-01)
 
 ```sh
