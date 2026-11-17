@@ -1,0 +1,31 @@
+{
+  "version": "preprocess_v1",
+  "output_dir": "phase2/data/processed",
+  "audio": {
+    "amplitude": "none",
+    "target_rms_dbfs": -20.0,
+    "peak_limit_dbfs": -1.0,
+    "trim_silence": false,
+    "trim_pad_sec": 0.1
+  },
+  "text": {
+    "keep_hyphen": true
+  },
+  "policy": {
+    "masked_name": "exclude_from_training"
+  },
+  "qc": {
+    "frame_sec": 0.025,
+    "hop_sec": 0.01,
+    "silence_threshold_dbfs": -45.0,
+    "min_active_ratio": 0.3,
+    "min_clip_run": 3,
+    "low_level_rms_dbfs": -40.0,
+    "max_abs_dc_offset": 0.01,
+    "max_edge_silence_sec": 1.0,
+    "min_duration_sec": 0.25,
+    "max_duration_sec": 30.0,
+    "max_chars_per_sec": 25.0,
+    "min_chars_per_sec": 3.0
+  }
+}
