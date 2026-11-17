@@ -1,0 +1,28 @@
+{
+  "technique": "whisper",
+  "model_id": "local:ft_lr1e-5_001",
+  "device": "cpu",
+  "compute_type": "int8",
+  "cpu_threads": 4,
+  "preprocess_config": "phase2/configs/preprocess_v1.json",
+  "decoding": {
+    "language": "id",
+    "task": "transcribe",
+    "beam_size": 1,
+    "best_of": 1,
+    "temperature": 0.0,
+    "condition_on_previous_text": false,
+    "initial_prompt": null,
+    "vad_filter": false,
+    "without_timestamps": true,
+    "word_timestamps": false,
+    "compression_ratio_threshold": null,
+    "log_prob_threshold": null,
+    "no_speech_threshold": 0.6
+  },
+  "model_path": "phase2/models/ft_lr1e-5_001/ct2",
+  "base_model_id": "openai/whisper-small",
+  "base_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+  "model_sha256": "768791f7a4498a7431a5debc7a50a61a8ef43aa68573c74c081295095b43373c",
+  "training_run": "ft_lr1e-5_001"
+}

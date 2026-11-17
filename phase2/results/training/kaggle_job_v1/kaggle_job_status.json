@@ -1,0 +1,57 @@
+{
+  "job": {
+    "repo_url": "https://github.com/aliyahusnaf/TugasBesarSpeech.git",
+    "base_commit": "40b2c63ebaa0d636f0e0a48572460b74eafea699",
+    "code_commit": "917832386830d41eb837cd94486afc83bf03dd38",
+    "bundle_file": "owner4.bundle",
+    "bundle_ref": "refs/heads/feat/phase2-experiments",
+    "bundle_sha256": "66bd6fa98dfa6d2bd6a5cd135ef584405d63d2fa14e1bdeda4304a1d062e1b1e",
+    "job_config": "phase2/configs/train/kaggle_job_v1.json",
+    "runs": [
+      {
+        "run_id": "ft_lr1e-5_001",
+        "config": "phase2/configs/train/whisper_small_ft_lr1e-5.json"
+      },
+      {
+        "run_id": "ft_lr5e-6_001",
+        "config": "phase2/configs/train/whisper_small_ft_lr5e-6.json"
+      },
+      {
+        "run_id": "ft_lr3e-5_001",
+        "config": "phase2/configs/train/whisper_small_ft_lr3e-5.json"
+      },
+      {
+        "run_id": "ft_lr1e-5_freeze_encoder_001",
+        "config": "phase2/configs/train/whisper_small_ft_lr1e-5_freeze_encoder.json"
+      }
+    ],
+    "created_utc": "2026-11-17T12:23:46.110840+00:00"
+  },
+  "code_commit": "917832386830d41eb837cd94486afc83bf03dd38",
+  "runs": [
+    {
+      "run_id": "ft_lr1e-5_001",
+      "config": "phase2/configs/train/whisper_small_ft_lr1e-5.json",
+      "returncode": 0,
+      "wall_sec": 921.1
+    },
+    {
+      "run_id": "ft_lr5e-6_001",
+      "config": "phase2/configs/train/whisper_small_ft_lr5e-6.json",
+      "returncode": 0,
+      "wall_sec": 892.6
+    },
+    {
+      "run_id": "ft_lr3e-5_001",
+      "config": "phase2/configs/train/whisper_small_ft_lr3e-5.json",
+      "returncode": 0,
+      "wall_sec": 650.6
+    },
+    {
+      "run_id": "ft_lr1e-5_freeze_encoder_001",
+      "config": "phase2/configs/train/whisper_small_ft_lr1e-5_freeze_encoder.json",
+      "returncode": 0,
+      "wall_sec": 532.8
+    }
+  ]
+}
