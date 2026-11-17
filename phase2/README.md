@@ -93,14 +93,7 @@ penanganan `[nama]`. Jangan memilih pemenang dari perkiraan atau hanya contoh ba
 
 ### Provenance dan keterbatasan
 
-Validator manifest lama membandingkan hash byte dan gagal pada checkout LF
-ketika snapshot dibuat dengan CRLF. Runner baseline memeriksa seluruh inventori
-sumber: hanya perubahan line ending CSV/JSON yang ekuivalen dalam memori
-boleh diteruskan, dan seluruh perbedaan dicatat di `run.json`. Perubahan isi
-lain menghentikan run. Setiap PCM segmen diperiksa terhadap hash manifest sebelum
-inference. Snapshot, manifest dan korpus tidak ditulis ulang. Orang 1 tetap perlu
-mereview portabilitas validator lama; pemeriksaan ini tidak menggantikan review
-leakage Orang 5.
+Validator manifest, audit, dan generator menerima perbedaan LF/CRLF pada CSV/JSON, sesuai kebijakan runner baseline. Perubahan isi teks, inventori file, dan byte audio tetap ditolak. Snapshot serta split lama tidak diubah. Perbedaan line ending dicatat oleh runner di `run.json`; PCM segmen tetap diperiksa sebelum inference. Review leakage Orang 5 tetap diperlukan.
 
 Referensi semula didraf dengan Whisper large-v3 lalu direview dalam Fase 1.
 Proses ini perlu disebut dalam laporan karena dapat memengaruhi independensi
