@@ -1,0 +1,15 @@
+{
+  "status": "input_contract_passed",
+  "scope": "validation only; no model/tokenizer loaded or predictions generated",
+  "source_manifest_sha256": "d99b2f23a8624dd4c3284c5cb1567e60de577d31492ac48bd3912ecddd0a1987",
+  "processed_manifest_sha256": "51a8c6ece3310b429cd32a6f34a60a5663c60dc9d799199ea38ad6427f516e2f",
+  "preprocess_config_sha256": "229214bb2de0f3790b62576546b93eedb96b2858bd68e95f18e0e185f251271f",
+  "preprocess_version": "preprocess_v1",
+  "utterances": 235,
+  "sample_rate": 16000,
+  "dtype": "float32",
+  "channels": 1,
+  "min_samples": 3520,
+  "max_samples": 219520,
+  "duration_sec": 985.96
+}

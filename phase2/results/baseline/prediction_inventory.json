@@ -1,0 +1,44 @@
+{
+  "whisper_small_baseline_001": {
+    "rows": 235,
+    "predictions_sha256": "afe4bb405160789428443126d32089810f191850502d9548a10da26329cac544",
+    "config_sha256": "a15f9dfe79bbc590a5826927aa63cf52cab47442da0feea2dffd0771581cd805",
+    "run_metadata_sha256": "231957ba01a3c714296cd08ef05bb78af576e3bb1c0841fccf2f4215ed0bf2ee"
+  },
+  "whisper_small_beam5_reload_001": {
+    "rows": 3,
+    "predictions_sha256": "780664e2edbf138088df6c5d3cf0b27b18ef388c159431a0c0bfe93cf5e5bdb0",
+    "config_sha256": "fd38c8c8dc1dba0ca01fb6d670756ab090dca1dcbc839f0053f4bfa49f7089b8",
+    "run_metadata_sha256": "318f25279fe6e57af442560fd11c48f6dda6776be9d2af9f45e6155a5bd850f6"
+  },
+  "whisper_small_beam5_smoke_001": {
+    "rows": 3,
+    "predictions_sha256": "4d547e6d72b27161cedfc2e358c776718f07c12c342122bb8572bb6a8de8a2e1",
+    "config_sha256": "fd38c8c8dc1dba0ca01fb6d670756ab090dca1dcbc839f0053f4bfa49f7089b8",
+    "run_metadata_sha256": "2adea417fa71f18dce974d63e096a127e183364d7c89df1ee47ddda4ee7ffbd1"
+  },
+  "whisper_small_reload_001": {
+    "rows": 3,
+    "predictions_sha256": "53a0e5f7b65f752ef6b2414e26683a36c04575cc512016b9920df79606e63016",
+    "config_sha256": "a15f9dfe79bbc590a5826927aa63cf52cab47442da0feea2dffd0771581cd805",
+    "run_metadata_sha256": "5df2535196edeafdf354ce9eb569acc3c864eaf63bd87754fc0425f2e49e1861"
+  },
+  "whisper_small_rms_trim_reload_001": {
+    "rows": 3,
+    "predictions_sha256": "a5d4924256e02e771fd8d88e21027bdf651676a94752ed618ab81f40ab10d985",
+    "config_sha256": "0a28e434a28b7eed4ce30903f7c5ec498c59a0ba2b1c8ebf6c4deb092a155f29",
+    "run_metadata_sha256": "4c9436ccf1f397dadcec1e3fa65ea28d48fe11129c5cf7be6258b18afd3509fe"
+  },
+  "whisper_small_rms_trim_smoke_001": {
+    "rows": 3,
+    "predictions_sha256": "d7708e797cb47fadc017e3375a2d92b0e11af0576226c00e35630ee3fb0271fe",
+    "config_sha256": "0a28e434a28b7eed4ce30903f7c5ec498c59a0ba2b1c8ebf6c4deb092a155f29",
+    "run_metadata_sha256": "83b5cc1bbddfc891a864e59e2295ee8d11a8d58d93d78ee6a6fcbb3a70075e14"
+  },
+  "whisper_small_smoke_001": {
+    "rows": 3,
+    "predictions_sha256": "9f80832a5f2f71d316cf77095190ce266248647638f992fa28fc8a0bf82395b8",
+    "config_sha256": "a15f9dfe79bbc590a5826927aa63cf52cab47442da0feea2dffd0771581cd805",
+    "run_metadata_sha256": "06ec2dab53bbca323c46ded9de10356f7df23211a0d3bc960928955acfe4feb3"
+  }
+}

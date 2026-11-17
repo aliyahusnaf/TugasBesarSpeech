@@ -3,3 +3,4 @@ __pycache__/
 .venv/
 data/processed/*/audio/
 data/processed/*/converted/
+results/**/predictions.csv
