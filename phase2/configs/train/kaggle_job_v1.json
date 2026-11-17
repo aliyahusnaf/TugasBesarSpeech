@@ -1,0 +1,9 @@
+{
+  "description": "Fine-tuning Whisper small: sweep learning rate (full fine-tuning) + freeze encoder pada lr acuan. Seleksi hanya pada validation.",
+  "runs": [
+    {"run_id": "ft_lr1e-5_001", "config": "phase2/configs/train/whisper_small_ft_lr1e-5.json"},
+    {"run_id": "ft_lr5e-6_001", "config": "phase2/configs/train/whisper_small_ft_lr5e-6.json"},
+    {"run_id": "ft_lr3e-5_001", "config": "phase2/configs/train/whisper_small_ft_lr3e-5.json"},
+    {"run_id": "ft_lr1e-5_freeze_encoder_001", "config": "phase2/configs/train/whisper_small_ft_lr1e-5_freeze_encoder.json"}
+  ]
+}
