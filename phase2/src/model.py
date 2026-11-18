@@ -1,4 +1,4 @@
-"""Shared Whisper loader and decoder for Owners 3/4/6."""
+"""Shared Whisper loader and decoder."""
 import json
 import re
 from pathlib import Path
@@ -16,8 +16,7 @@ SHA256 = re.compile(r"[0-9a-f]{64}")
 
 
 def load_config(path=DEFAULT_CONFIG):
-    """Pretrained checkpoint dari Hub (`model_id` + `revision`) atau checkpoint
-    fine-tuning lokal (`model_path` + `base_revision` + hash `model.bin`)."""
+    """Checkpoint pretrained dari Hub atau checkpoint fine-tuning lokal."""
     config = json.loads(Path(path).read_text(encoding="utf-8"))
     if config["technique"] != "whisper":
         raise ValueError("Expected Whisper technique")

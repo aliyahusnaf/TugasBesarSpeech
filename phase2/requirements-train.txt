@@ -1,5 +1,5 @@
 -r requirements-model.txt
-# Training/fine-tuning Orang 4. Kaggle menyediakan PyTorch CUDA; versi aktual dicatat di run.json.
+# Training/fine-tuning. Kaggle menyediakan PyTorch CUDA; versi aktual dicatat di run.json.
 # Lokal (CPU): pip install torch --index-url https://download.pytorch.org/whl/cpu
 torch>=2.4
 transformers==4.57.1

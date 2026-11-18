@@ -1,14 +1,4 @@
-"""Entry point kernel Kaggle (GPU T4) untuk fine-tuning Orang 4.
-
-Jangan jalankan di laptop. File ini disalin oleh `python -m phase2.scripts.kaggle_job prepare`
-ke folder kernel. Kernel:
-1. mengambil commit dasar repo publik dari GitHub (bukan cabang yang bisa bergeser),
-2. menerapkan git bundle berisi commit lokal yang belum di-push, lalu checkout commit
-   kode yang persis dicatat di job.json,
-3. menginstal requirements-train.txt dan menjalankan setiap run secara berurutan;
-   satu run gagal tidak menghentikan run berikutnya, statusnya dicatat.
-Output: /kaggle/working/outputs/<run_id>/ (unduh dengan `kaggle kernels output`).
-"""
+"""Entry point kernel Kaggle (GPU T4) untuk fine-tuning; jangan dijalankan di laptop."""
 import glob
 import json
 import os

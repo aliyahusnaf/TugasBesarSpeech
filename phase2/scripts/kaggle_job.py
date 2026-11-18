@@ -1,12 +1,4 @@
-"""Menyiapkan dan mengumpulkan job fine-tuning Kaggle (Orang 4).
-
-prepare: membuat folder dataset (git bundle commit lokal + job.json) dan folder kernel
-         di phase2/.kaggle_build/ (diabaikan Git). Username Kaggle hanya ditulis ke
-         folder build, tidak ke repo.
-collect: menyalin output kernel yang sudah diunduh ke phase2/results/training/<run_id>/
-         (log/metrik), phase2/models/<run_id>/ct2/ (bobot, diabaikan Git) dan membuat
-         config inference phase2/configs/experiments/finetuned_<run_id>.json.
-"""
+"""Menyiapkan (prepare) dan mengumpulkan (collect) job fine-tuning Kaggle."""
 import argparse
 from datetime import datetime, timezone
 import json

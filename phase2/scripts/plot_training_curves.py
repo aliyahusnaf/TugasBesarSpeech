@@ -1,10 +1,4 @@
-"""Gambar kurva training (WER dan loss validation per epoch) untuk laporan Orang 4.
-
-Dua panel terpisah (bukan dual axis): WER validation dan loss validation per epoch
-untuk setiap run fine-tuning. Epoch 0 (model pretrained sebelum fine-tuning) tidak
-diplot agar skala tidak memampatkan perbedaan antar-run; nilainya ditulis di subjudul.
-Angka lengkap ada di history.csv tiap run dan results/training_summary.csv.
-"""
+"""Gambar kurva training (WER dan loss validation per epoch) untuk laporan."""
 import json
 from pathlib import Path
 

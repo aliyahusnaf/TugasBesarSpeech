@@ -1,16 +1,4 @@
-"""WER/CER untuk pemantauan training dan pemilihan model di validation (Orang 4).
-
-Ini BUKAN scorer resmi laporan: scorer final, kebijakan scoring dan angka test
-adalah milik Orang 5. Modul ini hanya dipakai agar semua run Orang 4 dipilih
-dengan aturan yang sama dan dapat ditelusuri:
-
-- Referensi dan prediksi dinormalisasi dengan `normalize_text` Orang 2
-  (lowercase, NFKC, tanda baca dibuang, tanda hubung dalam kata dipertahankan,
-  tag seperti `[nama]` dihapus). Tidak ada penggantian kata/ejaan.
-- WER/CER level korpus = total edit (S + D + I) / total kata atau karakter
-  referensi, bukan rata-rata WER per ujaran.
-- CER dihitung pada string ternormalisasi termasuk spasi tunggal antar-kata.
-"""
+"""WER/CER untuk pemilihan model di validation; angka resmi dan test dihitung `evaluate.py`."""
 import jiwer
 
 from phase2.src.text_normalization import normalize_text

@@ -18,11 +18,7 @@ def find_tags(text):
 
 
 def normalize_text(text, keep_hyphen=True):
-    """Teks untuk training dan scoring; dipakai sama untuk referensi dan prediksi.
-
-    Hanya menyeragamkan bentuk tulisan: tidak ada penggantian kata, ejaan
-    Palembang dan code-switch dibiarkan apa adanya.
-    """
+    """Dipakai sama untuk referensi dan prediksi; ejaan Palembang dan code-switch tidak diganti."""
     text = unicodedata.normalize("NFKC", text).translate(_DASHES).lower()
     text = _TAG.sub(" ", text)
     text = _APOSTROPHES.sub("", text)

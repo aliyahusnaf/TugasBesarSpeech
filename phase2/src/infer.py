@@ -1,4 +1,4 @@
-"""Versioned validation baseline predictions; final-test scoring belongs to Owner 5."""
+"""Versioned validation predictions."""
 import argparse
 import csv
 from datetime import datetime, timezone
@@ -23,7 +23,7 @@ def provenance():
     saved = json.loads((PHASE2 / "data/source_snapshot.json").read_text(encoding="utf-8"))
     current = source_snapshot()
     if set(saved["files"]) != set(current["files"]):
-        raise ValueError("Source inventory changed; request a new snapshot from Owner 1")
+        raise ValueError("Source inventory changed; request a new snapshot")
     newline_only = []
     for path, expected in saved["files"].items():
         if current["files"][path] == expected:
@@ -41,8 +41,7 @@ def provenance():
 
 
 def run(run_id, config_path=model.DEFAULT_CONFIG, limit=None, output_root=None):
-    """`output_root` default `phase2/results/baseline`; eksperimen Orang 4 memakai
-    `phase2/results/experiments` agar baseline Orang 3 tidak tercampur."""
+    """Default output phase2/results/baseline; eksperimen memakai phase2/results/experiments."""
     if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_-]*", run_id):
         raise ValueError("run_id must contain only letters, digits, underscores or hyphens")
     if limit is not None and limit < 1:

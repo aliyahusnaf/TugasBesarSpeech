@@ -1,14 +1,4 @@
-"""Ringkasan eksperimen Orang 4 di validation (bukan test).
-
-Membaca run inference (`predictions.csv` lokal + `run.json`) dan run training
-(`history.csv` + `run.json`), lalu menulis:
-- phase2/results/summary.csv            : satu baris per run inference (WER/CER validation)
-- phase2/results/training_summary.csv   : satu baris per run fine-tuning
-- phase2/results/experiments/README.md  : tabel yang sama untuk dibaca manusia
-
-WER/CER memakai `selection_metrics` (aturan seleksi Orang 4); angka resmi laporan
-dan test tetap dihitung scorer Orang 5. Prediksi mentah tidak disalin ke file publik.
-"""
+"""Ringkasan eksperimen di validation (bukan test)."""
 import argparse
 import json
 from pathlib import Path
@@ -99,8 +89,8 @@ def main():
                "substitutions", "deletions", "insertions", "elapsed_sec"]
     text = ["# Ringkasan eksperimen (validation)", "",
             "Dihasilkan oleh `python -m phase2.scripts.summarize_experiments`. WER/CER level korpus",
-            f"dengan aturan `{selection_metrics.SCORING_POLICY}`. Bukan angka test; scorer resmi milik Orang 5.", "",
-            "## Inference CPU (faster-whisper INT8, adapter Orang 3)", "",
+            f"dengan aturan `{selection_metrics.SCORING_POLICY}`. Bukan angka test.", "",
+            "## Inference CPU (faster-whisper INT8, adapter `model.py`)", "",
             markdown_table(columns, [[r[c] for c in columns] for r in inference]), ""]
     if training:
         tcols = ["run_id", "learning_rate", "freeze_encoder", "epochs_run", "best_epoch",

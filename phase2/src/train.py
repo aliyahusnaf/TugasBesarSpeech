@@ -1,19 +1,4 @@
-"""Fine-tuning Whisper (HF Transformers + PyTorch) untuk Bahasa Palembang — Orang 4.
-
-Alur satu run:
-1. Validasi provenance korpus (sama seperti `infer.py`) dan manifest preprocessing Orang 2.
-2. Muat waveform per ujaran lewat fungsi preprocessing Orang 2 (tanpa duplikasi
-   pengaturan), periksa hash PCM, lalu ekstrak log-Mel dengan feature extractor
-   checkpoint yang sama.
-3. Target training = kolom `text` (normalisasi Orang 2) untuk baris `train_eligible`.
-   Prefix decoder: <|id|> <|transcribe|> <|notimestamps|>; tokenizer tidak diubah.
-4. Evaluasi validation sebelum training (epoch 0) dan setiap akhir epoch:
-   loss validation + WER/CER greedy (`selection_metrics`, bukan scorer resmi Orang 5).
-5. Checkpoint terbaik = WER validation terendah (seri: loss validation terendah),
-   lalu dikonversi ke CTranslate2 agar dipakai `WhisperASR` Orang 3 tanpa perubahan decoding.
-
-Test set tidak pernah dibaca di sini.
-"""
+"""Fine-tuning Whisper (HF Transformers + PyTorch) untuk Bahasa Palembang; test set tidak dibaca."""
 import argparse
 import csv
 from datetime import datetime, timezone

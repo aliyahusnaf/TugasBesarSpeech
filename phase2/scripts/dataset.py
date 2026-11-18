@@ -66,7 +66,7 @@ def verify_source_snapshot(saved, current=None, root=None):
     if frozen_hash != saved["fingerprint"]:
         raise ValueError("Saved snapshot fingerprint does not match its inventory")
     if set(saved["files"]) != set(current["files"]):
-        raise ValueError("Source inventory changed; request a new snapshot from Owner 1")
+        raise ValueError("Source inventory changed; request a new snapshot")
     newline_only = []
     for path, expected in saved["files"].items():
         if current["files"][path] == expected:
