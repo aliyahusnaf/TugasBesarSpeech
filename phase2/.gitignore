@@ -4,3 +4,5 @@ __pycache__/
 data/processed/*/audio/
 data/processed/*/converted/
 results/**/predictions.csv
+.kaggle_build/
+models/
