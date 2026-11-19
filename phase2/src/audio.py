@@ -37,7 +37,7 @@ def read_wav(path):
 
 
 def read_segment(path, start_sec, end_sec):
-    """Potongan [start, end) dengan batas sampel round(detik * 16000)."""
+    # Potongan [start, end) dengan batas sampel round(detik * 16000).
     first, last = round(float(start_sec) * SAMPLE_RATE), round(float(end_sec) * SAMPLE_RATE)
     with wave.open(str(path), "rb") as stream:
         _require_standard(stream, path)
@@ -84,7 +84,7 @@ def decode_with_ffmpeg(src):
 
 
 def convert_to_standard(src, dst):
-    """Salinan baru WAV 16 kHz mono 16-bit; file sumber tidak disentuh."""
+    # Salinan baru WAV 16 kHz mono 16-bit, file sumber tidak disentuh.
     src, dst = Path(src), Path(dst)
     if src.resolve() == dst.resolve():
         raise ValueError("Output konversi tidak boleh menimpa sumber")
@@ -99,7 +99,7 @@ def convert_to_standard(src, dst):
 
 
 def load_audio_file(path):
-    """PCM int16 16 kHz mono dari file apa pun; WAV standar dibaca tanpa ffmpeg."""
+    # PCM int16 16 kHz mono dari file apa pun, WAV standar dibaca tanpa ffmpeg.
     try:
         if is_standard_format(wav_format(path)):
             return read_wav(path)
@@ -133,7 +133,7 @@ def frame_levels(signal, frame_sec, hop_sec):
 
 
 def active_bounds(levels, threshold_db, hop_sec, frame_sec, length):
-    """Rentang sampel dari frame aktif pertama sampai terakhir, atau None."""
+    # Rentang sampel dari frame aktif pertama sampai terakhir, atau None.
     active = np.flatnonzero(levels >= threshold_db)
     if not len(active):
         return None
@@ -168,7 +168,7 @@ def audio_metrics(pcm, qc):
 
 
 def apply_variant(pcm, audio_cfg, qc):
-    """Variasi preprocessing deterministik; konfigurasi default mengembalikan PCM asli."""
+    # Variasi preprocessing deterministik, konfigurasi default mengembalikan PCM asli.
     pcm = np.asarray(pcm, dtype="<i2")
     if audio_cfg.get("trim_silence"):
         levels = frame_levels(to_float(pcm), qc["frame_sec"], qc["hop_sec"])

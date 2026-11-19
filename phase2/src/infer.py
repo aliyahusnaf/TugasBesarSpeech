@@ -1,4 +1,4 @@
-"""Versioned validation predictions."""
+# Buat prediksi validation untuk satu config model.
 import argparse
 import csv
 from datetime import datetime, timezone
@@ -19,7 +19,7 @@ PREDICTION_FIELDS = ["run_id", "sample_id", "split", "reference", "prediction"]
 
 
 def provenance():
-    """Accept byte-exact sources or explain the existing LF/CRLF portability issue."""
+    # Pastikan file sumber sama dengan snapshot, beda line ending CRLF/LF diperbolehkan.
     saved = json.loads((PHASE2 / "data/source_snapshot.json").read_text(encoding="utf-8"))
     current = source_snapshot()
     if set(saved["files"]) != set(current["files"]):
@@ -41,13 +41,12 @@ def provenance():
 
 
 def run(run_id, config_path=model.DEFAULT_CONFIG, limit=None, output_root=None):
-    """Default output phase2/results/baseline; eksperimen memakai phase2/results/experiments."""
     if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_-]*", run_id):
         raise ValueError("run_id must contain only letters, digits, underscores or hyphens")
     if limit is not None and limit < 1:
         raise ValueError("limit must be positive")
     config = model.load_config(config_path)
-    out = Path(output_root or PHASE2 / "results/baseline") / run_id
+    out = Path(output_root or PHASE2 / "results/experiments") / run_id
     out.mkdir(parents=True, exist_ok=False)
     started = time.perf_counter()
     metadata = {"run_id": run_id, "status": "running", "config": config,
@@ -106,11 +105,11 @@ def run(run_id, config_path=model.DEFAULT_CONFIG, limit=None, output_root=None):
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(description="Buat prediksi validation untuk satu config model.")
     parser.add_argument("--config", type=Path, default=model.DEFAULT_CONFIG)
     parser.add_argument("--run-id", required=True)
-    parser.add_argument("--limit", type=int, help="First N validation rows for a smoke run; logged explicitly")
-    parser.add_argument("--output-root", type=Path, help="Default phase2/results/baseline")
+    parser.add_argument("--limit", type=int, help="Hanya N ujaran pertama validation")
+    parser.add_argument("--output-root", type=Path, help="Default phase2/results/experiments")
     args = parser.parse_args()
     run(args.run_id, args.config, args.limit, args.output_root)
 

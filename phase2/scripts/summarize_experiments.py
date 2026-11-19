@@ -1,4 +1,4 @@
-"""Ringkasan eksperimen di validation (bukan test)."""
+# Ringkasan eksperimen di validation (bukan test).
 import argparse
 import json
 from pathlib import Path
@@ -12,7 +12,7 @@ def markdown_table(columns, rows):
     lines += ["| " + " | ".join("" if v is None else str(v) for v in row) + " |" for row in rows]
     return "\n".join(lines)
 
-RUN_ROOTS = [PHASE2 / "results/baseline", PHASE2 / "results/experiments"]
+RUN_ROOTS = [PHASE2 / "results/experiments"]
 SUMMARY_FIELDS = ["run_id", "kind", "model", "model_revision_or_sha256", "training_run", "preprocess_version",
                   "beam_size", "split", "utterances", "wer", "cer", "substitutions", "deletions", "insertions",
                   "ref_words", "ref_chars", "elapsed_sec", "code_commit", "config_sha256",
@@ -79,7 +79,7 @@ def training_rows():
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser = argparse.ArgumentParser(description="Ringkasan eksperimen di validation (bukan test).")
     parser.add_argument("--min-rows", type=int, default=235, help="Abaikan run subset (smoke)")
     args = parser.parse_args()
     inference, training = inference_rows(args.min_rows), training_rows()

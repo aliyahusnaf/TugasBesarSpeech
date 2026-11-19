@@ -1,4 +1,4 @@
-"""WER/CER untuk pemilihan model di validation; angka resmi dan test dihitung `evaluate.py`."""
+# WER/CER untuk pemilihan model di validation, angka resmi dan test dihitung `evaluate.py`.
 import jiwer
 
 from phase2.src.text_normalization import normalize_text

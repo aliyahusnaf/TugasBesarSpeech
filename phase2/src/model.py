@@ -1,4 +1,4 @@
-"""Shared Whisper loader and decoder."""
+# Loader dan decoder Whisper.
 import json
 import re
 from pathlib import Path
@@ -16,7 +16,7 @@ SHA256 = re.compile(r"[0-9a-f]{64}")
 
 
 def load_config(path=DEFAULT_CONFIG):
-    """Checkpoint pretrained dari Hub atau checkpoint fine-tuning lokal."""
+    # Checkpoint pretrained dari Hub atau checkpoint fine-tuning lokal.
     config = json.loads(Path(path).read_text(encoding="utf-8"))
     if config["technique"] != "whisper":
         raise ValueError("Expected Whisper technique")
@@ -44,7 +44,7 @@ class WhisperASR:
                 raise FileNotFoundError(f"{path}: unduh checkpoint fine-tuning (lihat phase2/README.md)")
         else:
             path = Path(download_model(config["model_id"], revision=config["revision"]))
-        # Konverter CTranslate2 baru menulis vocabulary.json; checkpoint Systran memakai .txt.
+        # Konverter CTranslate2 baru menulis vocabulary.json, checkpoint Systran memakai .txt.
         vocabulary = [n for n in ("vocabulary.txt", "vocabulary.json") if (path / n).is_file()]
         required = ["model.bin", "config.json", "tokenizer.json"] + vocabulary[:1]
         if not vocabulary or any(not (path / name).is_file() for name in required):
@@ -64,7 +64,6 @@ class WhisperASR:
                 or np.max(np.abs(signal)) > 1):
             raise ValueError("Expected nonempty finite mono float32 waveform in [-1, 1] at 16 kHz")
         segments, _ = self.backend.transcribe(signal, **self.config["decoding"])
-        # Consume the lazy generator here so decoding errors reach the run log.
         return "".join(segment.text for segment in segments).strip()
 
     def transcribe_sample(self, row):
@@ -75,5 +74,5 @@ class WhisperASR:
 
 
 def transcribe(audio_path, config):
-    """Whole-file convenience API; reuse WhisperASR for manifest batches."""
+    # Transkripsi satu file, untuk banyak ujaran pakai WhisperASR langsung.
     return WhisperASR(config).transcribe(audio_path)

@@ -1,10 +1,9 @@
-"""Gambar kurva training (WER dan loss validation per epoch) untuk laporan."""
+# Gambar kurva training (WER dan loss validation per epoch) untuk laporan.
 import json
 from pathlib import Path
 
 from phase2.scripts.dataset import PHASE2, read_csv
 
-# Palet kategorikal tervalidasi (urutan tetap; warna mengikuti run, bukan peringkat).
 SERIES = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100"]
 TEXT, MUTED, GRID, SURFACE = "#0b0b0b", "#52514e", "#e4e3df", "#fcfcfb"
 OUT = PHASE2 / "report/figures/training_curves.png"

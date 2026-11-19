@@ -1,4 +1,4 @@
-"""Bandingkan run validation terhadap satu run acuan dengan paired bootstrap."""
+# Bandingkan run validation terhadap satu run acuan dengan paired bootstrap.
 import argparse
 import json
 import random
@@ -23,7 +23,7 @@ def wer(table, ids):
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser = argparse.ArgumentParser(description="Bandingkan run validation terhadap satu run acuan dengan paired bootstrap.")
     parser.add_argument("--reference", required=True, help="run_id acuan di results/experiments")
     parser.add_argument("--resamples", type=int, default=10000)
     parser.add_argument("--seed", type=int, default=42)

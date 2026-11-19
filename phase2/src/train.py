@@ -1,4 +1,4 @@
-"""Fine-tuning Whisper (HF Transformers + PyTorch) untuk Bahasa Palembang; test set tidak dibaca."""
+# Fine-tuning Whisper (HF Transformers + PyTorch) untuk Bahasa Palembang, test set tidak dibaca.
 import argparse
 import csv
 from datetime import datetime, timezone
@@ -44,7 +44,7 @@ def load_train_config(path):
 
 
 def load_rows(split, preprocess_config, limit=None):
-    """Baris manifest preprocessing; split train hanya `train_eligible`."""
+    # Baris manifest preprocessing, split train hanya `train_eligible`.
     if split == "test":
         raise ValueError("Training/seleksi tidak boleh membaca test set")
     path = ROOT / preprocess_config["output_dir"] / preprocess_config["version"] / f"{split}.csv"
@@ -57,7 +57,7 @@ def load_rows(split, preprocess_config, limit=None):
 
 
 def load_signal(row, preprocess_config):
-    """Sama dengan `preprocess.load_sample`, ditambah verifikasi hash PCM hasil preprocessing."""
+    # Sama dengan `preprocess.load_sample`, ditambah verifikasi hash PCM hasil preprocessing.
     pcm = audio.read_segment(ROOT / row["source_audio_path"], row["start_sec"], row["end_sec"])
     processed = preprocess.process_pcm(pcm, preprocess_config)
     if hashlib.sha256(processed.tobytes()).hexdigest() != row["pcm_sha256"]:
@@ -293,7 +293,7 @@ def run(run_id, config_path, output_root=None):
         metadata["ct2_model_sha256"] = convert_to_ct2(best_dir, out / "model/ct2", config["ct2_quantization"])
         metadata["ct2_conversion_sec"] = round(time.perf_counter() - t_convert, 2)
         if not config.get("keep_hf_checkpoint", False):
-            # Bobot HF fp32 (~1 GB) tidak diperlukan pipeline; config/tokenizer dipertahankan.
+            # Bobot HF fp32 (~1 GB) tidak diperlukan pipeline, config/tokenizer dipertahankan.
             for weights in best_dir.glob("*.safetensors"):
                 weights.unlink()
         metadata["status"] = "complete"
@@ -308,7 +308,7 @@ def run(run_id, config_path, output_root=None):
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser = argparse.ArgumentParser(description="Fine-tuning Whisper (HF Transformers + PyTorch) untuk Bahasa Palembang, test set tidak dibaca.")
     parser.add_argument("--config", type=Path, required=True)
     parser.add_argument("--run-id", required=True)
     parser.add_argument("--output-root", type=Path, help="Default phase2/results/training")

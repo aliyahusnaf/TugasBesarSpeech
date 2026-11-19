@@ -45,7 +45,7 @@ class LocalCheckpointConfigTests(unittest.TestCase):
 
 
 class OutputRootTests(unittest.TestCase):
-    def test_runs_can_be_written_outside_baseline_directory(self):
+    def test_runs_can_be_written_to_custom_output_root(self):
         fake = Mock()
         fake.preprocess_config = {"_sha256": "test", "version": "preprocess_v1"}
         fake.artifact_hashes = {"model.bin": "test"}
@@ -57,7 +57,7 @@ class OutputRootTests(unittest.TestCase):
             self.assertEqual(out, Path(tmp) / "experiments" / "exp_smoke")
             rows = read_csv(out / "predictions.csv")
             self.assertEqual(rows[0]["reference"], read_csv(PHASE2 / "data/manifests/validation.csv")[0]["transcript"])
-            self.assertFalse((PHASE2 / "results/baseline/exp_smoke").exists())
+            self.assertFalse((PHASE2 / "results/experiments/exp_smoke").exists())
 
 
 if __name__ == "__main__":

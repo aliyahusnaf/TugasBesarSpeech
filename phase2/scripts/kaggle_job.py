@@ -1,4 +1,4 @@
-"""Menyiapkan (prepare) dan mengumpulkan (collect) job fine-tuning Kaggle."""
+# Menyiapkan (prepare) dan mengumpulkan (collect) job fine-tuning Kaggle.
 import argparse
 from datetime import datetime, timezone
 import json
@@ -85,7 +85,7 @@ def collect(download, job_path):
         if (src / "epochs").exists():
             shutil.copytree(src / "epochs", dst / "epochs")
         if run["status"] != "complete":
-            print(f"{run_id}: status {run['status']} — log disalin, model tidak dikumpulkan")
+            print(f"{run_id}: status {run['status']}, log disalin, model tidak dikumpulkan")
             continue
         model_dir = PHASE2 / "models" / run_id / "ct2"
         shutil.copytree(src / "model/ct2", model_dir)
@@ -101,7 +101,7 @@ def collect(download, job_path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser = argparse.ArgumentParser(description="Menyiapkan (prepare) dan mengumpulkan (collect) job fine-tuning Kaggle.")
     sub = parser.add_subparsers(dest="command", required=True)
     p = sub.add_parser("prepare")
     p.add_argument("--username", required=True, help="Username Kaggle (tidak disimpan di repo)")

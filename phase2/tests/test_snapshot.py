@@ -62,7 +62,7 @@ class SnapshotTests(unittest.TestCase):
 
     def test_actual_corpus_portable_without_rewriting_frozen_files(self):
         saved = json.loads((PHASE2 / "data/source_snapshot.json").read_text(encoding="utf-8"))
-        # Kopi teks saja ke dua simulasi checkout; hash audio tetap persis snapshot.
+        # Kopi teks saja ke dua simulasi checkout, hash audio tetap persis snapshot.
         for ending in [b"\n", b"\r\n"]:
             with self.subTest(ending=ending), tempfile.TemporaryDirectory() as tmp:
                 current = json.loads(json.dumps(saved))

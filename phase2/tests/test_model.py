@@ -91,7 +91,7 @@ class PredictionRunTests(unittest.TestCase):
                 fake.transcribe_sample.side_effect = RuntimeError("backend unavailable")
                 with self.assertRaisesRegex(RuntimeError, "backend unavailable"):
                     infer.run("failed", limit=1)
-                failure = json.loads((Path(tmp) / "results/baseline/failed/run.json").read_text())
+                failure = json.loads((Path(tmp) / "results/experiments/failed/run.json").read_text())
                 self.assertEqual(failure["status"], "failed")
                 self.assertIn("backend unavailable", failure["error"])
 

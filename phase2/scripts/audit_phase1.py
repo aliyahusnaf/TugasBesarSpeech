@@ -22,7 +22,7 @@ def audit_relations():
         original, chunk = cache[speaker], pcm(topic)
         expected = round(float(entry["start_in_full"]) * 16000)
         match = None
-        # Offset lama dibulatkan ke milidetik: cek selisih sampai 16 sampel.
+        # Posisi di segment_offsets.csv dibulatkan ke milidetik (16 sampel), jadi harus dicari di sekitar posisi itu
         for offset in sorted(range(max(0, expected-16), expected+17), key=lambda n: abs(n-expected)):
             if original[offset*2:offset*2 + len(chunk)] == chunk:
                 match = offset

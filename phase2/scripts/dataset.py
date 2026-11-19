@@ -1,4 +1,4 @@
-# Persiapan manifest saja; audio dan transkripsi Fase 1 tidak ditulis ulang.
+# Persiapan manifest saja, audio dan transkripsi Fase 1 tidak ditulis ulang.
 
 import csv
 import hashlib

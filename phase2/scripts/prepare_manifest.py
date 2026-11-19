@@ -150,7 +150,7 @@ def prepare():
                   "duration_sec": sum(float(r["duration_sec"]) for r in rows if r["split"] == split)}
                    for split, ids in config["speakers"].items()}
     reasons = Counter(reason for r in excluded for reason in r["reasons"].split(";"))
-    # Teks identik bisa muncul antar-speaker read speech; bukan audio duplikat.
+    # Teks identik bisa muncul antar-speaker read speech, bukan audio duplikat.
     texts = {split: {r["transcript"] for r in rows if r["split"] == split} for split in split_stats}
     overlaps = {f"{a}/{b}": len(texts[a] & texts[b]) for a, b in combinations(texts, 2)}
     summary = {"source_audio_files": len(audio), "metadata_files": len(metadata),

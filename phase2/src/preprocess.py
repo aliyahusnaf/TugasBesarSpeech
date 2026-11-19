@@ -43,7 +43,7 @@ def process_pcm(pcm, config):
 
 
 def load_sample(row, config=None):
-    """Sinyal float32 16 kHz untuk satu baris manifest sumber atau hasil preprocessing."""
+    # Sinyal float32 16 kHz untuk satu baris manifest sumber atau hasil preprocessing.
     config = config or load_config()
     if row.get("preprocess_version", config["version"]) != config["version"]:
         raise ValueError(f"Versi preprocessing baris {row['preprocess_version']} != {config['version']}")
@@ -53,7 +53,7 @@ def load_sample(row, config=None):
 
 
 def prepare_input(path, config=None):
-    """Jalur yang sama untuk audio di luar manifest, misalnya input demo."""
+    # Jalur yang sama untuk audio di luar manifest, misalnya input demo.
     config = config or load_config()
     return audio.to_float(process_pcm(audio.load_audio_file(path), config))
 

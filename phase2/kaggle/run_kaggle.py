@@ -1,4 +1,4 @@
-"""Entry point kernel Kaggle (GPU T4) untuk fine-tuning; jangan dijalankan di laptop."""
+# Entry point kernel Kaggle (GPU T4) untuk fine-tuning, jangan dijalankan di laptop.
 import glob
 import json
 import os
