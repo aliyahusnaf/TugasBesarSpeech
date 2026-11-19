@@ -1,6 +1,0 @@
-run_id,sample_id,split,reference,prediction
-whisper_small_baseline_001,S03_T02_0001,validation,nah hobi aku itu,"nah, obi aku itu"
-whisper_small_baseline_001,S03_T02_0002,validation,kalu ida,kalau iya
-whisper_small_baseline_001,S03_T02_0003,validation,main basket,Mindbasket
-whisper_small_baseline_001,S03_T02_0004,validation,investasi,infestasi
-whisper_small_baseline_001,S03_T02_0005,validation,kalu idak,kalau ida
