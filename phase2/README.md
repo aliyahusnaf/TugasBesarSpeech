@@ -63,7 +63,7 @@ phase2/
   data/
     manifests/                  manifest train/validation/test dan ujaran yang dikeluarkan
     processed/                  hasil preprocessing per versi
-  docs/dataset_preparation.md   audit data, kebijakan pengecualian, strategi split
+  docs/dataset_preparation.md   data yang dipakai, pembagian split, keterbatasan
   kaggle/run_kaggle.py          entry point training di Kaggle
   models/                       checkpoint fine-tuned (tidak masuk Git, lihat bagian Model)
   report/figures/               gambar untuk laporan
@@ -177,8 +177,8 @@ Korpus hanya dibaca. Pembagian speaker disimpan di `configs/split_v1.json`
   batas waktu, transkripsi, speaker).
 - `data/manifests/excluded.csv`: ujaran yang tidak dipakai beserta alasannya.
 - `data/speakers.csv`, `data/dataset_stats.json`: komposisi dan durasi per split.
-- [docs/dataset_preparation.md](docs/dataset_preparation.md): audit, kebijakan
-  pengecualian, dan strategi split.
+- [docs/dataset_preparation.md](docs/dataset_preparation.md): data yang dipakai,
+  strategi pembagian split, dan keterbatasannya.
 
 ## 5. Preprocessing
 

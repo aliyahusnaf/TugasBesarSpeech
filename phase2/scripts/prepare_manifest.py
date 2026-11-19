@@ -5,7 +5,6 @@ import json
 
 from .dataset import (PHASE2, ROOT, CORPUS, FIELDS, collect, source_snapshot,
                       write_csv, write_json, read_csv, segment_pcm, verify_source_snapshot)
-from .markdown_utils import join_paragraph_lines
 
 
 def speaker_summary(rows):
@@ -125,7 +124,7 @@ def prepare():
                   "source_fingerprint": snapshot["fingerprint"], "speakers": speakers,
                   "selection": "enumerate all 7/2/2; native+non-native and L+P in every split; minimize squared duration and utterance share deviations from speaker share; lexical tie-break",
                   "objective": score, "seed": None,
-                  "status": "internal split fixed; Owner 5 review and external corpus integration pending"}
+                  "status": "internal split fixed"}
         saved = {**snapshot, "commit": config["source_commit"]}
     mapping = {s: split for split, ids in config["speakers"].items() for s in ids}
     for row in rows:
@@ -161,126 +160,53 @@ def prepare():
                "exact_transcript_overlap_between_splits": overlaps,
                "leakage_errors": errors}
     write_json(PHASE2 / "data/dataset_stats.json", summary)
-    make_docs(summary, config, audio, stats)
+    make_docs(summary, config, stats)
     print(json.dumps(summary, ensure_ascii=False, indent=2))
 
 
-def make_docs(summary, config, audio, stats):
-    table = "| Split | Speaker | Ujaran | Menit segmen |\n|---|---|---:|---:|\n"
+def make_docs(summary, config, stats):
+    labels = {"quality_reject": "rekaman berlabel Reject", "other_speaker": "suara orang lain (OTHER)",
+              "unclear_transcript": "transkripsi tidak jelas"}
+    reasons = ", ".join(f"{labels.get(k, k)} {v}" for k, v in summary["exclusion_reasons_nonexclusive"].items())
+    table = "| Split | Speaker | Ujaran | Durasi (menit) |\n|---|---|---:|---:|\n"
     for split, v in summary["splits"].items():
-        table += f"| {split} | {', '.join(v['speakers'])} | {v['utterances']} | {v['duration_sec']/60:.2f} |\n"
-    source_only = [r["filename"] for r in audio if "_T" not in r["filename"]]
-    inventory = f"""# Audit korpus Fase 1
+        table += f"| {split} | {', '.join(v['speakers'])} | {v['utterances']} | {v['duration_sec'] / 60:.2f} |\n"
+    overlaps = ", ".join(f"{k} {v}" for k, v in summary["exact_transcript_overlap_between_splits"].items())
+    doc = f"""# Persiapan Dataset
 
-Snapshot commit: `{config['source_commit']}`. Hash sumber tersedia di
-`phase2/data/source_snapshot.json`; hash ini mengikat isi file lokal yang diaudit.
+Sumber: korpus Fase 1 (`Korpus_Bahasa_Palembang/`), commit `{config['source_commit']}`.
+Hash file sumber disimpan di `data/source_snapshot.json`.
 
-- WAV ditemukan: {summary['source_audio_files']}; metadata: {summary['metadata_files']} file.
-- Anotasi: {summary['annotation_rows']} segmen; diterima: {summary['accepted']}; dikecualikan: {summary['excluded']}.
-- Speaker utama: {len(stats)}; nama asli tidak dimasukkan ke manifest.
-- File sumber panjang yang tidak dipakai langsung: {', '.join(source_only)}.
-- Semua WAV dibaca penuh untuk cek header, payload, sinyal nol, dan hash.
-- Kesalahan format/audio: {len(summary['audio_errors'])}; warning durasi anotasi: {len(summary['annotation_warnings'])}.
+## Data yang dipakai
 
-Rekaman panjang dan rekaman per topik tidak dihitung sebagai sampel terpisah.
-Anotasi menunjuk rekaman per topik. `documentation/qc/segment_offsets.csv`
-menyediakan pemetaan ke rekaman panjang; pemeriksaan kecocokan sampel ada
-di `phase2/data/source_relations.csv` setelah menjalankan audit tambahan.
+- {summary['annotation_rows']} ujaran teranotasi dari {len(stats)} penutur; {summary['accepted']} dipakai dan {summary['excluded']} dikeluarkan.
+- Alasan dikeluarkan (satu ujaran bisa memiliki lebih dari satu alasan): {reasons}. Rincian per ujaran ada di `data/manifests/excluded.csv`.
+- Semua audio berformat WAV 16 kHz, mono, 16-bit. Kesalahan format: {len(summary['audio_errors'])}.
 
-## Kebijakan pengecualian
-
-Reject dikeluarkan satu file beserta seluruh segmennya. OTHER dikeluarkan karena
-pengguna mengonfirmasi bahwa itu orang lain, bukan S04. Segmen dengan transkripsi
-tidak jelas ([unclear]/event unclear), kosong, hanya tag non-ucapan, batas invalid,
-atau audio rusak/nol tidak dipakai. Semua alasan per ujaran ada di
-`data/manifests/excluded.csv`; alasan dapat lebih dari satu, jangan dijumlahkan
-sebagai jumlah segmen. Duplikat PCM satu speaker hanya memakai ID pertama;
-jika speaker berbeda, semua anggota grup ditahan karena identitas ambigu.
-
-`[nama]`, code-switch, dan event cough/noise yang masih punya kata dipertahankan
-dan ditandai, bukan dihapus otomatis. Orang 2/5 perlu menyepakati penanganan tag
-dan ejaan untuk training/scoring; transkripsi asli tidak diubah di tahap ini.
+## Pembagian data
 
 {table}
-Durasi dihitung dari jumlah sampel pada batas anotasi, bukan panjang file penuh.
-Jumlah durasi segmen dapat menghitung bagian overlap lebih dari sekali.
-Audit teknis tidak menjamin kebenaran transkripsi; belum ada listening baru.
-QC lama ada di `Korpus_Bahasa_Palembang/documentation/qc/`.
+Pembagian bersifat speaker-independent: semua ujaran dari satu penutur berada di split yang sama.
+Komposisi 7/2/2 dipilih dari semua kombinasi penutur secara deterministik. Setiap split wajib
+memuat penutur asli dan bukan asli serta laki-laki dan perempuan, lalu dipilih kombinasi yang
+proporsi durasi dan jumlah ujarannya paling mendekati proporsi penutur. Pemilihan tidak memakai
+hasil model. Pembagian disimpan di `configs/split_v1.json`.
 
-## Catatan sumber panjang vs file per topik
+Tidak ada penutur maupun audio (hash PCM) yang sama antar-split.
 
-Audit sampel ulang menemukan 41/46 file topik sama persis dengan rentang sumber
-panjang. Empat file berbeda satu sampel (S01_T05, S02_T01, S03_T04, S06_T02).
-S05_T05 cocok pada bagian awal, tetapi 307748 sampel terakhir (sekitar 19.23 detik)
-melewati akhir S05.wav. Jangan mengganti path anotasi dengan rekaman panjang atau
-menganggap keduanya identik. File per topik menjadi sumber kanonik manifest karena
-itulah yang dirujuk annotation.csv; masalah hubungan sumber ini dicatat untuk
-review Orang 2. Rincian terukur ada di source_relations.csv.
+## Keterbatasan
 
-Sembilan segmen diterima berdurasi di bawah 250 ms; tidak otomatis ditolak karena
-ujaran kata pendek dapat valid. Daftar review juga mencakup tag/event yang masih
-punya transkripsi. Tidak ada segmen diterima yang beririsan dengan OTHER.
+- Hanya {len(stats)} penutur, dengan 2 penutur di validation dan 2 di test, sehingga hasil peka terhadap pilihan penutur.
+- Penutur asli berbicara spontan dan penutur bukan asli membaca naskah, sehingga pengaruh kedua faktor tidak dapat dipisahkan.
+- Beberapa kalimat identik muncul di lebih dari satu split karena naskah yang sama dibaca beberapa penutur ({overlaps}).
+
+## Format manifest
+
+`data/manifests/{{train,validation,test}}.csv` berisi satu baris per ujaran: `sample_id`, `audio_path`,
+`start_sec`/`end_sec` (posisi ujaran dalam rekaman), `transcript` (sesuai anotasi), metadata penutur,
+dan `pcm_sha256` (hash audio ujaran).
 """
-    card = f"""# Dataset Palembang internal v1
-
-Sumber: https://github.com/aliyahusnaf/TugasBesarSpeech, commit `{config['source_commit']}`.
-Manifest memakai data Fase 1 yang lolos kebijakan di bagian audit di dokumen ini.
-Versi split: `{config['version']}`. File Fase 1 tetap utuh.
-
-{table}
-## Strategi split
-
-Pemisahan berdasarkan speaker, termasuk validation. Semua segmen dari file/speaker
-yang sama tetap satu split. Setiap split memuat native dan non-native serta L/P.
-Pilih kombinasi 7/2/2 dengan enumerasi deterministik, meminimalkan jumlah kuadrat
-selisih porsi durasi dan jumlah ujaran terhadap porsi speaker (7/11, 2/11, 2/11).
-Jika skor sama, gunakan urutan ID. Tidak memakai prediksi, WER, atau CER untuk
-memilih speaker. Tidak ada seed karena tidak ada random sampling.
-Pembagian disimpan di `configs/split_v1.json` dan dipakai ulang, bukan diacak lagi.
-
-## Batasan
-
-Hanya 11 speaker dan dua speaker per held-out set; hasil peka terhadap pilihan
-speaker. Native berjenis spontaneous, non-native read: kedua faktor terikat dan
-pengaruhnya tidak bisa dipisahkan begitu saja. Kalimat sama dapat muncul pada
-read speech antar-speaker; overlap teks dicatat di `data/dataset_stats.json`,
-bukan dianggap generalisasi ke kalimat baru. Ini split internal, belum mencakup
-korpus kelompok lain. Review Orang 5 masih diperlukan sebelum eksperimen final.
-
-README Fase 1 menyatakan informed consent dan penggunaan akademik non-komersial.
-Formulir consent tidak disalin ke Fase 2; belum dilakukan penilaian ulang ruang
-lingkup izin distribusi. Konfirmasi dahulu untuk korpus tambahan atau publikasi baru.
-
-Kecocokan metadata speaker tidak membuktikan tidak ada suara latar/orang lain
-yang belum dianotasi. Tidak ada verifikasi identitas secara biometrik/listening
-baru. Pemisahan speaker disimpulkan dari ID dan anotasi yang tersedia.
-
-## Kontrak data
-
-Satu baris = satu ujaran. `audio_path` relatif root repo TugasBesarSpeech.
-`start_sec`/`end_sec` relatif file itu, akhir eksklusif; konversi batas sampel
-dengan `round(seconds * sample_rate)`. Jangan beri seluruh file ke model dengan
-transkripsi satu segmen. `transcript` persis sumber; normalisasi milik Orang 2.
-`pcm_sha256` adalah hash byte PCM rentang segmen. Label native/gender/speech_type
-diambil dari metadata, bukan ditebak dari suara. Kolom `text_tags`/`events`
-diteruskan agar kebijakan scoring bisa ditetapkan secara terbuka.
-"""
-    path = PHASE2 / "docs/dataset_preparation.md"
-    begin, end = "<!-- BEGIN GENERATED -->", "<!-- END GENERATED -->"
-    generated = "\n\n".join(
-        "\n".join("#" + line if line.startswith("#") else line for line in section.splitlines())
-        for section in [inventory, card])
-    if path.exists():
-        existing = path.read_text(encoding="utf-8")
-        if existing.count(begin) != 1 or existing.count(end) != 1:
-            raise ValueError("Penanda bagian otomatis di dokumentasi tidak lengkap")
-        prefix, rest = existing.split(begin, 1)
-        _, suffix = rest.split(end, 1)
-        content = prefix + begin + "\n" + generated + "\n" + end + suffix
-    else:
-        content = "# Dokumentasi Persiapan Dataset\n\n" + begin + "\n" + generated + "\n" + end + "\n"
-    path.write_text(join_paragraph_lines(content), encoding="utf-8")
-
+    (PHASE2 / "docs/dataset_preparation.md").write_text(doc, encoding="utf-8")
 
 if __name__ == "__main__":
     argparse.ArgumentParser(description="Audit dan buat manifest internal Palembang").parse_args()
