@@ -1,0 +1,52 @@
+{
+  "primary": {
+    "utterances": 228,
+    "wer": 0.39484055893944825,
+    "cer": 0.1331837770824724,
+    "ref_words": 2791,
+    "word_errors": 1102,
+    "substitutions": 880,
+    "deletions": 148,
+    "insertions": 74,
+    "ref_chars": 16939,
+    "char_errors": 2256
+  },
+  "all": {
+    "utterances": 230,
+    "wer": 0.3993587459921625,
+    "cer": 0.1362409016200986,
+    "ref_words": 2807,
+    "word_errors": 1121,
+    "substitutions": 890,
+    "deletions": 148,
+    "insertions": 83,
+    "ref_chars": 17036,
+    "char_errors": 2321
+  },
+  "by_speaker": {
+    "S05": {
+      "utterances": 113,
+      "wer": 0.3958333333333333,
+      "cer": 0.12377939760693164,
+      "ref_words": 1296,
+      "word_errors": 513,
+      "substitutions": 392,
+      "deletions": 97,
+      "insertions": 24,
+      "ref_chars": 7271,
+      "char_errors": 900
+    },
+    "S10": {
+      "utterances": 115,
+      "wer": 0.3939799331103679,
+      "cer": 0.14025651634257344,
+      "ref_words": 1495,
+      "word_errors": 589,
+      "substitutions": 488,
+      "deletions": 51,
+      "insertions": 50,
+      "ref_chars": 9668,
+      "char_errors": 1356
+    }
+  }
+}

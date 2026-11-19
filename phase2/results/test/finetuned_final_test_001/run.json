@@ -1,0 +1,13 @@
+{
+  "run_id": "finetuned_final_test_001",
+  "config": "phase2/configs/experiments/finetuned_ft_lr1e-5_001_beam5.json",
+  "config_sha256": "a55bc88e157053b6c52c97047239f9c93390b3cbaa420c329f02901633b94524",
+  "model_artifacts": {
+    "model.bin": "768791f7a4498a7431a5debc7a50a61a8ef43aa68573c74c081295095b43373c",
+    "config.json": "707bcfea9f540464f702957e4c974a262cd378df563f25c96da0778e3b9f7b84",
+    "tokenizer.json": "3f692e107a888b7b93e778934101a94ddea655e6e0dbd3e722b4a8e37b643579",
+    "vocabulary.json": "5ad28279db5e546349708b9a74736e2c018737ac5a600f1048f1f26c99b85b47"
+  },
+  "code_commit": "d24b4605355a38357366e2d59acf3ee0221b4de0",
+  "elapsed_sec": 880.7
+}
