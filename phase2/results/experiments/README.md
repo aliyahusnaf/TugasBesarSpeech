@@ -1,9 +1,9 @@
 # Ringkasan eksperimen (validation)
 
 Dihasilkan oleh `python -m phase2.scripts.summarize_experiments`. WER/CER level korpus
-dengan aturan `phase2.src.selection_metrics/v1: normalize_text(keep_hyphen=True); corpus-level jiwer 4 word/char edits`. Bukan angka test; scorer resmi milik Orang 5.
+dengan aturan `phase2.src.selection_metrics/v1: normalize_text(keep_hyphen=True); corpus-level jiwer 4 word/char edits`. Bukan angka test.
 
-## Inference CPU (faster-whisper INT8, adapter Orang 3)
+## Inference CPU (faster-whisper INT8, adapter `model.py`)
 
 | run_id | kind | beam_size | preprocess_version | utterances | wer | cer | substitutions | deletions | insertions | elapsed_sec |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

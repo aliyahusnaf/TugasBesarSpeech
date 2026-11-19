@@ -24,5 +24,5 @@
   "selection": "enumerate all 7/2/2; native+non-native and L+P in every split; minimize squared duration and utterance share deviations from speaker share; lexical tie-break",
   "objective": 0.00037251981981911155,
   "seed": null,
-  "status": "internal split fixed; Owner 5 review and external corpus integration pending"
+  "status": "internal split fixed"
 }

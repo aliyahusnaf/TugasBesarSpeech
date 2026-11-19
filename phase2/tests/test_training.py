@@ -80,7 +80,7 @@ class TrainingDataTests(unittest.TestCase):
         self.assertFalse({r["speaker_id"] for r in rows} & {r["speaker_id"] for r in val})
         self.assertFalse(any("[nama]" in r["transcript"] for r in rows))
 
-    def test_signal_matches_owner2_loader(self):
+    def test_signal_matches_preprocess_loader(self):
         row = train.load_rows("validation", self.pre, limit=1)[0][0]
         np.testing.assert_array_equal(train.load_signal(row, self.pre), preprocess.load_sample(row, self.pre))
 
