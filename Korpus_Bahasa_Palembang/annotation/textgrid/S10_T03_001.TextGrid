@@ -15,7 +15,7 @@ item []:
         intervals [1]:
             xmin = 0.000
             xmax = 2.700
-            text = "sekarang tu aku nak cerito tentang soal kuliah aku"
+            text = "sekarang tu aku nak cerito tentang soal kuliah aku lah"
         intervals [2]:
             xmin = 2.700
             xmax = 3.520
@@ -63,7 +63,7 @@ item []:
         intervals [13]:
             xmin = 34.040
             xmax = 39.460
-            text = "menurutku lingkungan yang mendukung cak ini tuh bisa bantu aku berkembang"
+            text = "menurutku lingkungan yang mendukung cak ini tu biso bantu aku berkembang"
         intervals [14]:
             xmin = 39.460
             xmax = 40.000
@@ -255,7 +255,7 @@ item []:
         intervals [61]:
             xmin = 173.660
             xmax = 182.320
-            text = "apolagi sekarang banyak perkembangan di bidang iot robotika dan kecerdasan buatan yang berhubungan dengan perangkat fisik aku ngeraso menarik nian kalo bisa"
+            text = "apolagi sekarang banyak perkembangan di bidang iot robotika dan kecerdasan buatan yang berhubungan dengan perangkat fisik aku ngeraso menarik nian lah kalo bisa"
         intervals [62]:
             xmin = 182.320
             xmax = 182.860
@@ -287,7 +287,7 @@ item []:
         intervals [69]:
             xmin = 202.150
             xmax = 204.470
-            text = "yang ketigo jelas matematika atau statistika"
+            text = "yang ketigo jelas matematika lah atau statistika"
         intervals [70]:
             xmin = 204.470
             xmax = 205.010

@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/aliyahusnaf/TugasBesarSpeech",
   "commit": "3742461a1125232e56e89789c24610da24e1daa0",
-  "fingerprint": "9e9ccb97955220c54764a0b92ac40dbe75d7e74b2982c25ad8e06c9e121b6498",
+  "fingerprint": "97d7511dde994a5db968302856b6de2a38fb1be00c7042f52ba8a1565c1a2f3b",
   "files": {
     "Korpus_Bahasa_Palembang/audio/S01/S01.wav": "89351d2667b78c760f8824a2989579cf88884b5d5faf5f6b36a3044aef585ef7",
     "Korpus_Bahasa_Palembang/audio/S01/S01_T01_001.wav": "e5f58d6c7784a20195d83470cdb599709735047603e4f642e9087c06e26f4e45",
@@ -61,7 +61,7 @@
     "Korpus_Bahasa_Palembang/audio/S11/S11_T04_001.wav": "d9c17918f8143e2aa4e4335918a5fb4efd7c5c56763d93b7c715ad633847cabb",
     "Korpus_Bahasa_Palembang/audio/S11/S11_T05_001.wav": "8a6a4721b9ab5e03d0fa2639190edaec595f0a7954e9a86dac5a61da29704e9d",
     "Korpus_Bahasa_Palembang/metadata/metadata.csv": "34dad4fbeb6a163f0ef3bb24584e819f509700b44fa764a4bc0151ca53808ecd",
-    "Korpus_Bahasa_Palembang/annotation/annotation.csv": "26420e919d9460f47d0ecc20723eee37cdf0fb07e51fd5f1919cabd95a94950e",
+    "Korpus_Bahasa_Palembang/annotation/annotation.csv": "32b3a6f3d6075b00dbfbf8bfd5f4e8c04f1a0593a137c34af00daf96717c207e",
     "Korpus_Bahasa_Palembang/documentation/qc/background_noise.json": "280d1d6c1003ff48c1329df75541f1c96110023281db004308dfb9503a8f4727",
     "Korpus_Bahasa_Palembang/documentation/qc/events_candidates.json": "cb3dc16a33861e47f870228ce483b4bf53a29104782a19bae20833316260dc70",
     "Korpus_Bahasa_Palembang/documentation/qc/qa_summary.json": "9712683da984d6620bdd6fb4b616830eba16e1b6dc257364cb87f16df968822c",
