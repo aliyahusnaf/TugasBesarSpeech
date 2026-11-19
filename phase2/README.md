@@ -269,10 +269,10 @@ Hasil pada split test (S05 dan S10, 228 ujaran):
 
 | Model | WER | CER |
 |---|---|---|
-| Whisper small pretrained | 39,48% | 13,32% |
-| Whisper small fine-tuned (`ft_lr1e-5_001`, beam 5) | 23,97% | 7,39% |
+| Whisper small pretrained | 39,03% | 14,68% |
+| Whisper small fine-tuned (`ft_lr1e-5_001`, beam 5) | 23,43% | 7,20% |
 
-Model fine-tuned per speaker: S05 WER 20,37% / CER 5,45%, S10 WER 27,09% / CER 8,85%.
+Model fine-tuned per speaker: S05 WER 20,05% / CER 5,29%, S10 WER 26,37% / CER 8,63%.
 Detail per run ada di `results/test/<run_id>/run.json` dan `evaluation/`.
 
 `predictions.csv` tidak masuk Git karena model dapat menuliskan nama penutur.
