@@ -1,0 +1,114 @@
+{
+  "reference": "finetuned_lr1e-5_001",
+  "utterances": 235,
+  "resamples": 10000,
+  "seed": 42,
+  "scoring_policy": "phase2.src.selection_metrics/v1: normalize_text(keep_hyphen=True); corpus-level jiwer 4 word/char edits",
+  "note": "Paired bootstrap per ujaran; delta = WER run - WER acuan. Validation saja.",
+  "runs": {
+    "finetuned_lr1e-5_001": {
+      "wer": 0.2699,
+      "delta_wer_vs_reference": 0.0,
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "share_resamples_worse_than_reference": 0.0,
+      "wer_by_speaker": {
+        "S03": 0.314,
+        "S06": 0.2242
+      }
+    },
+    "finetuned_lr1e-5_beam5_001": {
+      "wer": 0.2618,
+      "delta_wer_vs_reference": -0.0081,
+      "delta_ci95": [
+        -0.0156,
+        -0.0004
+      ],
+      "share_resamples_worse_than_reference": 0.0152,
+      "wer_by_speaker": {
+        "S03": 0.3068,
+        "S06": 0.2152
+      }
+    },
+    "finetuned_lr1e-5_freeze_encoder_001": {
+      "wer": 0.2853,
+      "delta_wer_vs_reference": 0.0154,
+      "delta_ci95": [
+        0.0013,
+        0.0292
+      ],
+      "share_resamples_worse_than_reference": 0.9834,
+      "wer_by_speaker": {
+        "S03": 0.3347,
+        "S06": 0.2341
+      }
+    },
+    "finetuned_lr3e-5_001": {
+      "wer": 0.2813,
+      "delta_wer_vs_reference": 0.0113,
+      "delta_ci95": [
+        -0.0034,
+        0.0255
+      ],
+      "share_resamples_worse_than_reference": 0.9281,
+      "wer_by_speaker": {
+        "S03": 0.3331,
+        "S06": 0.2275
+      }
+    },
+    "finetuned_lr5e-6_001": {
+      "wer": 0.2752,
+      "delta_wer_vs_reference": 0.0053,
+      "delta_ci95": [
+        -0.0061,
+        0.0171
+      ],
+      "share_resamples_worse_than_reference": 0.8098,
+      "wer_by_speaker": {
+        "S03": 0.3196,
+        "S06": 0.2292
+      }
+    },
+    "pretrained_beam1_001": {
+      "wer": 0.4735,
+      "delta_wer_vs_reference": 0.2036,
+      "delta_ci95": [
+        0.1786,
+        0.2292
+      ],
+      "share_resamples_worse_than_reference": 1.0,
+      "wer_by_speaker": {
+        "S03": 0.5278,
+        "S06": 0.4171
+      }
+    },
+    "pretrained_beam5_001": {
+      "wer": 0.4415,
+      "delta_wer_vs_reference": 0.1716,
+      "delta_ci95": [
+        0.1472,
+        0.1964
+      ],
+      "share_resamples_worse_than_reference": 1.0,
+      "wer_by_speaker": {
+        "S03": 0.4801,
+        "S06": 0.4015
+      }
+    },
+    "pretrained_rms_trim_001": {
+      "wer": 0.465,
+      "delta_wer_vs_reference": 0.1951,
+      "delta_ci95": [
+        0.1709,
+        0.2204
+      ],
+      "share_resamples_worse_than_reference": 1.0,
+      "wer_by_speaker": {
+        "S03": 0.5103,
+        "S06": 0.418
+      }
+    }
+  }
+}

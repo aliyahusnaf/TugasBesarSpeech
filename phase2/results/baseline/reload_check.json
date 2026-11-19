@@ -1,0 +1,38 @@
+{
+  "scope": "Three validation smoke samples per configuration; not full-corpus quality evaluation",
+  "checks": [
+    {
+      "original_run": "whisper_small_smoke_001",
+      "reload_run": "whisper_small_reload_001",
+      "samples": 3,
+      "exact_predictions_match": true,
+      "config_match": true,
+      "artifact_hashes_match": true,
+      "reload_code_dirty": false,
+      "original_predictions_sha256": "9f80832a5f2f71d316cf77095190ce266248647638f992fa28fc8a0bf82395b8",
+      "reload_predictions_sha256": "53a0e5f7b65f752ef6b2414e26683a36c04575cc512016b9920df79606e63016"
+    },
+    {
+      "original_run": "whisper_small_beam5_smoke_001",
+      "reload_run": "whisper_small_beam5_reload_001",
+      "samples": 3,
+      "exact_predictions_match": true,
+      "config_match": true,
+      "artifact_hashes_match": true,
+      "reload_code_dirty": false,
+      "original_predictions_sha256": "4d547e6d72b27161cedfc2e358c776718f07c12c342122bb8572bb6a8de8a2e1",
+      "reload_predictions_sha256": "780664e2edbf138088df6c5d3cf0b27b18ef388c159431a0c0bfe93cf5e5bdb0"
+    },
+    {
+      "original_run": "whisper_small_rms_trim_smoke_001",
+      "reload_run": "whisper_small_rms_trim_reload_001",
+      "samples": 3,
+      "exact_predictions_match": true,
+      "config_match": true,
+      "artifact_hashes_match": true,
+      "reload_code_dirty": false,
+      "original_predictions_sha256": "d7708e797cb47fadc017e3375a2d92b0e11af0576226c00e35630ee3fb0271fe",
+      "reload_predictions_sha256": "a5d4924256e02e771fd8d88e21027bdf651676a94752ed618ab81f40ab10d985"
+    }
+  ]
+}
