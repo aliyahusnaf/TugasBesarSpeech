@@ -1,0 +1,29 @@
+{
+  "run_id": "improvement_pretrained_beam5_001",
+  "config": "phase2/configs/experiments/whisper_small_beam5.json",
+  "config_sha256": "fd38c8c8dc1dba0ca01fb6d670756ab090dca1dcbc839f0053f4bfa49f7089b8",
+  "manifest_sha256": "22d877b8c63fe5d682fe4d9ddb3ccf03885d9bb7d9eb2bf75682cb04ae47d9fe",
+  "predictions_sha256": "10af95d648d6faa4de4146c9fa17996b39cd1c885e50baff665f15c564f56a6b",
+  "preprocess_config_sha256": "229214bb2de0f3790b62576546b93eedb96b2858bd68e95f18e0e185f251271f",
+  "model_artifacts": {
+    "model.bin": "3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671",
+    "config.json": "b55496ac7940a7ae47d2c01eab40edfd8701feec1229d9cce3b40014383fb828",
+    "tokenizer.json": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab",
+    "vocabulary.txt": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913"
+  },
+  "utterances": 230,
+  "python": "3.12.14",
+  "platform": "macOS-14.1-arm64-arm-64bit",
+  "packages": {
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.9.0",
+    "tokenizers": "0.23.3",
+    "numpy": "2.5.5",
+    "jiwer": "4.0.0"
+  },
+  "actual_device": "cpu",
+  "actual_compute_type": "int8_float32",
+  "code_commit": "4cf7a615f314548f2b04003912abe33f39c188d6",
+  "code_dirty": false,
+  "elapsed_sec": 955.3
+}

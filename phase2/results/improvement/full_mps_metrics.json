@@ -1,0 +1,193 @@
+{
+  "selection": "All 235 validation rows",
+  "manifest_sha256": "d99b2f23a8624dd4c3284c5cb1567e60de577d31492ac48bd3912ecddd0a1987",
+  "platform": "macOS-14.1-arm64-arm-64bit",
+  "python": "3.12.14",
+  "packages": {
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.9.0",
+    "tokenizers": "0.23.3",
+    "numpy": "2.5.5",
+    "jiwer": "4.0.0"
+  },
+  "device": "mps",
+  "compute_type": "float16",
+  "model_artifacts": {
+    "model.bin": "768791f7a4498a7431a5debc7a50a61a8ef43aa68573c74c081295095b43373c",
+    "config.json": "707bcfea9f540464f702957e4c974a262cd378df563f25c96da0778e3b9f7b84",
+    "tokenizer.json": "3f692e107a888b7b93e778934101a94ddea655e6e0dbd3e722b4a8e37b643579",
+    "vocabulary.json": "5ad28279db5e546349708b9a74736e2c018737ac5a600f1048f1f26c99b85b47"
+  },
+  "elapsed_sec": 333.9,
+  "runs": {
+    "control": {
+      "config": {
+        "technique": "whisper",
+        "model_id": "local:ft_lr1e-5_001",
+        "device": "mps",
+        "compute_type": "float16",
+        "cpu_threads": 4,
+        "preprocess_config": "phase2/configs/preprocess_v1.json",
+        "decoding": {
+          "language": "id",
+          "task": "transcribe",
+          "beam_size": 5,
+          "best_of": 1,
+          "temperature": 0.0,
+          "condition_on_previous_text": false,
+          "initial_prompt": null,
+          "vad_filter": false,
+          "without_timestamps": true,
+          "word_timestamps": false,
+          "compression_ratio_threshold": null,
+          "log_prob_threshold": null,
+          "no_speech_threshold": 0.6
+        },
+        "model_path": "phase2/models/ft_lr1e-5_001/ct2",
+        "base_model_id": "openai/whisper-small",
+        "base_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+        "model_sha256": "768791f7a4498a7431a5debc7a50a61a8ef43aa68573c74c081295095b43373c",
+        "training_run": "ft_lr1e-5_001"
+      },
+      "predictions_sha256": "47dc9c7a2214314a7c946ffa6a77e986749e3d85aa7f897f7ad413585c903cc7",
+      "preprocess_config_sha256": "229214bb2de0f3790b62576546b93eedb96b2858bd68e95f18e0e185f251271f",
+      "metrics": {
+        "primary": {
+          "utterances": 231,
+          "wer": 0.25785393716850263,
+          "cer": 0.08782829709121717,
+          "ref_words": 2451,
+          "word_errors": 632,
+          "substitutions": 467,
+          "deletions": 60,
+          "insertions": 105,
+          "ref_chars": 14164,
+          "char_errors": 1244
+        },
+        "all": {
+          "utterances": 235,
+          "wer": 0.26102792391744234,
+          "cer": 0.09134211263659288,
+          "ref_words": 2471,
+          "word_errors": 645,
+          "substitutions": 469,
+          "deletions": 60,
+          "insertions": 116,
+          "ref_chars": 14276,
+          "char_errors": 1304
+        },
+        "by_speaker": {
+          "S03": {
+            "utterances": 134,
+            "wer": 0.30096308186195825,
+            "cer": 0.10496098925364346,
+            "ref_words": 1246,
+            "word_errors": 375,
+            "substitutions": 285,
+            "deletions": 29,
+            "insertions": 61,
+            "ref_chars": 6793,
+            "char_errors": 713
+          },
+          "S06": {
+            "utterances": 97,
+            "wer": 0.21327800829875518,
+            "cer": 0.07203907203907203,
+            "ref_words": 1205,
+            "word_errors": 257,
+            "substitutions": 182,
+            "deletions": 31,
+            "insertions": 44,
+            "ref_chars": 7371,
+            "char_errors": 531
+          }
+        }
+      }
+    },
+    "rms_trim": {
+      "config": {
+        "technique": "whisper",
+        "model_id": "local:ft_lr1e-5_001",
+        "device": "mps",
+        "compute_type": "float16",
+        "cpu_threads": 4,
+        "preprocess_config": "phase2/configs/preprocess_rms_trim_v1.json",
+        "decoding": {
+          "language": "id",
+          "task": "transcribe",
+          "beam_size": 5,
+          "best_of": 1,
+          "temperature": 0.0,
+          "condition_on_previous_text": false,
+          "initial_prompt": null,
+          "vad_filter": false,
+          "without_timestamps": true,
+          "word_timestamps": false,
+          "compression_ratio_threshold": null,
+          "log_prob_threshold": null,
+          "no_speech_threshold": 0.6
+        },
+        "model_path": "phase2/models/ft_lr1e-5_001/ct2",
+        "base_model_id": "openai/whisper-small",
+        "base_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+        "model_sha256": "768791f7a4498a7431a5debc7a50a61a8ef43aa68573c74c081295095b43373c",
+        "training_run": "ft_lr1e-5_001"
+      },
+      "predictions_sha256": "459051813557d159db88d935392c05140131309e41030743b5f28bc8329c14a3",
+      "preprocess_config_sha256": "92500e13effe5ed5679dcd249ed3950a478595e41028eeaa563cb106931a5e67",
+      "metrics": {
+        "primary": {
+          "utterances": 231,
+          "wer": 0.2566299469604243,
+          "cer": 0.08761649251623835,
+          "ref_words": 2451,
+          "word_errors": 629,
+          "substitutions": 466,
+          "deletions": 61,
+          "insertions": 102,
+          "ref_chars": 14164,
+          "char_errors": 1241
+        },
+        "all": {
+          "utterances": 235,
+          "wer": 0.2598138405503845,
+          "cer": 0.09113196973942281,
+          "ref_words": 2471,
+          "word_errors": 642,
+          "substitutions": 468,
+          "deletions": 61,
+          "insertions": 113,
+          "ref_chars": 14276,
+          "char_errors": 1301
+        },
+        "by_speaker": {
+          "S03": {
+            "utterances": 134,
+            "wer": 0.30096308186195825,
+            "cer": 0.10451935816281466,
+            "ref_words": 1246,
+            "word_errors": 375,
+            "substitutions": 287,
+            "deletions": 30,
+            "insertions": 58,
+            "ref_chars": 6793,
+            "char_errors": 710
+          },
+          "S06": {
+            "utterances": 97,
+            "wer": 0.2107883817427386,
+            "cer": 0.07203907203907203,
+            "ref_words": 1205,
+            "word_errors": 254,
+            "substitutions": 179,
+            "deletions": 31,
+            "insertions": 44,
+            "ref_chars": 7371,
+            "char_errors": 531
+          }
+        }
+      }
+    }
+  },
+  "utterances": 235
+}

@@ -277,6 +277,12 @@ Detail per run ada di `results/test/<run_id>/run.json` dan `evaluation/`.
 
 `predictions.csv` tidak masuk Git karena model dapat menuliskan nama penutur.
 
+[Eksperimen perbaikan dan perbandingan beam 5](results/improvement/README.md)
+memuat run pembanding terpisah dengan dekode dan lingkungan yang disamakan.
+Pada pasangan beam 5, WER/CER turun dari 36,42%/12,13% (pretrained) ke
+23,51%/7,22% (fine-tuned). Tabel sebelumnya adalah hasil historis dengan
+baseline beam 1. Konfigurasi model final tetap sama.
+
 Referensi: [Whisper](https://github.com/openai/whisper),
 [faster-whisper](https://github.com/SYSTRAN/faster-whisper),
 [HF Transformers](https://github.com/huggingface/transformers),
